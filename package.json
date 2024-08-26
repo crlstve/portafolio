@@ -1,0 +1,33 @@
+{
+  "name": "crls",
+  "version": "1.0.0",
+  "description": "Recursos y assets para el portafolio de C.A. Esteve",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "dev": "npm run development",
+    "prod": "npm run production",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "production": "mix --production"
+  },
+  "keywords": [
+    "portafolio",
+    "dev"
+  ],
+  "author": "Carles A. Esteve Albiach",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "laravel-mix": "^6.0.49",
+    "vite": "^5.4.0"
+  },
+  "dependencies": {
+    "postcss": "^8.4.41",
+    "postcss-nested": "^6.2.0",
+    "tailwindcss": "^3.4.9",
+    "three": "^0.167.1"
+  }
+}
