@@ -78,6 +78,9 @@ duckGroup.add(rightWing);
 // Variables para la rotación del patito
 let rotateLeft = false, rotateRight = false, rotateUp = false, rotateDown = false;
 
+
+THREE.addEventListener('mousemove', onDocumentMouseMove, false);
+
 // Evento para detectar cuando se pulsa una tecla
 window.addEventListener('keydown', (event) => {
     switch (event.key) {
@@ -121,6 +124,13 @@ window.addEventListener('keyup', (event) => {
             break;
     }
 });
+
+function onDocumentMouseMove(event) {
+
+    mouseX = event.clientX - windowHalfX;
+    mouseY = event.clientY - windowHalfY;
+
+}
 
 // Función de animación
 function animate() {
