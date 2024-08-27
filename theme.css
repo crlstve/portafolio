@@ -6,15 +6,22 @@
 
 @layer base {
     @font-face {
-        font-family: 'Albert Sans';
+        font-family: 'Source Code Pro';
         font-weight: 100 900;
         font-style: normal;
         font-display: swap;
-        src: url(../fonts/AlbertSans.ttf) format("truetype"),
+        src: url(../fonts/SourceCodePro.ttf) format("truetype"),
+    }
+    @font-face {
+        font-family: 'Jersey';
+        font-weight: 100 900;
+        font-style: normal;
+        font-display: swap;
+        src: url(../fonts/Jersey10.ttf) format("truetype"),
     }
 }
 @layer components{
     .btn_nav{
-        @apply text-violet-500 text-center self-center font-light dark:text-white text-sm relative border-l border-t border-white dark:border-slate-600 rounded-md flex justify-center px-4 py-1 backdrop-blur-sm shadow-md dark:hover:text-black hover:text-white dark:hover:bg-white hover:bg-violet-500 duration-500;
+        @apply text-violet-500 text-center self-center font-semibold dark:text-white text-sm relative border-l border-t border-white dark:border-slate-600 rounded-lg flex justify-center px-4 py-1 backdrop-blur-sm shadow-md dark:hover:text-black hover:text-white dark:hover:bg-white hover:bg-violet-500 duration-500;
     }
 }
