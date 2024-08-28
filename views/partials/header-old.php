@@ -21,9 +21,11 @@
 	<meta name="twitter:card" content="summary_large_image" />
     <link rel="stylesheet" href="./assets/css/theme.css" type="text/css">
     <script defer src="./assets/js/dark-mode.js"></script>
-    <!--<script defer type="module" src="./assets/js/waves.js"></script>-->
+    <!--<script defer type="module" src="./assets/js/fireworks.js"></script>-->
+    <!--<script defer type="module" src="./assets/js/three.js"></script>-->
+    <!--<script src="https://cdn.tailwindcss.com"></script>-->
 </head>
-<body id="fireworks" class="min-h-dvh bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-blue-100 via-slate-50  to-gray-50 dark:bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] dark:from-[#282a2d] dark:via-[#101114] dark:to-black scroll-smooth duration-500">
+<<body id="fireworks" class="min-h-dvh bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-blue-100 via-slate-50  to-gray-50 dark:bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] dark:from-gray-700 dark:via-gray-900 dark:to-black scroll-smooth duration-500">
 <header class="sticky top-0 z-50">
     <nav class="w-full py-4 container">
         <div class="flex flex-row justify-between">
