@@ -1,0 +1,57 @@
+.timeline:before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    left: 0;
+    right: 0;
+    top: 0;
+    transform: translateY(-10%);
+    margin: auto;
+    height: 105%;
+    border-left: 2px solid;
+    border-image-source: linear-gradient(to bottom, #845BF600 5%, #475569 37%,#475569 92%, #FEA43A00 100%);
+    border-image-slice: 1;
+}
+.bullet:before {
+    content: "";
+    position: absolute;
+    width: 18%;
+    transform: translate(100%, -12px);
+    border-bottom: 2px solid;
+    border-image-source: linear-gradient(to right, #845BF600 10%, #475569 45%, #475569 65%, #FEA43A00 100%);
+    border-image-slice: 1;
+    height: 21px;
+    border-radius: 100%;
+    right: 0;
+}
+.bullet:nth-child(even):before {
+    left: 0;
+    height: 9px;
+    transform: translateX(-110%);
+}
+.bullet:after{
+    content: "";
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    background-color: #6ee7b7;
+    border-radius: 100%;
+    right: 0;
+    transform: translateX(615%);
+}
+
+.bullet:nth-child(even):after {
+    left: 0;
+    transform: translateX(-615%);
+}
+
+.fadeInUp {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.fadeInUp.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
