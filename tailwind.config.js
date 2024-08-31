@@ -7,6 +7,7 @@ module.exports = {
       './assets/js/**/*.js',
       './views/*.php',
       './views/**/*.php',
+      './controllers/*.php',
       './*.php',
     ],
   },
