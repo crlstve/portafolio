@@ -2,17 +2,17 @@
    
 <main class="relative w-full min-h-dvh overflow-x-hidden">
     <div id="bg-dots" class="fixed bottom-0 -z-10 opacity-70"></div>
-    <section id="inicio" class="container mx-auto my-10 lg:my-16 flex flex-col-reverse lg:flex-row">
+    <section id="inicio" class="container mx-auto my-12 lg:my-24 flex flex-col-reverse lg:flex-row">
         <article class="w-full lg:w-1/2 flex flex-col gap-3 p-6">
             <header>
                 <h1 class="text-xl font-semibold dark:text-white leading-3">
                     carles esteve albiach<br>
-                    <span class="text-4xl md:text-5xl font-title dark:text-emerald-300 text-violet-500">full stack web developer<span>
+                    <span class="text-4xl md:text-5xl font-title dark:text-emerald-300 text-violet-500 ">full stack web developer<span>
                 </h1>
             </header>
-            <div>
+            <div class="typewriter w-fit">
                 <p class="text-base dark:text-white font-light">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer volutpat elit ut odio vestibulum, nec mollis nisl volutpat. 
+                    Apasionado de la programación web!
                 </p>         
             </div>
         </article>
