@@ -1,7 +1,7 @@
 <?php Functions::partial('header'); ?>
    
 <main class="relative w-full min-h-dvh overflow-x-hidden">
-        <div id="bg-dots" class="fixed bottom-0 -z-10 opacity-70"></div>
+    <div id="bg-dots" class="fixed bottom-0 -z-10 opacity-70"></div>
     <section id="inicio" class="container mx-auto mt-6 md:mt-12 mb-3 md:mb-6 flex flex-col-reverse lg:flex-row">
         <article class="w-full lg:w-1/2 flex flex-col gap-3 p-6">
             <header>
@@ -28,7 +28,7 @@
                         <header>
                             <h3 class="text-4xl font-title font-bold dark:text-emerald-300 text-violet-500 leading-4">founderz</h3>
                             <time class="dark:text-white text-sm" datetime="22/04/24">22-04-24 | now</time>
-                            <a reel="nofollow noopener noreferrer" href="https://founderz.com/" class="w-fit h-fit opacity-60 hover:opacity-100 duration-500 absolute top-7 right-7 rotate-45 hover:rotate-0">
+                            <a reel="nofollow noopener noreferrer" aria-label="Visita la web de Founderz" href="https://founderz.com/" class="w-fit h-fit opacity-60 hover:opacity-100 duration-500 absolute top-7 right-7 rotate-45 hover:rotate-0">
                                 <?= Functions::svg(); ?>
                             </a>
                         </header>
@@ -43,7 +43,7 @@
                         <header>
                             <h3 class="text-4xl font-title font-bold dark:text-emerald-300 text-violet-500 leading-4">sesame hr</h3>
                             <time class="dark:text-white text-sm" datetime="22/04/24">11-06-22 | 22-04-24</time>
-                            <a reel="nofollow noopener noreferrer" href="https://www.sesamehr.es/" class="w-fit h-fit opacity-60 hover:opacity-100 duration-500 absolute top-7 right-7 rotate-45 hover:rotate-0">
+                            <a reel="nofollow noopener noreferrer" aria-label="Visita la web de Sesame HR" href="https://www.sesamehr.es/" class="w-fit h-fit opacity-60 hover:opacity-100 duration-500 absolute top-7 right-7 rotate-45 hover:rotate-0">
                                 <?= Functions::svg(); ?>
                             </a>
                         </header>
@@ -58,7 +58,7 @@
                         <header>
                             <h3 class="text-4xl font-title font-bold dark:text-emerald-300 text-violet-500 leading-4">arte regal</h3>
                             <time class="dark:text-white text-sm" datetime="22/04/24">04-9-2020 | 10-06-22</time>
-                            <a reel="nofollow noopener noreferrer" href="https://www.sesamehr.es/" class="w-fit h-fit opacity-60 hover:opacity-100 duration-500 absolute top-7 right-7 rotate-45 hover:rotate-0">
+                            <a reel="nofollow noopener noreferrer" aria-label="Visita la web de Arte Regal Import" href="https://www.arteregal.com/" class="w-fit h-fit opacity-60 hover:opacity-100 duration-500 absolute top-7 right-7 rotate-45 hover:rotate-0">
                                 <?= Functions::svg(); ?>
                             </a>
                         </header>
@@ -73,7 +73,7 @@
                         <header>
                             <h3 class="text-4xl font-title font-bold dark:text-emerald-300 text-violet-500 leading-4">availand</h3>
                             <time class="dark:text-white text-sm" datetime="22/04/24">04-9-2020 | 10-06-22</time>
-                            <a reel="nofollow noopener noreferrer" href="https://www.sesamehr.es/" class="w-fit h-fit opacity-60 hover:opacity-100 duration-500 absolute top-7 right-7 rotate-45 hover:rotate-0">
+                            <a reel="nofollow noopener noreferrer" aria-label="Visita la web de Availand" href="https://availand.com/" class="w-fit h-fit opacity-60 hover:opacity-100 duration-500 absolute top-7 right-7 rotate-45 hover:rotate-0">
                                 <?= Functions::svg(); ?>
                             </a>
                         </header>
@@ -88,7 +88,7 @@
                         <header>
                             <h3 class="text-4xl font-title font-bold dark:text-emerald-300 text-violet-500 leading-4">tv begin</h3>
                             <time class="dark:text-white text-sm" datetime="22/04/24">04-9-2020 | 10-06-22</time>
-                            <a reel="nofollow noopener noreferrer" href="https://www.sesamehr.es/" class="w-fit h-fit opacity-60 hover:opacity-100 duration-500 absolute top-7 right-7 rotate-45 hover:rotate-0">
+                            <a reel="nofollow noopener noreferrer" aria-label="Visita la web de Tv Begin"  href="https://tvbgn.com/" class="w-fit h-fit opacity-60 hover:opacity-100 duration-500 absolute top-7 right-7 rotate-45 hover:rotate-0">
                                 <?= Functions::svg(); ?>
                             </a>
                         </header>
@@ -103,7 +103,7 @@
                         <header>
                             <h3 class="text-4xl font-title font-bold dark:text-emerald-300 text-violet-500 leading-4">galaxa cosmetics</h3>
                              <time class="dark:text-white text-sm" datetime="22/04/24">04-9-2020 | 10-06-22</time>
-                            <a reel="nofollow noopener noreferrer" href="https://www.sesamehr.es/" class="w-fit h-fit opacity-60 hover:opacity-100 duration-500 absolute top-7 right-7 rotate-45 hover:rotate-0">
+                            <a reel="nofollow noopener noreferrer" aria-label="Visita la web de Galaxa Cosmetics" href="https://productos-peluqueria-online.es/" class="w-fit h-fit opacity-60 hover:opacity-100 duration-500 absolute top-7 right-7 rotate-45 hover:rotate-0">
                                 <?= Functions::svg(); ?>
                             </a>
                         </header>
@@ -116,24 +116,6 @@
                     </li> 
                 </ul>
             </div>
-    </section>
-    <section id="inicio" class="container mx-auto my-6 md:my-12 flex flex-col-reverse lg:flex-row">
-        <article class="w-full lg:w-1/2 flex flex-col gap-3 p-6">
-            <header>
-                <h1 class="text-xl font-semibold dark:text-white leading-3">
-                    carles esteve albiach<br>
-                    <span class="text-4xl md:text-5xl font-title dark:text-emerald-300 text-violet-500 leading-4">full stack web developer<span>
-                </h1>
-            </header>
-            <div>
-                <p class="text-base dark:text-white font-light">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer volutpat elit ut odio vestibulum, nec mollis nisl volutpat. 
-                </p>         
-            </div>
-        </article>
-        <div id="three" class="w-full lg:w-1/2 h-36">
-            <img src="" alt="">
-        </div>
     </section>
 </main>
 <?php Functions::partial('footer'); ?>

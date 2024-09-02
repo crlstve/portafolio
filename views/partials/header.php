@@ -5,8 +5,9 @@
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portafolio de Carles Esteve, desarrollador web full stack">
-    <title>Portafolio Carles Esteve</title>
+    <title>c.esteve | full stack web developer</title>
 	<link rel="canonical" href="https://carlesteve.dev/" />
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.svg">
 	<meta property="og:locale" content="es_ES" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Portafolio Carles Esteve" />
