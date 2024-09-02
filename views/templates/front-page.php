@@ -2,7 +2,7 @@
    
 <main class="relative w-full min-h-dvh overflow-x-hidden">
     <div id="bg-dots" class="fixed bottom-0 -z-10 opacity-70"></div>
-    <section id="inicio" class="container mx-auto mt-6 md:mt-12 mb-3 md:mb-6 flex flex-col-reverse lg:flex-row">
+    <section id="inicio" class="container mx-auto my-10 lg:my-16 flex flex-col-reverse lg:flex-row">
         <article class="w-full lg:w-1/2 flex flex-col gap-3 p-6">
             <header>
                 <h1 class="text-xl font-semibold dark:text-white leading-3">
