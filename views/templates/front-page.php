@@ -34,8 +34,8 @@
                         </header>
                         <div>
                             <p class="text-base dark:text-white font-light">
-                                Desarrollo de templates, temas, plugins y módulos para WordPress y Hubspot. Maquetación de emails. Gestión y mantenimiento de bbdd. Creación de Apis Restful.
-                            </p>         
+                                Programación de módulos, templates y plugins para Wordpress y Hubspot. Desarrollo de APIS RESTful. Gestión de librerías y paquetes del servidor. Diseño UI / UX de las webs.
+                            </p>
                         </div>
                     </li>
 
@@ -49,7 +49,7 @@
                         </header>
                         <div>
                             <p class="text-base dark:text-white font-light">
-                                Desarrollo de templates, temas, plugins y módulos para WordPress y Hubspot. Maquetación de emails. Gestión y mantenimiento de bbdd. Creación de Apis Restful.
+                                Programación de módulos, templates y plugins para Wordpress y Hubspot. Desarrollo de APIS RESTful. Gestión de librerías y paquetes del servidor. Diseño UI / UX de las webs.
                             </p>         
                         </div>
                     </li>
@@ -64,7 +64,7 @@
                         </header>
                         <div>
                             <p class="text-base dark:text-white font-light">
-                                Desarrollo de la ecommerce de la empresa con Codeigniter. Diseño y maquetación de templates, conexiones a BBDD y desarrollo de Apis Restful. Desarrollo para WordPress, temas, plugins, plantillas y módulos.
+                                Programación de módulos, plantillas y plugins para Wordpress. Desarrollo de APIS RESTful. Gestión de librerías y paquetes del servidor. Diseño UI / UX de las webs. Desarrollo web con Codeigniter.
                             </p>         
                         </div>
                     </li> 
@@ -79,7 +79,7 @@
                         </header>
                         <div>
                             <p class="text-base dark:text-white font-light">
-                                Diseño y desarrollo de las distintas webs de la empresa. Optimización seo de las mismas. Creación de temas, plugins y módulos para WordPress. Maquetación de correos electrónicos y newsletter. Creación de contenido. Grabación de vídeos corporativos, graphic motion y fotografía de producto.
+                                Programación de módulos, plantillas y plugins para Wordpress. Desarrollo de APIS RESTful. Gestión de librerías y paquetes del servidor. Diseño UI / UX de las webs.
                             </p>         
                         </div>
                     </li> 
