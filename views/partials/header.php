@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Carles Esteve">
+    <meta name="keyword" content="web, full stack, desarrollador, developer, wordpress">
     <meta name="description" content="Portafolio de Carles Esteve, desarrollador web full stack">
     <title>c.esteve | full stack web developer</title>
 	<link rel="canonical" href="https://carlesteve.dev/" />
