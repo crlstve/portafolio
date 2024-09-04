@@ -23,16 +23,17 @@
     <link rel="stylesheet" href="./assets/css/theme.css" type="text/css">
     <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
     <script defer src="./assets/js/dark-mode.js"></script>
-    <!--<script defer type="module" src="./assets/js/waves.js"></script>-->
+    <!--<script defer type="module" src="./assets/js/monkey.js"></script>-->
     <script defer type="module" src="./assets/js/index.js"></script>
 </head>
+
 <body id="fireworks" class="min-h-dvh bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-blue-100 via-slate-50  to-gray-50 dark:bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] dark:from-[#282a2d] dark:via-[#101114] dark:to-black scroll-smooth duration-500">
 <header class="sticky top-0 z-50">
     <nav class="w-full py-4 container">
         <div class="flex flex-row justify-center">
             <ul aria="menu" class="flex flex-row items-center gap-3 md:gap-10">
-                <li><a rel="nofollow noreferrer" href="#experiencia" class="btn_nav">Experiéncia</a></li>
-                <li><a rel="nofollow noreferrer" href="#proyectos" class="btn_nav">Proyectos</a></li>
+                <li><a rel="nofollow noreferrer" href="#experiencia" class="btn_nav">Experiencia</a></li>
+                <li><a rel="nofollow noreferrer" href="#stack" class="btn_nav">Stack</a></li>
                 <button class="btn_nav" onclick="toggleDarkMode();">Dark mode</button>
             </ul>
         </div>

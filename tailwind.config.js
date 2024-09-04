@@ -15,8 +15,8 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      'sans': ['Source Code Pro','Helvetica', 'Arial', 'sans-serif'],
-      'title': ['Jersey'],
+      'sans': ['Source Code Pro','monospace','sans-serif'],
+      'title': ['Jersey','Arial','sans-serif'],
     },
     container: {
       center: true,

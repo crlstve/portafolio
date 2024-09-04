@@ -9,3 +9,21 @@ window.addEventListener('scroll', function () {
         }
     });
 });
+function actualizarImagen() {
+    const imagenLight = document.getElementById('carles-image-light');
+    const imagenDark = document.getElementById('carles-image-dark');
+    const esModoOscuro = document.documentElement.classList.contains('dark');
+
+    if (esModoOscuro) {
+        imagenLight.style.opacity = '0';
+        imagenDark.style.opacity = '1';
+    } else {
+        imagenLight.style.opacity = '1';
+        imagenDark.style.opacity = '0';
+    }
+}
+// Actualizar la imagen correcta al inicio
+actualizarImagen();
+// Observar cambios en la clase 'dark' del HTML
+const observer = new MutationObserver(actualizarImagen);
+observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
