@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /app/
+Disallow: /controlelrs/
+Disallow: /models/
+Disallow: /routes/
+Disallow: /vendor/
+Sitemap: https://carlesteve.dev/sitemap.xml
