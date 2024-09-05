@@ -1,8 +1,8 @@
 <?php Functions::partial('header'); ?>
 
 <main class="relative w-full min-h-dvh overflow-x-hidden">
-    <div id="bg-dots" class="fixed bottom-0 -z-10 opacity-70"></div>
-    <section id="inicio" class="container mx-auto my-12 lg:my-24 flex flex-col-reverse lg:flex-row gap-10 lg:gap-16">
+    <div id="bg-dots" class="fixed bottom-0 -z-10 opacity-20 dark:opacity-30"></div>
+    <section id="inicio" class="container mx-auto my-12 lg:mt-24 lg:mb-12 flex flex-col-reverse lg:flex-row gap-10 lg:gap-16">
         <div class="w-full lg:w-1/2 flex flex-col gap-3 self-center">
             <header class="w-fit mx-auto lg:ml-auto lg:mr-12">
                 <h1 class="text-xl font-semibold dark:text-white leading-3">
@@ -22,7 +22,7 @@
             <div id="monkey-container"></div>
         </div> -->
     </section>
-    <section id="experiencia" class="container mx-auto mb-6 lg:mb-12 flex flex-col">
+    <section id="experiencia" class="container mx-auto mb-6 lg:py-12 flex flex-col">
         <h2 class="font-title p-6 text-3xl md:text-4xl text-center font-bold dark:text-emerald-300 text-violet-500 leading-4 mb-6">experiencia</h2>
         <div class="flex snap-y snap-mandatory">
             <ul class="timeline relative w-full flex flex-wrap gap-y-6 md:gap-y-12 justify-between">

@@ -3,10 +3,12 @@
     transform: translateY(20px);
     transition: opacity 0.5s ease-out, transform 0.5s ease-out;
 }
+
 .fadeInUp.visible {
     opacity: 1;
     transform: translateY(0);
 }
+
 /* DEMO-SPECIFIC STYLES */
 .typewriter p {
     overflow: hidden;
@@ -17,6 +19,7 @@
         typing 3.5s steps(30, end),
         blink-caret .5s step-end infinite;
 }
+
 #carles-image-light,
 #carles-image-dark {
     transition: opacity 500ms ease;
@@ -25,6 +28,7 @@
 #carles-image-dark {
     opacity: 0;
 }
+
 /* The typing effect */
 @keyframes typing {
     from {
@@ -50,7 +54,7 @@
 }
 
 @media screen and (min-width: 768px) {
-.timeline:before {
+    .timeline:before {
         content: "";
         position: absolute;
         width: 1px;
@@ -89,10 +93,14 @@
         position: absolute;
         width: 1rem;
         height: 1rem;
-        background-color: #6ee7b7;
+        background-color: #8b5cf6;
         border-radius: 100%;
         right: 0;
         transform: translateX(395%);
+    }
+
+    .dark .bullet:after {
+        background-color: #6ee7b7;
     }
 
     .bullet:nth-child(even):after {
@@ -100,6 +108,7 @@
         transform: translateX(-395%);
     }
 }
+
 @media screen and (min-width: 983px) {
     .bullet:after {
         transform: translateX(499%);
@@ -109,18 +118,22 @@
         transform: translateX(-499%);
     }
 }
+
 @media screen and (min-width: 1119px) {
     .bullet:after {
         transform: translateX(550%);
     }
+
     .bullet:nth-child(even):after {
         transform: translateX(-550%);
     }
 }
+
 @media screen and (min-width: 1279px) {
     .bullet:after {
         transform: translateX(615%);
     }
+
     .bullet:nth-child(even):after {
         transform: translateX(-615%);
     }
