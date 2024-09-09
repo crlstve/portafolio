@@ -16,7 +16,7 @@ module.exports = {
     extend: {},
     fontFamily: {
       'sans': ['Source Code Pro','monospace','sans-serif'],
-      'title': ['Jersey','Arial','sans-serif'],
+      'title': ['Jersey','fantasy','serif','system-ui','sans-serif'],
     },
     container: {
       center: true,

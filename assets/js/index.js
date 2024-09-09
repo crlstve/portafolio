@@ -7,7 +7,24 @@ window.addEventListener('scroll', function () {
             element.classList.add('visible');
         }
     });
+
+    const hoverElements = document.querySelectorAll('.sound');
+    const hoverAudio = document.getElementById('hoverSound');
+    const actionAudio = document.getElementById('actionSound');
+
+    hoverElements.forEach(element => {
+        element.addEventListener('mouseenter', function () {
+            hoverAudio.currentTime = 0; // Reinicia el audio al principio
+            hoverAudio.play();
+        });
+
+        element.addEventListener('click', function () {
+            actionAudio.currentTime = 0; // Reinicia el audio de acción al principio
+            actionAudio.play();
+        });
+    });
 });
+
 
 function actualizarImagen() {
     const imagenLight = document.getElementById('carles-image-light');

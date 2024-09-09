@@ -2,3 +2,27 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+
+# Habilitar HSTS
+Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+
+# Prevenir clickjacking
+Header always set X-Frame-Options "SAMEORIGIN"
+
+# Habilitar la protección XSS del navegador
+Header always set X-XSS-Protection "1; mode=block"
+
+# Deshabilitar MIME type sniffing
+Header always set X-Content-Type-Options "nosniff"
+
+# Política de seguridad de contenido (ajusta según tus necesidades)
+Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; object-src 'none'"
+    
+<IfModule mod_evasive20.c>
+    DOSHashTableSize 3097
+    DOSPageCount 2
+    DOSSiteCount 50
+    DOSPageInterval 1
+    DOSSiteInterval 1
+    DOSBlockingPeriod 10
+</IfModule>
