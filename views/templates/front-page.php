@@ -117,90 +117,96 @@
             </ul>
         </div>
     </section>
-    <section id="stack" class="container mx-auto my-12 lg:my-24 flex flex-col-reverse lg:flex-row">
+    <section id="stack" class="container mx-auto my-12 lg:my-24 flex flex-col">
+        <h2 class="font-title text-3xl md:text-4xl text-center font-bold dark:text-emerald-300 text-violet-500 leading-4 p-6 mb-6">stack</h2>
+        <div class="splide relative" aria-label="Proyectos Slider">
+            <div class="splide__track backdrop-blur-sm rounded-full shadow-md shadow-slate-950/20 border-l border-t border-white dark:border-slate-600 dark:bg-[rgba(0,0,0,0.1)] bg-[rgba(255,255,255,0.1)] py-3">
+                <ul class="splide__list">
+                    <li class="splide__slide flex justify-center item-center group">
+                        <img src="./assets/images/logos/html.svg" title="" alt="html" class="aspect-square self-center drop-shadow-md brightness-0 dark:invert opacity-40 hover:brightness-100 dark:hover:invert-0 hover:opacity-100 duration-500 mx-auto cursor-pointer" width="48px" height="48px">
+                        <p class="hidden group-hover:block absolute -top-2 left-0 w-full h-full dark:text-white text-center text-sm tooltip -z-10">html 5</p>
+                    </li>
+                    <li class="splide__slide flex justify-center item-center group">
+                        <img src="./assets/images/logos/css.svg" title="" alt="css" class="aspect-square self-center drop-shadow-md brightness-0 dark:invert opacity-40 hover:brightness-100 dark:hover:invert-0 hover:opacity-100 duration-500 mx-auto cursor-pointer" width="48px" height="48px">
+                        <p class="hidden group-hover:block absolute -top-2 left-0 w-full h-full dark:text-white text-center text-sm tooltip -z-10">css 3</p>
+                    </li>
+                    <li class="splide__slide flex justify-center item-center group">
+                        <img src="./assets/images/logos/js.svg" title="" alt="js" class="aspect-square self-center drop-shadow-md brightness-0 dark:invert opacity-40 hover:brightness-100 dark:hover:invert-0 hover:opacity-100 duration-500 mx-auto cursor-pointer" width="48px" height="48px">
+                        <p class="hidden group-hover:block absolute -top-2 left-0 w-full h-full dark:text-white text-center text-sm tooltip -z-10">js</p>
+                    </li>
+                    <li class="splide__slide flex justify-center item-center group">
+                        <img src="./assets/images/logos/php.svg" title="" alt="php" class="aspect-square self-center drop-shadow-md brightness-0 dark:invert opacity-40 hover:brightness-100 dark:hover:invert-0 hover:opacity-100 duration-500 mx-auto cursor-pointer" width="48px" height="48px">
+                        <p class="hidden group-hover:block absolute -top-2 left-0 w-full h-full dark:text-white text-center text-sm tooltip -z-10">php</p>
+                    </li>
+                    <li class="splide__slide flex justify-center item-center group">
+                        <img src="./assets/images/logos/sql.svg" title="" alt="sql" class="aspect-square self-center drop-shadow-md brightness-0 dark:invert opacity-40 hover:brightness-100 dark:hover:invert-0 hover:opacity-100 duration-500 mx-auto cursor-pointer" width="48px" height="48px">
+                        <p class="hidden group-hover:block absolute -top-2 left-0 w-full h-full dark:text-white text-center text-sm tooltip -z-10">sql</p>
+                    </li>
+                    <li class="splide__slide flex justify-center item-center group">
+                        <img src="./assets/images/logos/jquery.svg" title="" alt="nodejs" class="aspect-square self-center drop-shadow-md brightness-0 dark:invert opacity-40 hover:brightness-100 dark:hover:invert-0 hover:opacity-100 duration-500 mx-auto cursor-pointer" width="72px" height="72px">
+                        <p class="hidden group-hover:block absolute -top-2 left-0 w-full h-full dark:text-white text-center text-sm tooltip -z-10">jquery</p>
+                    </li>
+                    <li class="splide__slide flex justify-center item-center group">
+                        <img src="./assets/images/logos/hubl.svg" title="" alt="hubl" class="aspect-square self-center drop-shadow-md brightness-0 dark:invert opacity-40 hover:brightness-100 dark:hover:invert-0 hover:opacity-100 duration-500 mx-auto cursor-pointer" width="64px" height="64px">
+                        <p class="hidden group-hover:block absolute -top-2 left-0 w-full h-full dark:text-white text-center text-sm tooltip -z-10">hubl</p>
+                    </li>
+                    <li class="splide__slide flex justify-center item-center group">
+                        <img src="./assets/images/logos/nodejs.svg" title="" alt="nodejs" class="aspect-square self-center drop-shadow-md brightness-0 dark:invert opacity-40 hover:brightness-100 dark:hover:invert-0 hover:opacity-100 duration-500 mx-auto cursor-pointer" width="48px" height="48px">
+                        <p class="hidden group-hover:block absolute -top-2 left-0 w-full h-full dark:text-white text-center text-sm tooltip -z-10">node js</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <script>
+            // SPLIDE SLIDER //
+            document.addEventListener('DOMContentLoaded', function() {
+                new Splide('.splide', {
+                    gap: 40,
+                    padding: {
+                        left: 24,
+                        right: 24
+                    },
+                    interval: 0,
+                    autoplay: true,
+                    perPage: 7,
+                    perMove: 1,
+                    type: 'loop',
+                    preloadPages: 1,
+                    arrows: false,
+                    pagination: false,
+                    rewind: false,
+                    interval: 3000,
+                    breakpoints: {
+                        640: {
+                            perPage: 1,
+                        },
+                        768: {
+                            perPage: 2,
+                        },
+                    },
+                }).mount();
+            });
+        </script>
+    </section>
+
+    <!--    <section id="stack" class="container mx-auto my-12 lg:my-24 flex flex-col-reverse lg:flex-row">
         <div class="w-full flex flex-col gap-3 p-6">
             <h2 class="font-title text-3xl md:text-4xl text-center font-bold dark:text-emerald-300 text-violet-500 leading-4">stack</h2>
             <div class="flex flex-col lg:flex-row gap-3">
                 <div class="w-full flex flex-col h-fit gap-3 p-8 border-l border-t border-white dark:border-slate-600 rounded-lg backdrop-blur-sm shadow-md dark:bg-[rgba(0,0,0,0.1)] fadeInUp visible relative w-full lg:w-1/2 dark:text-white">Front-end</h3>
                     <ul>
                         <li class="text-base dark:text-white font-light ">HTML5</li>
-                        <li class="text-base dark:text-white font-light">CSS3</li>
-                        <li class="text-base dark:text-white font-light">JavaScript</li>
-                        <li class="text-base dark:text-white font-light">jQuery</li>
-                        <li class="text-base dark:text-white font-light">Three.js</li>
                     </ul>
 
                 </div>
                 <div class="w-full flex flex-col h-fit gap-3 p-8 border-l border-t border-white dark:border-slate-600 rounded-lg backdrop-blur-sm shadow-md dark:bg-[rgba(0,0,0,0.1)] fadeInUp visible relative w-full lg:w-1/2 dark:text-white">Back-end</h3>
                     <ul>
                         <li class="text-base dark:text-white font-light">PHP</li>
-                        <li class="text-base dark:text-white font-light">Laravel</li>
-                        <li class="text-base dark:text-white font-light">Wordpress</li>
-                        <li class="text-base dark:text-white font-light">Codeigniter</li>
-                        <li class="text-base dark:text-white font-light">SQL</li>
-                        <li class="text-base dark:text-white font-light">APIS REST</li>
-                        <li class="text-base dark:text-white font-light">Hubspot</li>
-                        <li class="text-base dark:text-white font-light">HubL</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
-    <section id="proyectos" class="container mx-auto my-12 lg:my-24 flex flex-col">
-        <h2 class="font-title text-3xl md:text-4xl text-center font-bold dark:text-emerald-300 text-violet-500 leading-4">proyectos</h2>
-        <div class="splide" aria-label="Proyectos Slider">
-            <div class="splide__track">
-                <ul class="splide__list">
-                    <li class="splide__slide dark:text-white h-full">
-                        <div class="flex flex-col h-full p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
-                            <h3 class="text-xl font-bold mb-2">Proyecto 1</h3>
-                            <p class="flex-grow">Descripción del proyecto 1</p>
-                        </div>
-                    </li>
-                    <li class="splide__slide dark:text-white h-full">
-                        <div class="flex flex-col h-full p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
-                            <h3 class="text-xl font-bold mb-2">Proyecto 2</h3>
-                            <p class="flex-grow">Descripción del proyecto 2</p>
-                        </div>
-                    </li>
-                    <li class="splide__slide dark:text-white h-full">
-                        <div class="flex flex-col h-full p-4 border border-gray-200 dark:border-gray-700 rounded-lg">
-                            <h3 class="text-xl font-bold mb-2">Proyecto 3</h3>
-                            <p class="flex-grow">Descripción del proyecto 3</p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <script>
-                // SPLIDE SLIDER //
-                document.addEventListener('DOMContentLoaded', function() {
-                    new Splide('.splide', {
-                        gap: 20,
-                        padding: {
-                            left: 12,
-                            right: 12
-                        },
-                        perPage: 3,
-                        perMove: 1,
-                        type: 'slide',
-                        height: '300px',
-                        preloadPages: 1,
-                        arrows: true,
-                        pagination: true,
-                        rewind: true,
-                        interval: 3000,
-                        breakpoints: {
-                            640: {
-                                perPage: 1,
-                            },
-                            768: {
-                                perPage: 2,
-                            },
-                        },
-                    }).mount();
-                });
-            </script>
-        </div>
-    </section>
+    -->
 </main>
 <?php Functions::partial('footer'); ?>
