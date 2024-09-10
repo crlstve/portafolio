@@ -124,15 +124,15 @@
                 <ul class="splide__list">
                     <li class="splide__slide flex justify-center item-center group">
                         <img src="./assets/images/logos/html.svg" title="" alt="html" class="aspect-square self-center drop-shadow-md brightness-0 dark:invert opacity-40 hover:brightness-100 dark:hover:invert-0 hover:opacity-100 duration-500 mx-auto cursor-pointer" width="48px" height="48px">
-                        <p class="hidden group-hover:block absolute -top-2 left-0 w-full h-full dark:text-white text-center text-sm tooltip -z-10">html 5</p>
+                        <p class="hidden group-hover:block absolute -top-2 left-0 w-full h-full dark:text-white text-center text-sm tooltip -z-10">html</p>
                     </li>
                     <li class="splide__slide flex justify-center item-center group">
                         <img src="./assets/images/logos/css.svg" title="" alt="css" class="aspect-square self-center drop-shadow-md brightness-0 dark:invert opacity-40 hover:brightness-100 dark:hover:invert-0 hover:opacity-100 duration-500 mx-auto cursor-pointer" width="48px" height="48px">
-                        <p class="hidden group-hover:block absolute -top-2 left-0 w-full h-full dark:text-white text-center text-sm tooltip -z-10">css 3</p>
+                        <p class="hidden group-hover:block absolute -top-2 left-0 w-full h-full dark:text-white text-center text-sm tooltip -z-10">css</p>
                     </li>
                     <li class="splide__slide flex justify-center item-center group">
                         <img src="./assets/images/logos/js.svg" title="" alt="js" class="aspect-square self-center drop-shadow-md brightness-0 dark:invert opacity-40 hover:brightness-100 dark:hover:invert-0 hover:opacity-100 duration-500 mx-auto cursor-pointer" width="48px" height="48px">
-                        <p class="hidden group-hover:block absolute -top-2 left-0 w-full h-full dark:text-white text-center text-sm tooltip -z-10">js</p>
+                        <p class="hidden group-hover:block absolute -top-2 left-0 w-full h-full dark:text-white text-center text-sm tooltip -z-10">javascript</p>
                     </li>
                     <li class="splide__slide flex justify-center item-center group">
                         <img src="./assets/images/logos/php.svg" title="" alt="php" class="aspect-square self-center drop-shadow-md brightness-0 dark:invert opacity-40 hover:brightness-100 dark:hover:invert-0 hover:opacity-100 duration-500 mx-auto cursor-pointer" width="48px" height="48px">
@@ -152,7 +152,7 @@
                     </li>
                     <li class="splide__slide flex justify-center item-center group">
                         <img src="./assets/images/logos/nodejs.svg" title="" alt="nodejs" class="aspect-square self-center drop-shadow-md brightness-0 dark:invert opacity-40 hover:brightness-100 dark:hover:invert-0 hover:opacity-100 duration-500 mx-auto cursor-pointer" width="48px" height="48px">
-                        <p class="hidden group-hover:block absolute -top-2 left-0 w-full h-full dark:text-white text-center text-sm tooltip -z-10">node js</p>
+                        <p class="hidden group-hover:block absolute -top-2 left-0 w-full h-full dark:text-white text-center text-sm tooltip -z-10">node.js</p>
                     </li>
                 </ul>
             </div>
@@ -178,10 +178,10 @@
                     interval: 3000,
                     breakpoints: {
                         640: {
-                            perPage: 1,
+                            perPage: 3,
                         },
                         768: {
-                            perPage: 2,
+                            perPage: 4,
                         },
                     },
                 }).mount();
@@ -189,24 +189,5 @@
         </script>
     </section>
 
-    <!--    <section id="stack" class="container mx-auto my-12 lg:my-24 flex flex-col-reverse lg:flex-row">
-        <div class="w-full flex flex-col gap-3 p-6">
-            <h2 class="font-title text-3xl md:text-4xl text-center font-bold dark:text-emerald-300 text-violet-500 leading-4">stack</h2>
-            <div class="flex flex-col lg:flex-row gap-3">
-                <div class="w-full flex flex-col h-fit gap-3 p-8 border-l border-t border-white dark:border-slate-600 rounded-lg backdrop-blur-sm shadow-md dark:bg-[rgba(0,0,0,0.1)] fadeInUp visible relative w-full lg:w-1/2 dark:text-white">Front-end</h3>
-                    <ul>
-                        <li class="text-base dark:text-white font-light ">HTML5</li>
-                    </ul>
-
-                </div>
-                <div class="w-full flex flex-col h-fit gap-3 p-8 border-l border-t border-white dark:border-slate-600 rounded-lg backdrop-blur-sm shadow-md dark:bg-[rgba(0,0,0,0.1)] fadeInUp visible relative w-full lg:w-1/2 dark:text-white">Back-end</h3>
-                    <ul>
-                        <li class="text-base dark:text-white font-light">PHP</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    -->
 </main>
 <?php Functions::partial('footer'); ?>
