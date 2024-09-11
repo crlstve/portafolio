@@ -1,2 +1,12 @@
 node_modules
 dns.txt
+vendor
+composer.lock
+controllers/email.php
+controllers/key.php
+controllers/config.php
+controllers/email.php
+composer.json
+composer.lock
+package.json
+package-lock.json

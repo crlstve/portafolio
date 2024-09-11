@@ -188,6 +188,6 @@
             });
         </script>
     </section>
-
+    <?php Functions::partial('modal'); ?>
 </main>
 <?php Functions::partial('footer'); ?>
