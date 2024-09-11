@@ -7,14 +7,17 @@ window.addEventListener('scroll', function () {
             element.classList.add('visible');
         }
     });
+
     const hoverElements = document.querySelectorAll('.sound');
     const hoverAudio = document.getElementById('hoverSound');
     const actionAudio = document.getElementById('actionSound');
+
     hoverElements.forEach(element => {
         element.addEventListener('mouseenter', function () {
             hoverAudio.currentTime = 0; // Reinicia el audio al principio
             hoverAudio.play();
         });
+
         element.addEventListener('click', function () {
             actionAudio.currentTime = 0; // Reinicia el audio de acción al principio
             actionAudio.play();
@@ -26,7 +29,41 @@ document.addEventListener('DOMContentLoaded', function () {
     const toggleModal = () => {
         modal.classList.toggle('hidden');
     }
+    /* const form = document.querySelector('form');
+     const name = document.getElementById('name');
+     const email = document.getElementById('email');
+     const subject = document.getElementById('subject');
+     const message = document.getElementById('message');
+     form.addEventListener('submit', function(event) {
+         event.preventDefault();
+         const data = {
+             name: name.value,
+             email: email.value,
+             subject: subject.value,
+             message: message.value
+         };
+         console.log(data);
+     });*/
 });
+
+function actualizarImagen() {
+    const imagenLight = document.getElementById('carles-image-light');
+    const imagenDark = document.getElementById('carles-image-dark');
+    const esModoOscuro = document.documentElement.classList.contains('dark');
+    if (esModoOscuro) {
+        imagenLight.style.opacity = '0';
+        imagenDark.style.opacity = '1';
+    } else {
+        imagenLight.style.opacity = '1';
+        imagenDark.style.opacity = '0';
+    }
+}
+// Actualizar la imagen correcta al inicio
+actualizarImagen();
+// Observar cambios en la clase 'dark' del HTML
+const observer = new MutationObserver(actualizarImagen);
+observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+
 //mensaje
 console.log('Hola! Soy Carles Esteve y soy desarrollador web full stack y soy de Valencia, España.');
 console.log('Me especializo en la creación de sitios web y aplicaciones web con Wordpress.');

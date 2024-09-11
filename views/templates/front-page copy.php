@@ -14,9 +14,13 @@
                 </div>
             </header>
         </div>
-        <div class="w-fit h-fit aspect-square flex relative mx-auto lg:mx-0 rounded-full overflow-hidden backdrop-blur-sm shadow-md shadow-slate-950/20 border-l border-t border-white dark:border-slate-600 dark:bg-[rgba(0,0,0,0.1)] bg-[rgba(255,255,255,0.1)] duration-500">
-            <img id="crls-img" loading="lazy" title="carles esteve" src="./assets/images/carles-transparent.webp" alt="carles esteve" width="250" height="250" class="h-48 w-auto aspect-square self-end transition-opacity duration-500 filter drop-shadow shadow-neutral-300">
+        <div class="w-fit h-48 aspect-square flex relative mx-auto lg:mx-0">
+            <img id="carles-image-light" loading="lazy" title="carles esteve" src="./assets/images/carles-light.webp" alt="carles esteve" width="250" height="250" class="h-full w-auto aspect-square self-end absolute transition-opacity duration-500 filter drop-shadow shadow-neutral-300">
+            <img id="carles-image-dark" loading="lazy" title="carles esteve" src="./assets/images/carles-dark.webp" alt="carles esteve" width="250" height="250" class="h-full w-auto aspect-square self-end absolute transition-opacity duration-500 filter drop-shadow shadow-neutral-300">
         </div>
+        <!-- <div id="monkey" class="w-full lg:w-1/2 h-36">
+            <div id="monkey-container"></div>
+        </div> -->
     </section>
     <section id="experiencia" class="container mx-auto mb-6 lg:py-12 flex flex-col">
         <h2 class="font-title p-6 text-3xl md:text-4xl text-center font-bold dark:text-emerald-300 text-violet-500 leading-4 mb-6">experiencia</h2>
@@ -154,6 +158,7 @@
             </div>
         </div>
         <script>
+            // SPLIDE SLIDER //
             document.addEventListener('DOMContentLoaded', function() {
                 new Splide('.splide', {
                     gap: 40,
@@ -183,7 +188,6 @@
             });
         </script>
     </section>
-    <?php //Functions::partial('modal'); 
-    ?>
+    <?php //Functions::partial('modal'); ?>
 </main>
 <?php Functions::partial('footer'); ?>

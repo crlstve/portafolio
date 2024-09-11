@@ -54,8 +54,9 @@ class SpaceBackground {
                     void main() {
                         vec2 xy = gl_PointCoord.xy - vec2(0.5);
                         float radius = length(xy);
+                        float alpha = 1.0 - smoothstep(0.3, 0.5, radius);
                         if (radius > 0.5) discard;
-                        gl_FragColor = vec4(0.28, 0.33, 0.41, 1.0); // Color #475569
+                        gl_FragColor = vec4(0.28, 0.33, 0.41, alpha); // Color #475569 con alpha variable
                     }
                 `,
                 transparent: true
