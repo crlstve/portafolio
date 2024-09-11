@@ -39,7 +39,7 @@
                 <ul aria="menu" class="flex flex-row items-center gap-3 md:gap-10 px-6 py-3 rounded-full backdrop-blur-sm shadow-md shadow-slate-950/20 border-l border-t border-white dark:border-slate-600 dark:bg-[rgba(0,0,0,0.1)] bg-[rgba(255,255,255,0.1)]">
                     <li><a rel="nofollow noreferrer" href="#experiencia" class="btn_nav sound">experiencia</a></li>
                     <li><a rel="nofollow noreferrer" href="#stack" class="btn_nav sound">stack</a></li>
-                    <li><button aria-label="Contacto" class="btn_nav sound">contacto</a></button>
+                    <li><button id="contact" aria-label="Contacto" class="btn_nav sound" onclick="toggleModal();">contacto</a></button>
                     <li><button aria-label="Modo oscuro" class="sound group p-2 rounded-full aspect-square bg-transparent relative border-l border-t border-white hover:border-slate-300 hover:dark:border-slate-950 dark:border-slate-600 backdrop-blur hover:backdrop-blur-none shadow-md hover:shadow-inner" onclick="toggleDarkMode();">
                             <svg class="dark:hidden block fill-slate-600 group-hover:fill-violet-500" version="1.1" id="moon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="20px" viewBox="0 0 30.457 30.457" xml:space="preserve">
                                 <g>
