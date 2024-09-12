@@ -26,7 +26,7 @@
                     <header>
                         <h3 class="text-4xl font-title font-bold dark:text-emerald-300 text-violet-500 leading-4">founderz</h3>
                         <time class="dark:text-white text-sm" datetime="22/04/24">22-04-24 | actualidad</time>
-                        <a reel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Founderz" href="https://founderz.com/" class="w-fit h-fit opacity-60 hover:opacity-100 duration-500 absolute top-7 right-7 rotate-45 hover:rotate-0">
+                        <a reel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Founderz" href="https://founderz.com/" class="link">
                             <?= Functions::svg(); ?>
                         </a>
                     </header>
@@ -41,7 +41,7 @@
                     <header>
                         <h3 class="text-4xl font-title font-bold dark:text-emerald-300 text-violet-500 leading-4">sesame hr</h3>
                         <time class="dark:text-white text-sm" datetime="11/06/22">11-06-22 | 22-04-24</time>
-                        <a reel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Sesame HR" href="https://www.sesamehr.es/" class="w-fit h-fit opacity-60 hover:opacity-100 duration-500 absolute top-7 right-7 rotate-45 hover:rotate-0">
+                        <a reel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Sesame HR" href="https://www.sesamehr.es/" class="link">
                             <?= Functions::svg(); ?>
                         </a>
                     </header>
@@ -56,7 +56,7 @@
                     <header>
                         <h3 class="text-4xl font-title font-bold dark:text-emerald-300 text-violet-500 leading-4">arte regal</h3>
                         <time class="dark:text-white text-sm" datetime="04/10/20">04-10-2020 | 10-06-22</time>
-                        <a reel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Arte Regal Import" href="https://www.arteregal.com/" class="w-fit h-fit opacity-60 hover:opacity-100 duration-500 absolute top-7 right-7 rotate-45 hover:rotate-0">
+                        <a reel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Arte Regal Import" href="https://www.arteregal.com/" class="link">
                             <?= Functions::svg(); ?>
                         </a>
                     </header>
@@ -71,7 +71,7 @@
                     <header>
                         <h3 class="text-4xl font-title font-bold dark:text-emerald-300 text-violet-500 leading-4">availand</h3>
                         <time class="dark:text-white text-sm" datetime="22/04/24">04-05-2019 | 03-06-20</time>
-                        <a reel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Availand" href="https://availand.com/" class="w-fit h-fit opacity-60 hover:opacity-100 duration-500 absolute top-7 right-7 rotate-45 hover:rotate-0">
+                        <a reel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Availand" href="https://availand.com/" class="link">
                             <?= Functions::svg(); ?>
                         </a>
                     </header>
@@ -86,7 +86,7 @@
                     <header>
                         <h3 class="text-4xl font-title font-bold dark:text-emerald-300 text-violet-500 leading-4">tv begin</h3>
                         <time class="dark:text-white text-sm" datetime="22/04/24">04-09-2017 | 04-05-2019</time>
-                        <a reel="nofollow noopener noreferrer" target="" aria-label="Visita la web de Tv Begin" href="https://tvbgn.com/" class="w-fit h-fit opacity-60 hover:opacity-100 duration-500 absolute top-7 right-7 rotate-45 hover:rotate-0">
+                        <a reel="nofollow noopener noreferrer" target="" aria-label="Visita la web de Tv Begin" href="https://tvbgn.com/" class="link">
                             <?= Functions::svg(); ?>
                         </a>
                     </header>
@@ -101,7 +101,7 @@
                     <header>
                         <h3 class="text-4xl font-title font-bold dark:text-emerald-300 text-violet-500 leading-4">galaxa cosmetics</h3>
                         <time class="dark:text-white text-sm" datetime="22/04/24">04-13-2016 | 10-06-17</time>
-                        <a reel="nofollow noopener noreferrer" target="" aria-label="Visita la web de Galaxa Cosmetics" href="https://productos-peluqueria-online.es/" class="w-fit h-fit opacity-60 hover:opacity-100 duration-500 absolute top-7 right-7 rotate-45 hover:rotate-0"> <?= Functions::svg(); ?>
+                        <a reel="nofollow noopener noreferrer" target="" aria-label="Visita la web de Galaxa Cosmetics" href="https://productos-peluqueria-online.es/" class="link"> <?= Functions::svg(); ?>
                         </a>
                     </header>
                     <div>
