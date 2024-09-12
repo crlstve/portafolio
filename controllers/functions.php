@@ -3,6 +3,14 @@ if ($_SERVER['SCRIPT_FILENAME'] == __FILE__) {
   header('Location: 404.php');
   exit;
 }
+// Definir las políticas CSP
+header("Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://tagmanager.google.com https://*.googletagmanager.com; img-src 'self' https://www.google-analytics.com; connect-src 'self' https://www.google-analytics.com; style-src 'self' 'unsafe-inline' https://tagmanager.google.com; font-src 'self'; frame-src 'self' https://www.googletagmanager.com;");
+
+// Añadir esta línea para depuración
+header("Content-Security-Policy-Report-Only: default-src 'self' https: data: 'unsafe-inline' 'unsafe-eval';");
+
+
+
 //mostrar errores
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
