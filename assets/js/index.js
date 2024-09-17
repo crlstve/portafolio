@@ -73,14 +73,15 @@ document.addEventListener('DOMContentLoaded', function () {
     form.addEventListener('submit', function(e) {
         e.preventDefault();
         if (checkAllFields()) {
-            // Aquí puedes agregar el código para enviar el formulario
-            console.log('Formulario enviado');
+            const result = document.getElementById('success');
+            const form = document.querySelector('form'); // Cambia el selector según sea necesario
+            form.classList.add('hidden');
+            result.classList.remove('hidden');
+            form.reset();
         }
     });
-
     // Actualizar el estado inicial del botón
     updateSubmitButton();
-
     //mensaje
     console.log(
         '¡Hola! Me llamo %cCarles Esteve%c, soy %cdesarrollador web full stack%c y soy de %cValencia, España%c.\n' +
@@ -88,12 +89,4 @@ document.addEventListener('DOMContentLoaded', function () {
         'color: #6ee7b7;', '', 'color: #6ee7b7;', '', 'color: #6ee7b7;', '',
         'color: #6ee7b7;', '', 'color: #6ee7b7;', ''
     );
-
 });
-
-
-
-
-
-
-

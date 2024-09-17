@@ -1,6 +1,6 @@
 <div id="modal" class="hidden w-full h-full fixed top-0 left-0 bg-black/50 flex justify-center items-center z-50">
     <div class="block card w-fit p-16">
-        <h2 class="text-3xl md:text-4xl font-bold font-title text-violet-500 dark:text-emerald-500 w-fit mx-auto mb-6">Contacto</h2>
+        <h2 class="text-3xl md:text-4xl font-bold font-title text-violet-500 dark:text-emerald-300 w-fit mx-auto mb-6">Contacto</h2>
         <form method="post" action="" class="flex flex-col gap-3">
             <input type="text" name="name" id="name" placeholder="nombre">
             <input type="email" name="email" id="email" placeholder="email">
