@@ -29,6 +29,13 @@
     opacity: 0;
 }
 
+a,p,time,h1,h2,h3,h4,h5,h6{
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+.dark a,.dark p,.dark time,.dark h1,.dark h2,.dark h3,.dark h4,.dark h5,.dark h6 {
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+} 
+
 @keyframes tooltipAnimation {
     from {
         opacity: 0;

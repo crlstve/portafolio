@@ -56,7 +56,12 @@ class SpaceBackground {
                         float radius = length(xy);
                         float alpha = 1.0 - smoothstep(0.3, 0.5, radius);
                         if (radius > 0.5) discard;
-                        gl_FragColor = vec4(0.28, 0.33, 0.41, alpha); // Color #475569 con alpha variable
+                        
+                        // Efecto de sombreado
+                        float shadow = smoothstep(0.3, 0.5, radius);
+                        vec3 color = mix(vec3(0.28, 0.33, 0.41), vec3(0.1, 0.12, 0.15), shadow);
+                        
+                        gl_FragColor = vec4(color, alpha * (1.0 - shadow * 0.5));
                     }
                 `,
                 transparent: true

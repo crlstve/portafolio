@@ -1,3 +1,4 @@
+//smooth scroll
 window.addEventListener('scroll', function () {
     var elements = document.querySelectorAll('.fadeInUp');
     var windowHeight = window.innerHeight;
@@ -7,6 +8,7 @@ window.addEventListener('scroll', function () {
             element.classList.add('visible');
         }
     });
+    //sound
     const hoverElements = document.querySelectorAll('.sound');
     const hoverAudio = document.getElementById('hoverSound');
     const actionAudio = document.getElementById('actionSound');
@@ -21,14 +23,77 @@ window.addEventListener('scroll', function () {
         });
     });
 });
+//modal
 document.addEventListener('DOMContentLoaded', function () {
-    const modal = document.getElementById('modal');
-    const toggleModal = () => {
-        modal.classList.toggle('hidden');
+    //open modal button
+        const modal = document.getElementById('modal');
+        const contactButton = document.getElementById('contact');
+        contactButton.addEventListener('click', function() {
+            modal.classList.toggle('hidden');
+        });
+    //close modal button
+        modal.addEventListener('click', (e) => { if (e.target === modal) { modal.classList.add('hidden'); } });
+    //form
+    const form = document.querySelector('form');
+    const inputs = form.querySelectorAll('input[type="text"], input[type="email"], textarea');
+    const submitButton = form.querySelector('input[type="submit"]');
+    //Validación de campos
+    inputs.forEach(input => {
+        input.addEventListener('blur', function () {
+            if (!this.value.trim()) {
+                this.classList.add('error');
+                this.classList.remove('success');
+            } else {
+                this.classList.add('success');
+                this.classList.remove('error');
+            }
+        });
+    });
+    // Función para verificar todos los campos
+    function checkAllFields() {
+        return Array.from(inputs).every(input => input.value.trim() !== '');
     }
+    // Función para actualizar el estado del botón de envío
+    function updateSubmitButton() {
+        if (checkAllFields()) {
+            submitButton.classList.remove('btnError');
+            submitButton.classList.add('btnSuccess');
+            submitButton.disabled = false;
+        } else {
+            submitButton.classList.remove('btnSuccess');
+            submitButton.classList.add('btnError');
+            submitButton.disabled = true;
+        }
+    }
+    // Agregar evento input a cada campo
+    inputs.forEach(input => {
+        input.addEventListener('input', updateSubmitButton);
+    });
+    // Evento submit del formulario
+    form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        if (checkAllFields()) {
+            // Aquí puedes agregar el código para enviar el formulario
+            console.log('Formulario enviado');
+        }
+    });
+
+    // Actualizar el estado inicial del botón
+    updateSubmitButton();
+
+    //mensaje
+    console.log(
+        '¡Hola! Me llamo %cCarles Esteve%c, soy %cdesarrollador web full stack%c y soy de %cValencia, España%c.\n' +
+        'Mi especialidad es la creación de %cpáginas web%c con %cWordPress%c.',
+        'color: #6ee7b7;', '', 'color: #6ee7b7;', '', 'color: #6ee7b7;', '',
+        'color: #6ee7b7;', '', 'color: #6ee7b7;', ''
+    );
+
 });
-//mensaje
-console.log('Hola! Soy Carles Esteve y soy desarrollador web full stack y soy de Valencia, España.');
-console.log('Me especializo en la creación de sitios web y aplicaciones web con Wordpress.');
-console.log('Ironicamente este portafolio esta hecho únicamente con php, vanilla js, html y tailwind css');
-console.log('Además, por si te lo preguntas, el fondo son tres esferas concentricas hechas de bolitas, que rotan al mover el raton y están con three.js');
+
+
+
+
+
+
+

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es" class="dark scroll-smooth">
-
 <head>
     <meta charset="UTF-8">
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
@@ -30,19 +29,18 @@
     <script defer type="module" src="./assets/js/index.js"></script>
     <script defer type="module" src="./assets/js/space.js"></script>
     <script defer type="module" src="./assets/js/splide.min.js"></script>
-    <!-- Google tag (gtag.js) -->
+    <!-- Google tag (gtag.js) 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-JXSKRNRHKV"></script>
-    <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-JXSKRNRHKV');</script>
+    <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-JXSKRNRHKV');</script>-->
 </head>
-
 <body id="fireworks" class="min-h-dvh bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-slate-50 via-slate-100  to-gray-50 dark:bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] dark:from-[#282a2d] dark:via-[#101114] dark:to-black scroll-smooth duration-500">
-    <header class="sticky top-0 z-50">
+    <header class="sticky top-0 z-40">
         <nav class="w-full py-4 container">
             <div class="flex flex-row justify-center">
                 <ul aria="menu" class="flex flex-row items-center gap-3 md:gap-10 px-6 py-3 rounded-full backdrop-blur-sm shadow-md shadow-slate-950/20 border-l border-t border-white dark:border-slate-600 dark:bg-[rgba(0,0,0,0.1)] bg-[rgba(255,255,255,0.1)]">
                     <li><a aria="menu item" rel="nofollow noreferrer" href="#experiencia" class="btn_nav sound">experiencia</a></li>
                     <li><a aria="menu item" rel="nofollow noreferrer" href="#stack" class="btn_nav sound">stack</a></li>
-                    <!--<li><button id="contact" aria="menu item" aria-label="Contacto" class="btn_nav sound" onclick="toggleModal();">contacto</a></button>-->
+                    <li><button id="contact" aria="menu item" aria-label="Contacto" class="btn_nav sound">contacto</a></button>
                     <li><button aria="menu item" aria-label="Modo oscuro" class="sound group p-2 rounded-full aspect-square bg-transparent relative border-l border-t border-white hover:border-slate-300 hover:dark:border-slate-950 dark:border-slate-600 backdrop-blur hover:backdrop-blur-none shadow-md hover:shadow-inner" onclick="toggleDarkMode();">
                             <svg class="dark:hidden block fill-slate-600 group-hover:fill-violet-500" version="1.1" id="moon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="20px" viewBox="0 0 30.457 30.457" xml:space="preserve">
                                 <g>
