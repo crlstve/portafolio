@@ -34,54 +34,54 @@ document.addEventListener('DOMContentLoaded', function () {
     //close modal button
         modal.addEventListener('click', (e) => { if (e.target === modal) { modal.classList.add('hidden'); } });
     //form
-    const form = document.querySelector('form');
-    const inputs = form.querySelectorAll('input[type="text"], input[type="email"], textarea');
-    const submitButton = form.querySelector('input[type="submit"]');
+        const form = document.querySelector('form');
+        const inputs = form.querySelectorAll('input[type="text"], input[type="email"], textarea');
+        const submitButton = form.querySelector('input[type="submit"]');
     //Validación de campos
-    inputs.forEach(input => {
-        input.addEventListener('blur', function () {
-            if (!this.value.trim()) {
-                this.classList.add('error');
-                this.classList.remove('success');
+        inputs.forEach(input => {
+            input.addEventListener('blur', function () {
+                if (!this.value.trim()) {
+                    this.classList.add('error');
+                    this.classList.remove('success');
+                } else {
+                    this.classList.add('success');
+                    this.classList.remove('error');
+                }
+            });
+        });
+    // Función para verificar todos los campos
+        function checkAllFields() {
+            return Array.from(inputs).every(input => input.value.trim() !== '');
+        }
+    // Función para actualizar el estado del botón de envío
+        function updateSubmitButton() {
+            if (checkAllFields()) {
+                submitButton.classList.remove('btnError');
+                submitButton.classList.add('btnSuccess');
+                submitButton.disabled = false;
             } else {
-                this.classList.add('success');
-                this.classList.remove('error');
+                submitButton.classList.remove('btnSuccess');
+                submitButton.classList.add('btnError');
+                submitButton.disabled = true;
+            }
+        }
+    // Agregar evento input a cada campo
+        inputs.forEach(input => {
+            input.addEventListener('input', updateSubmitButton);
+        });
+    // Evento submit del formulario
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            if (checkAllFields()) {
+                const result = document.getElementById('success');
+                const form = document.querySelector('form'); // Cambia el selector según sea necesario
+                form.classList.add('hidden');
+                result.classList.remove('hidden');
+                form.reset();
             }
         });
-    });
-    // Función para verificar todos los campos
-    function checkAllFields() {
-        return Array.from(inputs).every(input => input.value.trim() !== '');
-    }
-    // Función para actualizar el estado del botón de envío
-    function updateSubmitButton() {
-        if (checkAllFields()) {
-            submitButton.classList.remove('btnError');
-            submitButton.classList.add('btnSuccess');
-            submitButton.disabled = false;
-        } else {
-            submitButton.classList.remove('btnSuccess');
-            submitButton.classList.add('btnError');
-            submitButton.disabled = true;
-        }
-    }
-    // Agregar evento input a cada campo
-    inputs.forEach(input => {
-        input.addEventListener('input', updateSubmitButton);
-    });
-    // Evento submit del formulario
-    form.addEventListener('submit', function(e) {
-        e.preventDefault();
-        if (checkAllFields()) {
-            const result = document.getElementById('success');
-            const form = document.querySelector('form'); // Cambia el selector según sea necesario
-            form.classList.add('hidden');
-            result.classList.remove('hidden');
-            form.reset();
-        }
-    });
     // Actualizar el estado inicial del botón
-    updateSubmitButton();
+        updateSubmitButton();
     //mensaje
     console.log(
         '¡Hola! Me llamo %cCarles Esteve%c, soy %cdesarrollador web full stack%c y soy de %cValencia, España%c.\n' +
