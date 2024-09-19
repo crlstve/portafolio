@@ -83,6 +83,7 @@ document.addEventListener('DOMContentLoaded', function () {
             var data = {
                 nombre: form.querySelector('[name="name"]').value,
                 email: form.querySelector('[name="email"]').value,
+                phone: form.querySelector('[name="phone"]').value,                
                 subject: form.querySelector('[name="subject"]').value,
                 message: form.querySelector('[name="message"]').value
             };
