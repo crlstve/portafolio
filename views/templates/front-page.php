@@ -1,7 +1,7 @@
 <?php Functions::partial('header'); ?>
 
 <main class="relative w-full min-h-dvh overflow-x-hidden">
-    <div id="bg-dots" class="fixed bottom-0 -z-10 opacity-30 dark:opacity-40 backdrop-blur-sm "></div>
+    <div id="bg-dots" class="fixed bottom-0 -z-10 opacity-20 dark:opacity-30 backdrop-blur-sm"></div>
     <section id="inicio" class="container mx-auto my-12 lg:mt-24 lg:mb-12 flex flex-col-reverse lg:flex-row gap-10 lg:gap-16">
         <div class="w-full lg:w-1/2 flex flex-col gap-3 self-center">
             <header class="w-fit mx-auto lg:ml-auto lg:mr-12">
