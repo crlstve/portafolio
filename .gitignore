@@ -1,6 +1,7 @@
 node_modules
 dns.txt
 vendor
+contact.php
 composer.lock
 controllers/email.php
 controllers/key.php
