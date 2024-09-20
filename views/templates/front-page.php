@@ -153,8 +153,9 @@
                 </ul>
             </div>
         </div>
+
         <script>
-            document.addEventListener('DOMContentLoaded', function() { new Splide('.splide', { gap: 40, padding: { left: 24, right: 24 }, interval: 0, autoplay: true, perPage: 7, perMove: 1, type: 'loop', preloadPages: 1, arrows: false, pagination: false, rewind: false, interval: 3000, breakpoints: { 640: { perPage: 3, }, 768: { perPage: 4, }, }, }).mount(); });
+          document.addEventListener('DOMContentLoaded', function() { new Splide('.splide',{ gap: 40, padding: { left: 24, right: 24 }, type   : 'loop', drag   : 'free', focus  : 'center', perPage: 7, autoScroll: { speed: 2, }, arrows: false, pagination: false, rewind: false, breakpoints: { 640: { perPage: 3, }, 768: { perPage: 4, }, }, }).mount(window.splide.Extensions); });
         </script>
     </section>
     <?php Functions::partial('modal'); ?>
