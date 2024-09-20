@@ -29,9 +29,9 @@
     <script defer type="module" src="./assets/js/index.js"></script>
     <script defer type="module" src="./assets/js/space.js"></script>
     <script defer type="module" src="./assets/js/splide.min.js"></script>
-    <!-- Google tag (gtag.js) -->
+    <!-- Google tag (gtag.js) 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-JXSKRNRHKV"></script>
-    <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-JXSKRNRHKV');</script>
+    <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-JXSKRNRHKV');</script>-->
 </head>
 <body id="fireworks" class="min-h-dvh bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-slate-50 via-slate-100  to-gray-50 dark:bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] dark:from-[#282a2d] dark:via-[#101114] dark:to-black scroll-smooth duration-500">
     <header class="sticky top-0 z-40">
