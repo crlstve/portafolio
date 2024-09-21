@@ -1,4 +1,5 @@
 node_modules
+.htaccess
 dns.txt
 vendor
 contact.php
