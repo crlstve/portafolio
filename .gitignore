@@ -1,5 +1,6 @@
 node_modules
 .htaccess
+mj.php
 dns.txt
 vendor
 contact.php
