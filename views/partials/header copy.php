@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es" class="dark scroll-smooth">
-
 <head>
     <meta charset="UTF-8">
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
