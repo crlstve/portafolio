@@ -1,14 +1,17 @@
+//Con el Dom cargado
+document.addEventListener('DOMContentLoaded', function () {
 //smooth scroll
-window.addEventListener('scroll', function () {
-    var elements = document.querySelectorAll('.fadeInUp');
-    var windowHeight = window.innerHeight;
-    elements.forEach(function (element) {
-        var position = element.getBoundingClientRect().top;
-          if (position < windowHeight * 0.7) {
-            element.classList.add('visible');
-        }
+    window.addEventListener('scroll', function () {
+        var elements = document.querySelectorAll('.fadeInUp');
+        var windowHeight = window.innerHeight;
+        elements.forEach(function (element) {
+            var position = element.getBoundingClientRect().top;
+            if (position < windowHeight * 0.7) {
+                element.classList.add('visible');
+            }
+        });
     });
-    //sound
+//sound
     const hoverElements = document.querySelectorAll('.sound');
     const hoverAudio = document.getElementById('hoverSound');
     const actionAudio = document.getElementById('actionSound');
@@ -22,9 +25,6 @@ window.addEventListener('scroll', function () {
             actionAudio.play();
         });
     });
-});
-//Con el Dom cargado
-document.addEventListener('DOMContentLoaded', function () {
 //modal
     //open modal button
         const modal = document.getElementById('modal');
