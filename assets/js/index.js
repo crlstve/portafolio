@@ -103,8 +103,14 @@ document.addEventListener('DOMContentLoaded', function () {
     updateSubmitButton();
     //mensaje
     console.log(
-        '¡Hola! Me llamo %cCarles Esteve%c, soy %cdesarrollador web full stack%c y soy de %cValencia, España%c.\n' +
-        'Mi especialidad es la creación de %cpáginas web%c con %cWordPress%c.',
+        '¡Hola! gracias por tu interés!.\n' +
+        'Llevo en el mundo del %cdesarrollo web%c más de %c8 años%c.\n' +
+        'Mi especialidad es crear sitios web y aplicaciones web con %cWordpress%c.\n' +
+        'Pero tengo experiencia con otros %clenguajes, frameworks y tecnologías%c web.\n' +
+        'Si quieres contactarme puedes hacerlo en  el formulario de %ccontacto%c.\n' +
+        '¡Muchas gracias!'
+        
+        ,
         'color: #6ee7b7;', '', 'color: #6ee7b7;', '', 'color: #6ee7b7;', '',
         'color: #6ee7b7;', '', 'color: #6ee7b7;', ''
     );

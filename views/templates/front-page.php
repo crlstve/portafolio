@@ -139,7 +139,7 @@
                     </header>
                     <div>
                         <p class="text-base">
-                            Desarrollo de una plataforma para la adopción de comercios afectados por la <b>DANA de València de 2024</b>. El desarrollo fue hecho <b>Wordpress</b>, para el cual cree un <b>tema propio</b> que automatizaba el aviso por correo tanto al administrador, a los comercios y a los influencers.
+                           Plataforma para ayudar a los comercios afectados por la <b>DANA de València de 2024</b>. El desarrollo fue hecho <b>Wordpress</b>, para el cual cree un <b>tema propio</b> que automatizaba el envío de correos para avisar a los usuarios, así como un sistema de altas y vinculación mediante formularios de contacto.
                         </p>
                     </div>
                 </li>
