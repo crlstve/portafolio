@@ -51,9 +51,9 @@
         .card{
         @apply relative w-full md:w-5/12 flex flex-col h-fit gap-3 p-8 border-l border-t border-white dark:border-slate-600 rounded-lg backdrop-blur-sm shadow-md bg-white dark:bg-slate-600 bg-opacity-40 dark:bg-opacity-5;
         }
-        .crt::before {
+       /* .crt::before {
             content: " "; display: block; position: fixed; height: 100%; top: 0; left: 0; bottom: 0; right: 0; background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06)); z-index: 2; background-size: 100% 2px, 3px 100%; pointer-events: none;
-        }
+        }*/
 
 /*******************************************************************************
  *  CARGA STYLE
@@ -91,12 +91,12 @@
 
 /* SOMBRAS DE TEXTO */
 a,p,time,h1,h2,h3,h4,h5,h6 {
-    text-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    text-shadow: 0 0 13px rgba(0, 0, 0, 0.2);
 }
 
 /* SOMBRAS EN MODO OSCURO */
 .dark a,.dark p,.dark time,.dark h1,.dark h2,.dark h3,.dark h4,.dark h5,.dark h6 {
-    text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+    text-shadow: 0 0 13px rgba(255, 255, 255, 0.3);
 }
 
 /* ANIMACIÓN DE TOOLTIP */

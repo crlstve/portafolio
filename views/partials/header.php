@@ -30,10 +30,19 @@
     <script defer type="module" src="./assets/js/space.js"></script>
     <script defer type="module" src="./assets/js/splide.min.js"></script>
     <script defer type="module" src="./assets/js/splide-extension-auto-scroll.min.js"></script>
-    <script  async src="https://www.googletagmanager.com/gtag/js?id=G-JXSKRNRHKV"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-JXSKRNRHKV');
-    </script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NQ3W6XTC');</script>
+    <!-- End Google Tag Manager -->
 </head>
 <body id="fireworks" class="min-h-dvh bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-slate-50 via-slate-100  to-gray-50 dark:bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] dark:from-[#282a2d] dark:via-[#101114] dark:to-black scroll-smooth duration-500 crt">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NQ3W6XTC"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->    
     <header class="sticky top-0 z-10 crt">
         <nav class="w-full py-4 container">
             <div class="flex flex-row justify-center">
