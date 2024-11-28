@@ -4,12 +4,10 @@
     <section id="inicio" class="container mx-auto my-12 lg:mt-24 lg:mb-12 flex flex-col-reverse lg:flex-row gap-10 lg:gap-28 justify-center">
         <div class="w-fit flex flex-col gap-3 self-center">
             <header class="w-fit mx-auto">
-                <h1 class="text-xl font-semibold dark:text-white leading-3">
-                    carles esteve albiach<br>
-                    <span data-text="full stack web developer" class="text-4xl md:text-5xl font-title dark:text-emerald-300 text-violet-500 ">full stack web developer<span>
+                <h1 class="text-xl font-semibold dark:text-white leading-3 flex flex-col">carles esteve albiach<span data-text="full stack web developer" class="text-4xl md:text-5xl font-title dark:text-emerald-300 text-violet-500 ">full stack web developer<span>
                 </h1>
                 <div class="typewriter w-fit">
-                    <p class="text-base dark:text-white">Apasionado de la programación web!</p>
+                    <p class="text-base dark:text-white" translate="no">Apasionado de la programación web!</p>
                 </div>
                 <ul class="flex flex-row gap-4 mt-4">
                     <li class="relative">
@@ -42,11 +40,11 @@
                             <?= Functions::svg(); ?>
                         </a>
                     </header>
-                    <div>
+                    <article>
                         <p class="text-base">
                             Desarrollo web con <b>Wordpress</b> y <b>Laravel</b>. Liderar la modernización y rebranding completo de la web, programación de <b>bloques de Gutenberg</b>, <b>templates</b> y <b>plugins</b> para Wordpress. Desarrollo de <b>APIS REST</b>.
                         </p>
-                    </div>
+                    </article>
                 </li>
 
                 <li class="bullet card after:top-20 before:top-20 md:mt-24 fadeInUp visible">
@@ -57,11 +55,11 @@
                             <?= Functions::svg(); ?>
                         </a>
                     </header>
-                    <div>
+                    <article>
                         <p class="text-base">
                             Creación y mantenimiento de las distintas webs de la empresa. Desarrollo de la actualización y optimización de la web a nivel SEO y CRO de estas. Programación de <b>plugins</b>, <b>temas</b>, <b>bloques</b> y <b>APIS</b> para Wordpress. Desarrollo de landing pages para Hubspot con <b>Hubl</b>.
                         </p>
-                    </div>
+                    </article>
                 </li>
 
                 <li class="bullet card after:top-10 before:top-10 snap-always md:-mt-24 fadeInUp">
@@ -72,11 +70,11 @@
                             <?= Functions::svg(); ?>
                         </a>
                     </header>
-                    <div>
+                    <article>
                         <p class="text-base">
                             Mantenimiento y actualización de la ecommerce de la empresa hecha con <b>Codeigniter</b>. Desarrollo de otras webs y ecommerce hechas con <b>Wordpress</b>. Desarrollo de <b>APIS</b>, <b>bloques</b>, <b>temas</b> y <b>plugins</b> para <b>Wordpress</b>.
                         </p>
-                    </div>
+                    </article>
                 </li>
 
                 <li class="bullet card after:top-20 before:top-20 fadeInUp">
@@ -87,11 +85,11 @@
                             <?= Functions::svg(); ?>
                         </a>
                     </header>
-                    <div>
+                    <article>
                         <p class="text-base">
                             Mantenimiento y actualización de la ecommerce de la empresa hecha con <b>wordpress</b> y <b>woocommerce</b>. Desarrollo de <b>APIS</b>, <b>bloques</b>, <b>temas</b> de <b>Gutenberg</b> y <b>plugins</b>.
                         </p>
-                    </div>
+                    </article>
                 </li>
 
                 <li class="bullet card after:top-0 before:top-0 md:-mt-16 fadeInUp">
@@ -102,11 +100,11 @@
                             <?= Functions::svg(); ?>
                         </a>
                     </header>
-                    <div>
+                    <article>
                         <p class="text-base">
                             Creación y mantenmiento de webs para distintos clientes hechas con Wordpress. Creación de <b>APIS</b>, <b>bloques</b>, <b>plugins</b>, <b>temas</b> y <b>módulos</b> para resolver las necesidades de las emrpesas.
                         </p>
-                    </div>
+                    </article>
                 </li>
 
                 <li class="bullet card after:top-10 before:top-10 snap-always fadeInUp">
@@ -116,11 +114,11 @@
                         <a rel="nofollow noopener noreferrer" target="" aria-label="Visita la web de Galaxa Cosmetics" href="https://productos-peluqueria-online.es/" class="link"> <?= Functions::svg(); ?>
                         </a>
                     </header>
-                    <div>
+                    <article>
                         <p class="text-base">
                             Desarrollo de la ecommerce de la empresa hecha con <b>wordpress</b> y <b>woocommerce</b>. Desarollo de <b>plugins</b>, <b>APIS</b>, <b>temas</b> y <b>módulos</b> para las necesidades de la empresa
                         </p>
-                    </div>
+                    </article>
                 </li>
             </ul>
         </div>
@@ -136,11 +134,11 @@
                             <?= Functions::svg(); ?>
                         </a>
                     </header>
-                    <div>
+                    <article>
                         <p class="text-base">
                            Plataforma para ayudar a los comercios afectados por la <b>DANA de València de 2024</b>. El desarrollo fue hecho <b>Wordpress</b>, para el cual cree un <b>tema propio</b> que automatizaba el envío de correos para avisar a los usuarios, así como un sistema de altas y vinculación mediante formularios de contacto.
                         </p>
-                    </div>
+                    </article>
                 </li>
             </ul>
     </section>  

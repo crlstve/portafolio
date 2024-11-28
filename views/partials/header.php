@@ -44,8 +44,8 @@
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->    
     <header class="sticky top-0 z-10 crt">
-        <nav class="w-full py-4 container">
-            <div class="flex flex-row justify-center">
+        <div class="w-full py-4 container">
+            <nav class="flex flex-row justify-center">
                 <ul aria="menu" class="flex flex-row flex-wrap justify-center items-center gap-3 md:gap-10 px-6 py-3 rounded-full backdrop-blur-sm shadow-md shadow-slate-950/20 border-l border-t border-white dark:border-slate-600 dark:bg-[rgba(0,0,0,0.1)] bg-[rgba(255,255,255,0.1)]">
                     <li><a aria="menu item" rel="nofollow noreferrer" href="#experiencia" class="btn_nav sound">experiencia</a></li>
                     <li><a aria="menu item" rel="nofollow noreferrer" href="#proyectos" class="btn_nav sound">proyectos</a></li>
@@ -65,6 +65,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <audio id="hoverSound" src="./assets/sound/button.mp3"></audio>
                     <audio id="actionSound" src="./assets/sound/action.mp3"></audio>
                 </ul>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </header>

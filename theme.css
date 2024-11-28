@@ -157,7 +157,7 @@ a,p,time,h1,h2,h3,h4,h5,h6 {
         border-image-slice: 1;
     }
 
-    .bullet:before {
+    /*.bullet:before {
         content: "";
         position: absolute;
         width: 18%;
@@ -194,7 +194,7 @@ a,p,time,h1,h2,h3,h4,h5,h6 {
     .bullet:nth-child(even):after {
         left: 0;
         transform: translateX(-395%);
-    }
+    }*/
 }
 
 /* AJUSTES DE TIMELINE PARA RESOLUCIONES MAYORES */
