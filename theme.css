@@ -27,7 +27,7 @@
 }
 @layer components{
     .btn_nav{
-        @apply text-slate-600 text-center self-center font-semibold dark:text-white text-sm relative border-l border-t border-white hover:border-slate-300 hover:dark:border-slate-950 dark:border-slate-600 backdrop-blur hover:backdrop-blur-none shadow-md hover:shadow-inner rounded-full flex justify-center px-4 py-1 dark:hover:text-emerald-300 hover:text-violet-500;
+        @apply text-slate-600 text-center self-center font-semibold dark:text-white text-base md:text-sm relative md:border-l md:border-t border-white hover:border-slate-300 hover:dark:border-slate-950 dark:border-slate-600 backdrop-blur hover:backdrop-blur-none shadow-md hover:shadow-inner rounded-lg md:rounded-full flex justify-center px-4 py-1 dark:hover:text-emerald-300 hover:text-violet-500 mb-4 md:mb-0;
     }
     /*Form*/
         .btnError{ 
@@ -157,7 +157,7 @@ a,p,time,h1,h2,h3,h4,h5,h6 {
         border-image-slice: 1;
     }
 
-    /*.bullet:before {
+    .bullet:before {
         content: "";
         position: absolute;
         width: 18%;
@@ -194,7 +194,7 @@ a,p,time,h1,h2,h3,h4,h5,h6 {
     .bullet:nth-child(even):after {
         left: 0;
         transform: translateX(-395%);
-    }*/
+    }
 }
 
 /* AJUSTES DE TIMELINE PARA RESOLUCIONES MAYORES */

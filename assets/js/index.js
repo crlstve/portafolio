@@ -114,4 +114,26 @@ document.addEventListener('DOMContentLoaded', function () {
         'color: #6ee7b7;', '', 'color: #6ee7b7;', '', 'color: #6ee7b7;', '',
         'color: #6ee7b7;', '', 'color: #6ee7b7;', ''
     );
+
+
+    // Menu
+    const menu = document.querySelector('[data-contoller="menu"]');
+    const navMenu = document.getElementById('nav-menu');
+    const navMenuBtn = Array.from(document.getElementsByClassName('btn_nav'));  // Convertir a array
+
+    menu.addEventListener('click', function (e) {
+        e.preventDefault();
+        navMenu.classList.toggle('hidden');
+    });
+
+    // Ahora puedes usar forEach en el array de botones
+    navMenuBtn.forEach(function (btn) {
+        btn.addEventListener('click', function (e) {
+            //e.preventDefault();
+            navMenu.classList.toggle('hidden');
+        });
+    });
+
+
+
 });
