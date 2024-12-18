@@ -103,10 +103,10 @@ document.addEventListener('DOMContentLoaded', function () {
     updateSubmitButton();
     //mensaje
     console.log(
-        '¡Hola! gracias por tu interés!.\n' +
+        '¡Hola, gracias por tu interés!.\n' +
         'Llevo en el mundo del %cdesarrollo web%c más de %c8 años%c.\n' +
         'Mi especialidad es crear sitios web y aplicaciones web con %cWordpress%c.\n' +
-        'Pero tengo experiencia con otros %clenguajes, frameworks y tecnologías%c web.\n' +
+        'Pero tengo experiencia con otros %clenguajes, frameworks y tecnologías%c.\n' +
         'Si quieres contactarme puedes hacerlo en  el formulario de %ccontacto%c.\n' +
         '¡Muchas gracias!'
         

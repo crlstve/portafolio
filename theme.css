@@ -75,7 +75,7 @@
     overflow: hidden;
     border-right: 0.15em solid orange;
     white-space: nowrap;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.075em;
     animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
 }
 

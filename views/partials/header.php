@@ -53,7 +53,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <li><a aria="menu item" rel="nofollow noreferrer" href="#experiencia" class="btn_nav sound">experiencia</a></li>
                     <li><a aria="menu item" rel="nofollow noreferrer" href="#proyectos" class="btn_nav sound">proyectos</a></li>
                     <li><a aria="menu item" rel="nofollow noreferrer" href="#stack" class="btn_nav sound">stack</a></li>
-                    <li><button id="contact" aria="menu item" aria-label="Contacto" class="btn_nav sound w-full md:w-fit">contacto</a></button>
+                    <li><button id="contact" aria="menu item" aria-label="Contacto" class="btn_nav sound w-full md:w-fit">contacto</button></a>
                     <li class="flex justify-end md:justify-center">
                         <button id="btn_mode" aria="menu item" aria-label="Modo oscuro" class="sound group p-2 rounded-lg md:rounded-full aspect-square bg-transparent relative border-l border-t border-white hover:border-slate-300 hover:dark:border-slate-950 dark:border-slate-600 backdrop-blur hover:backdrop-blur-none shadow-md hover:shadow-inner overflow-hidden" onclick="toggleDarkMode();">
                             <svg class="fill-slate-600 group-hover:fill-violet-500 dark:fill-white group-hover:dark:fill-emerald-300 dark:translate-y-0 group-hover:dark:-translate-y-8 duration-500 -translate-y-8 group-hover:-translate-y-0 group-hover:dark" version="1.1" id="moon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="20px" viewBox="0 0 30.457 30.457" xml:space="preserve">
