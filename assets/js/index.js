@@ -103,10 +103,10 @@ document.addEventListener('DOMContentLoaded', function () {
     updateSubmitButton();
     //mensaje
     console.log(
-        '¡Hola! gracias por tu interés!.\n' +
+        '¡Hola, gracias por tu interés!.\n' +
         'Llevo en el mundo del %cdesarrollo web%c más de %c8 años%c.\n' +
         'Mi especialidad es crear sitios web y aplicaciones web con %cWordpress%c.\n' +
-        'Pero tengo experiencia con otros %clenguajes, frameworks y tecnologías%c web.\n' +
+        'Pero tengo experiencia con otros %clenguajes, frameworks y tecnologías%c.\n' +
         'Si quieres contactarme puedes hacerlo en  el formulario de %ccontacto%c.\n' +
         '¡Muchas gracias!'
         
@@ -114,4 +114,26 @@ document.addEventListener('DOMContentLoaded', function () {
         'color: #6ee7b7;', '', 'color: #6ee7b7;', '', 'color: #6ee7b7;', '',
         'color: #6ee7b7;', '', 'color: #6ee7b7;', ''
     );
+
+
+    // Menu
+    const menu = document.querySelector('[data-contoller="menu"]');
+    const navMenu = document.getElementById('nav-menu');
+    const navMenuBtn = Array.from(document.getElementsByClassName('btn_nav'));  // Convertir a array
+
+    menu.addEventListener('click', function (e) {
+        e.preventDefault();
+        navMenu.classList.toggle('hidden');
+    });
+
+    // Ahora puedes usar forEach en el array de botones
+    navMenuBtn.forEach(function (btn) {
+        btn.addEventListener('click', function (e) {
+            //e.preventDefault();
+            navMenu.classList.toggle('hidden');
+        });
+    });
+
+
+
 });
