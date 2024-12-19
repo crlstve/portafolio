@@ -17,7 +17,7 @@
     <meta property="og:url" content="https://carlesteve.dev/" />
     <meta property="og:site_name" content="carles esteve" />
     <meta property="article:modified_time" content="2024-07-23T11:29:13+00:00" />
-    <meta property="og:image" content="./assets/images/og-cesteve.jpg" />
+    <meta property="og:image" content="https://carlesteve.dev/assets/images/og-cesteve.jpg" />
     <meta property="og:image:width" content="617" />
     <meta property="og:image:height" content="400" />
     <meta property="og:image:type" content="image/png" />
