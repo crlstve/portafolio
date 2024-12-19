@@ -30,13 +30,6 @@
     <script defer type="module" src="./assets/js/space.js"></script>
     <script defer type="module" src="./assets/js/splide.min.js"></script>
     <script defer type="module" src="./assets/js/splide-extension-auto-scroll.min.js"></script>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-NQ3W6XTC');</script>
-    <!-- End Google Tag Manager -->
 </head>
 <body id="fireworks" class="min-h-dvh bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-slate-50 via-slate-100  to-gray-50 dark:bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] dark:from-[#282a2d] dark:via-[#101114] dark:to-black scroll-smooth duration-500 crt">
 <!-- Google Tag Manager (noscript) -->

@@ -10,14 +10,14 @@
         font-weight: 100 900;
         font-style: normal;
         font-display: swap;
-        src: url(../fonts/SourceCodePro.ttf) format("truetype"),
+        src: url(../fonts/SourceCodePro.woff2) format("truetype"),
     }
     @font-face {
         font-family: 'Jersey';
         font-weight: 100 900;
         font-style: normal;
         font-display: swap;
-        src: url(../fonts/Jersey10.ttf) format("truetype"),
+        src: url(../fonts/Jersey10.woff2) format("truetype"),
     }
 
     html {
