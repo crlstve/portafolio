@@ -12,7 +12,7 @@
     <link rel="icon" type="image/x-icon" href="./assets/images/favicon.svg">
     <meta property="og:locale" content="es_ES" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Portafolio Carles Esteve" />
+    <meta property="og:title" content="Carles Esteve | Full Stack Web Developer" />
     <meta property="og:description" content="Portafolio de Carles Esteve, desarrollador web full stack. Especializado en la creación de sitios web y aplicaciones web con wordpress." />
     <meta property="og:url" content="https://carlesteve.dev/" />
     <meta property="og:site_name" content="carles esteve" />
