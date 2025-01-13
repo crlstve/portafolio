@@ -12,12 +12,12 @@
     <link rel="icon" type="image/x-icon" href="./assets/images/favicon.svg">
     <meta property="og:locale" content="es_ES" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Portafolio Carles Esteve" />
+    <meta property="og:title" content="Carles Esteve | Full Stack Web Developer" />
     <meta property="og:description" content="Portafolio de Carles Esteve, desarrollador web full stack. Especializado en la creación de sitios web y aplicaciones web con wordpress." />
     <meta property="og:url" content="https://carlesteve.dev/" />
     <meta property="og:site_name" content="carles esteve" />
     <meta property="article:modified_time" content="2024-07-23T11:29:13+00:00" />
-    <meta property="og:image" content="" />
+    <meta property="og:image" content="https://carlesteve.dev/assets/images/og-cesteve.jpg" />
     <meta property="og:image:width" content="617" />
     <meta property="og:image:height" content="400" />
     <meta property="og:image:type" content="image/png" />
@@ -30,13 +30,6 @@
     <script defer type="module" src="./assets/js/space.js"></script>
     <script defer type="module" src="./assets/js/splide.min.js"></script>
     <script defer type="module" src="./assets/js/splide-extension-auto-scroll.min.js"></script>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-NQ3W6XTC');</script>
-    <!-- End Google Tag Manager -->
 </head>
 <body id="fireworks" class="min-h-dvh bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-slate-50 via-slate-100  to-gray-50 dark:bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] dark:from-[#282a2d] dark:via-[#101114] dark:to-black scroll-smooth duration-500 crt">
 <!-- Google Tag Manager (noscript) -->
