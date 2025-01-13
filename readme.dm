@@ -1,5 +1,5 @@
 # Carles Esteve
-¡Hola! Este es el proyecto de mi portafolio personal. Lo puedes ver en **https://carlesteve.dev**.
+¡Hola! Este es el proyecto de mi portafolio personal. Lo puedes ver en https://carlesteve.dev.
 Se trata de una página web sencilla con varias partes para poner la información profesional, proyectos, un formulario de contacto y una zona con iconos para el stack.
 Visualmente es minimalista, lo que ayuda a destacar el contenido.
 
