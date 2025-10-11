@@ -9,6 +9,9 @@ controllers/email.php
 controllers/key.php
 controllers/config.php
 controllers/email.php
+controllers/recaptcha.php
+controllers/validate.php
+config/recaptcha.php
 composer.json
 composer.lock
 package.json
