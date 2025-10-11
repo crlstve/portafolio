@@ -1,3 +1,14 @@
+// Callback global para reCAPTCHA
+window.recaptchaCallback = function() {
+    console.log('reCAPTCHA cargado correctamente');
+};
+
+window.recaptchaExpiredCallback = function() {
+    console.log('reCAPTCHA expirado');
+    document.getElementById('recaptcha-error').textContent = 'La verificación reCAPTCHA ha expirado. Por favor, verifica nuevamente.';
+    document.getElementById('recaptcha-error').classList.remove('hidden');
+};
+
 //Con el Dom cargado
 document.addEventListener('DOMContentLoaded', function () {
 //smooth scroll
@@ -54,6 +65,12 @@ document.addEventListener('DOMContentLoaded', function () {
     function checkAllFields() {
         return Array.from(inputs).every(input => input.value.trim() !== '');
     }
+    
+    // Función para verificar reCAPTCHA
+    function checkRecaptcha() {
+        return typeof grecaptcha !== 'undefined' && grecaptcha.getResponse().length > 0;
+    }
+    
     // Función para actualizar el estado del botón de envío
     function updateSubmitButton() {
         if (checkAllFields()) {
@@ -73,32 +90,69 @@ document.addEventListener('DOMContentLoaded', function () {
     // Evento submit del formulario
     form.addEventListener('submit', function (e) {
         e.preventDefault();
-        if (checkAllFields()) {
-            const result = document.getElementById('success');
-            const form = document.querySelector('form'); // Cambia el selector según sea necesario
-            form.classList.add('hidden');
-            result.classList.remove('hidden');
-
-            // Recoger los datos del formulario y crear un objeto
-            var data = {
-                nombre: form.querySelector('[name="name"]').value,
-                email: form.querySelector('[name="email"]').value,
-                phone: form.querySelector('[name="phone"]').value,                
-                subject: form.querySelector('[name="subject"]').value,
-                message: form.querySelector('[name="message"]').value
-            };
-            
-            // Crear un objeto XMLHttpRequest
-            var xhr = new XMLHttpRequest();
-            xhr.open('POST', './controllers/contact.php', true);
-            console.log(data);
-            // Configurar el encabezado para indicar que el cuerpo de la petición es JSON
-            xhr.setRequestHeader('Content-Type', 'application/json');
-            // Enviar los datos como JSON
-            xhr.send(JSON.stringify(data));
-
+        
+        // Ocultar mensajes de error previos
+        document.getElementById('error').classList.add('hidden');
+        document.getElementById('recaptcha-error').classList.add('hidden');
+        
+        if (!checkAllFields()) {
+            document.getElementById('error').classList.remove('hidden');
+            return;
         }
+        
+        if (!checkRecaptcha()) {
+            document.getElementById('recaptcha-error').classList.remove('hidden');
+            return;
+        }
+        
+        const result = document.getElementById('success');
+        const form = document.querySelector('form');
+        form.classList.add('hidden');
+        result.classList.remove('hidden');
+
+        // Recoger los datos del formulario y crear un objeto
+        var data = {
+            nombre: form.querySelector('[name="name"]').value,
+            email: form.querySelector('[name="email"]').value,
+            phone: form.querySelector('[name="phone"]').value,                
+            subject: form.querySelector('[name="subject"]').value,
+            message: form.querySelector('[name="message"]').value,
+            'g-recaptcha-response': grecaptcha.getResponse()
+        };
+        
+        // Crear un objeto XMLHttpRequest
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', './controllers/contact.php', true);
+        console.log(data);
+        // Configurar el encabezado para indicar que el cuerpo de la petición es JSON
+        xhr.setRequestHeader('Content-Type', 'application/json');
+        
+        // Manejar la respuesta
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState === 4) {
+                if (xhr.status === 200) {
+                    try {
+                        const response = JSON.parse(xhr.responseText);
+                        if (response.status === 'error') {
+                            // Mostrar error y restaurar el formulario
+                            form.classList.remove('hidden');
+                            result.classList.add('hidden');
+                            document.getElementById('error').textContent = response.message;
+                            document.getElementById('error').classList.remove('hidden');
+                            // Reset reCAPTCHA
+                            grecaptcha.reset();
+                        }
+                    } catch (e) {
+                        console.error('Error parsing response:', e);
+                    }
+                }
+            }
+        };
+        
+        // Enviar los datos como JSON
+        xhr.send(JSON.stringify(data));
     });
+    
     // Actualizar el estado inicial del botón
     updateSubmitButton();
     //mensaje

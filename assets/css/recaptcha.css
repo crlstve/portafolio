@@ -1,0 +1,24 @@
+/* Estilos personalizados para Google reCAPTCHA */
+.g-recaptcha {
+    transform: scale(0.9);
+    transform-origin: center;
+    margin: 10px 0;
+}
+
+/* Responsive para dispositivos móviles */
+@media (max-width: 480px) {
+    .g-recaptcha {
+        transform: scale(0.8);
+    }
+}
+
+/* Tema oscuro - personalización del iframe de reCAPTCHA */
+.dark .g-recaptcha iframe {
+    filter: invert(1) hue-rotate(180deg);
+    border-radius: 4px;
+}
+
+/* Ajustar el iframe interno cuando se aplica el filtro */
+.dark .g-recaptcha iframe > div {
+    filter: invert(1) hue-rotate(180deg);
+}
