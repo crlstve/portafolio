@@ -5,9 +5,9 @@
             
                 <li class="bullet card after:top-0 before:top-0 snap-always md:mt-6 fadeInUp visible">
                     <header>
-                        <h3 class="text-4xl font-title font-bold dark:text-emerald-300 text-violet-500 leading-4 mb-1">founderz</h3>
-                        <time class="text-sm" datetime="22/04/24">22-04-24 | 30-09-2024</time>
-                        <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Founderz" href="https://founderz.com/" class="link">
+                        <h3 class="text-4xl font-title font-bold dark:text-emerald-300 text-violet-500 leading-4 mb-1">Cámara Valencia</h3>
+                        <time class="text-sm" datetime="01/04/25">01-04-25 | act</time>
+                        <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Cámara Valencia" href="https://www.camaravalencia.com/" class="link">
                             <?= Functions::svg(); ?>
                         </a>
                     </header>
@@ -20,9 +20,9 @@
 
                 <li class="bullet card after:top-20 before:top-20 md:mt-24 fadeInUp visible">
                     <header>
-                        <h3 class="text-4xl font-title font-bold dark:text-emerald-300 text-violet-500 leading-4 mb-1">sesame hr</h3>
-                        <time class="text-sm" datetime="11/06/22">11-06-22 | 22-04-24</time>
-                        <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Sesame HR" href="https://www.sesamehr.es/" class="link">
+                        <h3 class="text-4xl font-title font-bold dark:text-emerald-300 text-violet-500 leading-4 mb-1">Idital</h3>
+                        <time class="text-sm" datetime="11/06/22">01-10-24 | 01-04-25</time>
+                        <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Idital" href="https://www.idital.com/" class="link">
                             <?= Functions::svg(); ?>
                         </a>
                     </header>
