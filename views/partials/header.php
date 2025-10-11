@@ -25,6 +25,9 @@
     <link rel="stylesheet" href="./assets/css/theme.css" type="text/css">
     <!--<link rel="stylesheet" href="./assets/css/style.css" type="text/css">-->
     <link rel="stylesheet" href="./assets/css/splide.min.css" type="text/css">
+    <link rel="stylesheet" href="./assets/css/recaptcha.css" type="text/css">
+    <!-- Google reCAPTCHA -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script defer src="./assets/js/dark-mode.js"></script>
     <script defer type="module" src="./assets/js/index.js"></script>
     <script defer type="module" src="./assets/js/space.js"></script>

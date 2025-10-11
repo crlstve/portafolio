@@ -7,9 +7,16 @@
             <input type="tel" name="phone" id="phone" placeholder="teléfono" pattern="[0-9]+" required>
             <input type="text" name="subject" id="subject" placeholder="asunto" required>
             <textarea name="message" id="message" placeholder="mensaje" required></textarea>
+            <!-- Google reCAPTCHA -->
+            <?php 
+                require_once(__DIR__ . '/../../controllers/recaptcha_helper.php');
+                $siteKey = getRecaptchaSiteKey();
+            ?>
+            <div class="g-recaptcha mx-auto" data-sitekey="<?php echo htmlspecialchars($siteKey); ?>"></div>
             <input type="submit" name="submit" value="submit" class="btnError font-bold">
         </form>
         <p id="error" class="hidden dark:text-white text-center">Por favor, completa todos los campos.</p>
+        <p id="recaptcha-error" class="hidden dark:text-white text-center text-red-500">Por favor, verifica que no eres un robot.</p>
         <p id="success" class="hidden dark:text-white text-center">Gracias por contactarme,<br>te responderé lo más pronto posible.</p>
     </div>
 </div>
