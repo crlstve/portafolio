@@ -1,18 +1,27 @@
-node_modules
-.htaccess
-mj.php
-dns.txt
-vendor
-contact.php
+# Dependencies
+node_modules/
+vendor/
+
+# Composer
 composer.lock
+
+# Configuration files with sensitive data
+config/recaptcha.php
+
+# Temporary files
+.htaccess
+dns.txt
+
+# Archive/old files
+mj.php
 controllers/email.php
 controllers/key.php
 controllers/config.php
-controllers/email.php
 controllers/recaptcha.php
 controllers/validate.php
-config/recaptcha.php
-composer.json
-composer.lock
-package.json
+
+# Lock files
 package-lock.json
+
+# Debug files (should be removed in production)
+debug_recaptcha.php
