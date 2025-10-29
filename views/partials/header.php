@@ -33,6 +33,15 @@
     <script defer type="module" src="./assets/js/space.js"></script>
     <script defer type="module" src="./assets/js/splide.min.js"></script>
     <script defer type="module" src="./assets/js/splide-extension-auto-scroll.min.js"></script>
+    <script src="https://www.google.com/recaptcha/enterprise.js?render=6LchZOYrAAAAANd45lDNB77QKVI5WaMgcd0HvS0o"></script>
+    <script>
+  function onClick(e) {
+    e.preventDefault();
+    grecaptcha.enterprise.ready(async () => {
+      const token = await grecaptcha.enterprise.execute('6LchZOYrAAAAANd45lDNB77QKVI5WaMgcd0HvS0o', {action: 'SUBMIT'});
+    });
+  }
+</script>
 </head>
 <body id="fireworks" class="min-h-dvh bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-slate-50 via-slate-100  to-gray-50 dark:bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] dark:from-[#282a2d] dark:via-[#101114] dark:to-black scroll-smooth duration-500 crt">
 <!-- Google Tag Manager (noscript) -->

@@ -13,7 +13,7 @@
                     </header>
                     <article>
                         <p class="text-base">
-                            Desarrollo web con <b>Wordpress</b> y <b>Laravel</b>. Liderar la modernización y rebranding completo de la web, programación de <b>bloques de Gutenberg</b>, <b>templates</b> y <b>plugins</b> para Wordpress. Desarrollo de <b>APIS REST</b>.
+                            Actualización y mantenimiento de la web corporativa de la empresa. Desarrollo de nuevas funcionalidades y mejoras en la experiencia de usuario. Programación con <b>Wordpress</b> y <b>Laravel</b>. Desarrollo de <b>APIS REST</b>.
                         </p>
                     </article>
                 </li>
@@ -28,7 +28,7 @@
                     </header>
                     <article>
                         <p class="text-base">
-                            Creación y mantenimiento de las distintas webs de la empresa. Desarrollo de la actualización y optimización de la web a nivel SEO y CRO de estas. Programación de <b>plugins</b>, <b>temas</b>, <b>bloques</b> y <b>APIS</b> para Wordpress. Desarrollo de landing pages para Hubspot con <b>Hubl</b>.
+                            Desarrollo de webs y aplicaciones a medida para clientes de la empresa. Programación con <b>Laravel</b>, <b>Wordpress</b> y <b>Vue.js</b>. Desarrollo de <b>APIS REST</b> y <b>APIS GraphQL</b>. Integración con <b>APIS de terceros</b>.
                         </p>
                     </article>
                 </li>
@@ -78,7 +78,7 @@
                     </article>
                 </li>
 
-0                <li class="bullet card after:top-10 before:top-10 snap-always fadeInUp">
+                <li class="bullet card after:top-10 before:top-10 snap-always fadeInUp">
                     <header>
                         <h3 class="text-4xl font-title font-bold dark:text-emerald-300 text-violet-500 leading-4 mb-1">availand</h3>
                         <time class="text-sm" datetime="22/04/24">04-05-2019 | 03-06-2020</time>
