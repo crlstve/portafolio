@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@custom-variant dark (&:where([data-theme=light], [data-theme=dark] *));
 
 @theme {
     --breakpoint-sm: 37.5rem;
@@ -24,7 +23,7 @@
 }
 
     html {
-        @apply text-slate-600 dark:text-white;
+        @apply text-slate-600 dark:text-white dark:bg-slate-900;
     }
 
 h1,h1 > span,h2,h3,h4,h5,h6,a,button {
