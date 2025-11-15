@@ -1,10 +1,10 @@
-    <section id="experiencia" class="container mx-auto mb-6 lg:py-12 flex flex-col">
-        <h2 data-text="experiencia" class="w-fit mx-auto font-title p-6 text-3xl md:text-4xl text-center font-bold leading-4 mb-6">experiencia</h2>
+    <section id="experiencia" class="max-w-6xl mx-auto mb-6 lg:py-12 flex flex-col">
+        <h2 data-text="experiencia" class="w-fit mx-auto font-title p-6 text-3xl md:text-4xl text-center font-bold leading-6 mb-6">experiencia</h2>
         <div class="grid grid-cols-1 md:grid-cols-12 snap-y snap-mandatory ">
             <ul class="md:col-span-5 flex flex-col gap-5">
-                <li class="snap-always card md:mt-6 fadeInUp visible">
+                <li class="snap-always card fadeInUp visible">
                     <header>
-                        <h3 class="text-4xl font-title font-bold leading-4 mb-1">Cámara Valencia</h3>
+                        <h3 class="text-4xl font-title font-bold leading-6 mb-1">Cámara Valencia</h3>
                         <time class="text-sm" datetime="01/04/25">01-04-25 | act</time>
                         <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Cámara Valencia" href="https://www.camaravalencia.com/" class="link">
                             <?= Functions::svg(); ?>
@@ -18,7 +18,7 @@
                 </li>
                 <li class="card snap-always fadeInUp">
                     <header>
-                        <h3 class="text-4xl font-title font-bold leading-4 mb-1">founderz</h3>
+                        <h3 class="text-4xl font-title font-bold leading-6 mb-1">founderz</h3>
                         <time class="text-sm" datetime="22/04/24">22-04-24 | 30-09-24</time>
                         <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Founderz" href="https://founderz.com/" class="link">
                             <?= Functions::svg(); ?>
@@ -32,7 +32,7 @@
                 </li>
                 <li class="card fadeInUp">
                     <header>
-                        <h3 class="text-4xl font-title font-bold leading-4 mb-1">arte regal</h3>
+                        <h3 class="text-4xl font-title font-bold leading-6 mb-1">arte regal</h3>
                         <time class="text-sm" datetime="04/10/20">04-10-2020 | 10-06-2022</time>
                         <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Arte Regal Import" href="https://www.arteregal.com/" class="link">
                             <?= Functions::svg(); ?>
@@ -46,7 +46,7 @@
                 </li>
                 <li class="card fadeInUp">
                     <header>
-                        <h3 class="text-4xl font-title font-bold leading-4 mb-1">tv begin</h3>
+                        <h3 class="text-4xl font-title font-bold leading-6 mb-1">tv begin</h3>
                         <time class="text-sm" datetime="22/04/24">04-09-2017 | 04-05-2019</time>
                         <a rel="nofollow noopener noreferrer" target="" aria-label="Visita la web de Tv Begin" href="https://tvbgn.com/" class="link">
                             <?= Functions::svg(); ?>
@@ -60,14 +60,14 @@
                 </li>
             </ul>
 
-            <div clas="md:col-span-2">
+            <div class="md:col-span-2 h-full border-x border-x-(--pattern-fg) bg-[image:repeating-linear-gradient(315deg,_var(--pattern-fg)_0,_var(--pattern-fg)_1px,_transparent_0,_transparent_50%)] bg-[size:10px_10px] bg-fixed [--pattern-fg:var(--color-black)]/5 md:block mx-3">
             </div>
 
-            <ul class="md:col-span-5 md:col-start-7 flex flex-col gap-5">
+            <ul class="md:col-span-5 md:col-start-8 flex flex-col gap-5 md:mt-10">
             
-                <li class="card fadeInUp visible">
+                <li class="card fadeInUp visible ">
                     <header>
-                        <h3 class="text-4xl font-title font-bold leading-4 mb-1">Idital</h3>
+                        <h3 class="text-4xl font-title font-bold leading-6 mb-1">Idital</h3>
                         <time class="text-sm" datetime="11/06/22">01-10-24 | 01-04-25</time>
                         <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Idital" href="https://www.idital.com/" class="link">
                             <?= Functions::svg(); ?>
@@ -82,7 +82,7 @@
 
                 <li class="card fadeInUp">
                     <header>
-                        <h3 class="text-4xl font-title font-bold leading-4 mb-1">sesame hr</h3>
+                        <h3 class="text-4xl font-title font-bold leading-6 mb-1">sesame hr</h3>
                         <time class="text-sm" datetime="11/06/22">11-06-2022 | 22-04-2024</time>
                         <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Sesame HR" href="https://www.sesamehr.es/" class="link">
                             <?= Functions::svg(); ?>
@@ -97,7 +97,7 @@
 
                 <li class="card snap-always fadeInUp">
                     <header>
-                        <h3 class="text-4xl font-title font-bold leading-4 mb-1">availand</h3>
+                        <h3 class="text-4xl font-title font-bold leading-6 mb-1">availand</h3>
                         <time class="text-sm" datetime="22/04/24">04-05-2019 | 03-06-2020</time>
                         <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Availand" href="https://availand.com/" class="link">
                             <?= Functions::svg(); ?>
@@ -112,7 +112,7 @@
 
                 <li class="card snap-always fadeInUp">
                     <header>
-                        <h3 class="text-4xl font-title font-bold leading-4 mb-1">galaxa cosmetics</h3>
+                        <h3 class="text-4xl font-title font-bold leading-6 mb-1">galaxa cosmetics</h3>
                         <time class="text-sm" datetime="22/04/24">13-04-2016 | 10-06-2017</time>
                         <a rel="nofollow noopener noreferrer" target="" aria-label="Visita la web de Galaxa Cosmetics" href="https://productos-peluqueria-online.es/" class="link"> <?= Functions::svg(); ?>
                         </a>
