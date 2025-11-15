@@ -1,5 +1,5 @@
     <section id="stack" class="container mx-auto my-12 lg:my-24 flex flex-col">
-        <h2 class="font-title text-3xl md:text-4xl text-center font-bold dark:text-emerald-300 text-violet-500 leading-4 p-6 mb-6">stack</h2>
+        <h2 class="font-title text-3xl md:text-4xl text-center font-bold leading-4 p-6 mb-6">stack</h2>
         <div class="splide relative" aria-label="Proyectos Slider">
             <div class="splide__track backdrop-blur-sm rounded-full shadow-md shadow-slate-950/20 border-l border-t border-white dark:border-slate-600 dark:bg-[rgba(0,0,0,0.1)] bg-[rgba(255,255,255,0.1)] py-3">
                 <ul class="splide__list">
