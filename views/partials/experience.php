@@ -1,11 +1,10 @@
     <section id="experiencia" class="container mx-auto mb-6 lg:py-12 flex flex-col">
-        <h2 data-text="experiencia" class="w-fit mx-auto font-title p-6 text-3xl md:text-4xl text-center font-bold dark:text-emerald-300 text-violet-500 leading-4 mb-6">experiencia</h2>
-        <div class="flex snap-y snap-mandatory">
-            <ul class="timeline relative w-full flex flex-wrap gap-y-6 md:gap-y-12 justify-between">
-            
-                <li class="bullet card after:top-0 before:top-0 snap-always md:mt-6 fadeInUp visible">
+        <h2 data-text="experiencia" class="w-fit mx-auto font-title p-6 text-3xl md:text-4xl text-center font-bold leading-4 mb-6">experiencia</h2>
+        <div class="grid grid-cols-1 md:grid-cols-12 snap-y snap-mandatory ">
+            <ul class="md:col-span-5 flex flex-col gap-5">
+                <li class="snap-always card md:mt-6 fadeInUp visible">
                     <header>
-                        <h3 class="text-4xl font-title font-bold dark:text-emerald-300 text-violet-500 leading-4 mb-1">Cámara Valencia</h3>
+                        <h3 class="text-4xl font-title font-bold leading-4 mb-1">Cámara Valencia</h3>
                         <time class="text-sm" datetime="01/04/25">01-04-25 | act</time>
                         <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Cámara Valencia" href="https://www.camaravalencia.com/" class="link">
                             <?= Functions::svg(); ?>
@@ -17,10 +16,58 @@
                         </p>
                     </article>
                 </li>
-
-                <li class="bullet card after:top-20 before:top-20 md:mt-24 fadeInUp visible">
+                <li class="card snap-always fadeInUp">
                     <header>
-                        <h3 class="text-4xl font-title font-bold dark:text-emerald-300 text-violet-500 leading-4 mb-1">Idital</h3>
+                        <h3 class="text-4xl font-title font-bold leading-4 mb-1">founderz</h3>
+                        <time class="text-sm" datetime="22/04/24">22-04-24 | 30-09-24</time>
+                        <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Founderz" href="https://founderz.com/" class="link">
+                            <?= Functions::svg(); ?>
+                        </a>
+                    </header>
+                    <article>
+                        <p class="text-base">
+                            Desarrollo web con <b>Wordpress</b> y <b>Laravel</b>. Liderar la modernización y rebranding completo de la web, programación de <b>bloques de Gutenberg</b>, <b>templates</b> y <b>plugins</b> para Wordpress. Desarrollo de <b>APIS REST</b>.
+                        </p>
+                    </article>
+                </li>
+                <li class="card fadeInUp">
+                    <header>
+                        <h3 class="text-4xl font-title font-bold leading-4 mb-1">arte regal</h3>
+                        <time class="text-sm" datetime="04/10/20">04-10-2020 | 10-06-2022</time>
+                        <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Arte Regal Import" href="https://www.arteregal.com/" class="link">
+                            <?= Functions::svg(); ?>
+                        </a>
+                    </header>
+                    <article>
+                        <p class="text-base">
+                            Mantenimiento y actualización de la ecommerce de la empresa hecha con <b>Codeigniter</b>. Desarrollo de otras webs y ecommerce hechas con <b>Wordpress</b>. Desarrollo de <b>APIS</b>, <b>bloques</b>, <b>temas</b> y <b>plugins</b> para <b>Wordpress</b>.
+                        </p>
+                    </article>
+                </li>
+                <li class="card fadeInUp">
+                    <header>
+                        <h3 class="text-4xl font-title font-bold leading-4 mb-1">tv begin</h3>
+                        <time class="text-sm" datetime="22/04/24">04-09-2017 | 04-05-2019</time>
+                        <a rel="nofollow noopener noreferrer" target="" aria-label="Visita la web de Tv Begin" href="https://tvbgn.com/" class="link">
+                            <?= Functions::svg(); ?>
+                        </a>
+                    </header>
+                    <article>
+                        <p class="text-base">
+                            Creación y mantenmiento de webs para distintos clientes hechas con Wordpress. Creación de <b>APIS</b>, <b>bloques</b>, <b>plugins</b>, <b>temas</b> y <b>módulos</b> para resolver las necesidades de las emrpesas.
+                        </p>
+                    </article>
+                </li>
+            </ul>
+
+            <div clas="md:col-span-2">
+            </div>
+
+            <ul class="md:col-span-5 md:col-start-7 flex flex-col gap-5">
+            
+                <li class="card fadeInUp visible">
+                    <header>
+                        <h3 class="text-4xl font-title font-bold leading-4 mb-1">Idital</h3>
                         <time class="text-sm" datetime="11/06/22">01-10-24 | 01-04-25</time>
                         <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Idital" href="https://www.idital.com/" class="link">
                             <?= Functions::svg(); ?>
@@ -33,24 +80,9 @@
                     </article>
                 </li>
 
-                <li class="bullet card after:top-10 before:top-10 snap-always md:-mt-24 fadeInUp">
+                <li class="card fadeInUp">
                     <header>
-                        <h3 class="text-4xl font-title font-bold dark:text-emerald-300 text-violet-500 leading-4 mb-1">founderz</h3>
-                        <time class="text-sm" datetime="22/04/24">22-04-24 | 30-09-24</time>
-                        <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Founderz" href="https://founderz.com/" class="link">
-                            <?= Functions::svg(); ?>
-                        </a>
-                    </header>
-                    <article>
-                        <p class="text-base">
-                            Desarrollo web con <b>Wordpress</b> y <b>Laravel</b>. Liderar la modernización y rebranding completo de la web, programación de <b>bloques de Gutenberg</b>, <b>templates</b> y <b>plugins</b> para Wordpress. Desarrollo de <b>APIS REST</b>.
-                        </p>
-                    </article>
-                </li>
-
-                <li class="bullet card after:top-20 before:top-20 fadeInUp">
-                    <header>
-                        <h3 class="text-4xl font-title font-bold dark:text-emerald-300 text-violet-500 leading-4 mb-1">sesame hr</h3>
+                        <h3 class="text-4xl font-title font-bold leading-4 mb-1">sesame hr</h3>
                         <time class="text-sm" datetime="11/06/22">11-06-2022 | 22-04-2024</time>
                         <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Sesame HR" href="https://www.sesamehr.es/" class="link">
                             <?= Functions::svg(); ?>
@@ -63,24 +95,9 @@
                     </article>
                 </li>
 
-                <li class="bullet card after:top-0 before:top-0 md:-mt-24 fadeInUp">
+                <li class="card snap-always fadeInUp">
                     <header>
-                        <h3 class="text-4xl font-title font-bold dark:text-emerald-300 text-violet-500 leading-4 mb-1">arte regal</h3>
-                        <time class="text-sm" datetime="04/10/20">04-10-2020 | 10-06-2022</time>
-                        <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Arte Regal Import" href="https://www.arteregal.com/" class="link">
-                            <?= Functions::svg(); ?>
-                        </a>
-                    </header>
-                    <article>
-                        <p class="text-base">
-                            Mantenimiento y actualización de la ecommerce de la empresa hecha con <b>Codeigniter</b>. Desarrollo de otras webs y ecommerce hechas con <b>Wordpress</b>. Desarrollo de <b>APIS</b>, <b>bloques</b>, <b>temas</b> y <b>plugins</b> para <b>Wordpress</b>.
-                        </p>
-                    </article>
-                </li>
-
-                <li class="bullet card after:top-10 before:top-10 snap-always fadeInUp">
-                    <header>
-                        <h3 class="text-4xl font-title font-bold dark:text-emerald-300 text-violet-500 leading-4 mb-1">availand</h3>
+                        <h3 class="text-4xl font-title font-bold leading-4 mb-1">availand</h3>
                         <time class="text-sm" datetime="22/04/24">04-05-2019 | 03-06-2020</time>
                         <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Availand" href="https://availand.com/" class="link">
                             <?= Functions::svg(); ?>
@@ -93,24 +110,9 @@
                     </article>
                 </li>
 
-                <li class="bullet card after:top-0 before:top-0 md:-mt-16 fadeInUp">
+                <li class="card snap-always fadeInUp">
                     <header>
-                        <h3 class="text-4xl font-title font-bold dark:text-emerald-300 text-violet-500 leading-4 mb-1">tv begin</h3>
-                        <time class="text-sm" datetime="22/04/24">04-09-2017 | 04-05-2019</time>
-                        <a rel="nofollow noopener noreferrer" target="" aria-label="Visita la web de Tv Begin" href="https://tvbgn.com/" class="link">
-                            <?= Functions::svg(); ?>
-                        </a>
-                    </header>
-                    <article>
-                        <p class="text-base">
-                            Creación y mantenmiento de webs para distintos clientes hechas con Wordpress. Creación de <b>APIS</b>, <b>bloques</b>, <b>plugins</b>, <b>temas</b> y <b>módulos</b> para resolver las necesidades de las emrpesas.
-                        </p>
-                    </article>
-                </li>
-
-                <li class="bullet card after:top-10 before:top-10 snap-always fadeInUp">
-                    <header>
-                        <h3 class="text-4xl font-title font-bold dark:text-emerald-300 text-violet-500 leading-4 mb-1">galaxa cosmetics</h3>
+                        <h3 class="text-4xl font-title font-bold leading-4 mb-1">galaxa cosmetics</h3>
                         <time class="text-sm" datetime="22/04/24">13-04-2016 | 10-06-2017</time>
                         <a rel="nofollow noopener noreferrer" target="" aria-label="Visita la web de Galaxa Cosmetics" href="https://productos-peluqueria-online.es/" class="link"> <?= Functions::svg(); ?>
                         </a>
