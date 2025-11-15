@@ -1,7 +1,7 @@
     <section id="inicio" class="container mx-auto my-12 lg:mt-24 lg:mb-12 flex flex-col-reverse lg:flex-row gap-10 lg:gap-28 justify-center">
         <div class="w-fit flex flex-col gap-3 self-center">
             <header class="w-fit mx-auto">
-                <h1 class="text-xl font-semibold dark:text-white leading-3 flex flex-col">carles esteve albiach<span data-text="full stack web developer" class="text-4xl md:text-5xl font-title dark:text-emerald-300 text-violet-500 ">full stack web developer<span>
+                <h1 class="text-xl font-semibold dark:text-white leading-3 flex flex-col">carles esteve albiach<span data-text="full stack web developer" class="text-4xl md:text-5xl font-title">full stack web developer<span>
                 </h1>
                 <div class="typewriter w-fit">
                     <p class="text-base dark:text-white">+8 años en el mundo del desarrollo web</p>
