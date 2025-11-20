@@ -1,5 +1,5 @@
 @import "tailwindcss";
-
+@custom-variant dark (&:where(.dark, .dark *));
 @theme {
     --breakpoint-sm: 37.5rem;
     --breakpoint-md: 45.5rem;
@@ -23,7 +23,7 @@
 }
 
     html {
-        @apply text-slate-600 dark:text-white dark:bg-slate-900;
+        @apply text-slate-600 dark:text-white dark:bg-slate-950;
     }
 
 h1,h1 > span,h2,h3,h4,h5,h6,a,button {
@@ -33,7 +33,6 @@ h1,h1 > span,h2,h3,h4,h5,h6,a,button {
 p,span,label,li,td,th {
   font-family: code, monospace;
 }
-
 
     .btn_nav{
         @apply text-slate-600 text-center self-center font-semibold dark:text-white text-base md:text-sm relative md:border-l md:border-t border-white hover:border-slate-300 hover:dark:border-slate-950 dark:border-slate-600 backdrop-blur hover:backdrop-blur-none flex justify-center px-4 py-1 dark:hover:text-emerald-300 hover:text-lime-500 mb-4 md:mb-0;
@@ -58,8 +57,15 @@ p,span,label,li,td,th {
             @apply w-fit h-fit opacity-60 hover:opacity-100 duration-500 absolute top-7 right-7 hover:rotate-45;
         }
         .card{
-        @apply relative w-full flex flex-col h-fit gap-3 p-8 border-l border-t  border-slate-600 backdrop-blur-sm bg-white dark:bg-slate-600 ;
+        @apply relative w-full flex flex-col h-fit gap-3 p-8 border-l border-t  border-slate-500 backdrop-blur-sm bg-white dark:bg-slate-900 rounded-sm;
         }
+
+            .writing-rl {
+                  writing-mode: vertical-rl;
+            }
+            .writing-lr {
+                  writing-mode: vertical-lr;
+            }
 
 /*******************************************************************************
  *  CARGA STYLE
@@ -110,8 +116,6 @@ p,span,label,li,td,th {
         transform: translateY(0);
     }
 }
-
-
 
 /* ANIMACIÓN DE EFECTO DE ESCRITURA */
 @keyframes typing {
