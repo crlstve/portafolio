@@ -7,21 +7,21 @@
             <ul class="md:col-span-6 flex flex-col gap-24 md:my-12">
 
                 <li class="snap-always fadeInUp visible relative grid grid-cols-12">
-                    <article class="card col-span-11">
+                    <article class="card diagonal col-span-8">
                         <header>
-                            <h3 class="text-4xl font-title font-bold leading-6 mb-1">cámara valencia</h3>
+                            <h3 class="text-2xl font-title font-bold leading-6 mb-1">cámara valencia</h3>
                             
                             <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Cámara Valencia" href="https://www.camaravalencia.com/" class="link">
                                 <?= Functions::svg(); ?>
                             </a>
                         </header>
                     
-                        <p class="text-base">
+                        <p class="text-sm">
                             Actualización y mantenimiento de la web corporativa de la empresa. Desarrollo de nuevas funcionalidades y mejoras en la experiencia de usuario. Programación con <b>Wordpress</b> y <b>Laravel</b>. Desarrollo de <b>APIS REST</b>.
                         </p>
                     </article>
-                    <span class="w-full top-0 right-0 col-span-1 text-sm writing-rl justify-center items-center flex">
-                        01-10-24 | actual
+                    <span class="w-full top-0 right-0 col-span-1 text-sm writing-lr justify-center items-center flex">
+                        01-04-25 | actual
                     </span>
                 </li>
 
@@ -80,7 +80,7 @@
             <ul class="md:col-span-6 md:col-start-8 flex flex-col gap-24 md:mt-32 md:mb-12">
             
                 <li class="fadeInUp visible grid-cols-12 relative grid snap-always">
-                    <span class="w-full top-0 right-0 col-span-1 text-sm writing-lr justify-center items-center flex">01-10-24 | 01-04-25</span>
+                    <span class="w-full top-0 right-0 col-span-1 text-sm writing-rl justify-center items-center flex">01-10-24 | 01-04-25</span>
                 <article class="card col-span-11">
 
   

@@ -57,15 +57,45 @@ p,span,label,li,td,th {
             @apply w-fit h-fit opacity-60 hover:opacity-100 duration-500 absolute top-7 right-7 hover:rotate-45;
         }
         .card{
-        @apply relative w-full flex flex-col h-fit gap-3 p-8 border-l border-t  border-slate-500 backdrop-blur-sm bg-white dark:bg-slate-900 rounded-sm;
+        @apply relative w-full flex flex-col h-fit gap-3 p-6 border-l border-t  border-slate-500 backdrop-blur-sm bg-white dark:bg-slate-900 rounded-sm;
         }
-
-            .writing-rl {
-                  writing-mode: vertical-rl;
-            }
             .writing-lr {
                   writing-mode: vertical-lr;
             }
+            .writing-rl {
+                  writing-mode: sideways-lr;
+            }
+        
+        /* Línea diagonal desde el article hasta el centro de la pantalla */
+        .diagonal::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            right: 0;
+            transform:translateX(100%);
+            width: 100%;
+            height: 1px;
+            background: linear-gradient(
+                to right,
+                rgb(100 116 139 / 0.5),
+                transparent
+            );
+            transform-origin: left center;
+            transform: rotate(-15deg);
+            pointer-events: none;
+            z-index: -1;
+        }
+        
+        @media (prefers-color-scheme: dark) {
+            .diagonal::after {
+                background: linear-gradient(
+                    to right,
+                    rgb(148 163 184 / 0.3),
+                    transparent
+                );
+            }
+        }
+    
 
 /*******************************************************************************
  *  CARGA STYLE
