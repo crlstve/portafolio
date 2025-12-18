@@ -7,7 +7,7 @@
             <ul class="md:col-span-6 flex flex-col gap-24 md:my-12">
 
                 <li class="snap-always fadeInUp visible relative grid grid-cols-12">
-                    <article class="card diagonal col-span-8">
+                    <article class="card col-span-9">
                         <header>
                             <h3 class="text-2xl font-title font-bold leading-6 mb-1">cámara valencia</h3>
                             
@@ -20,7 +20,7 @@
                             Actualización y mantenimiento de la web corporativa de la empresa. Desarrollo de nuevas funcionalidades y mejoras en la experiencia de usuario. Programación con <b>Wordpress</b> y <b>Laravel</b>. Desarrollo de <b>APIS REST</b>.
                         </p>
                     </article>
-                    <span class="w-full top-0 right-0 col-span-1 text-sm writing-lr justify-center items-center flex">
+                    <span class="w-full top-0 right-0 col-span-3 diagonal text-sm writing-lr justify-center items-center flex">
                         01-04-25 | actual
                     </span>
                 </li>
@@ -72,29 +72,28 @@
 
             </ul>
 
-            <div class="md:col-span-1 h-full border-x border-x-(--pattern-fg) bg-[image:repeating-linear-gradient(315deg,_var(--pattern-fg)_0,_var(--pattern-fg)_1px,_transparent_0,_transparent_50%)] bg-[size:10px_10px] bg-fixed [--pattern-fg:var(--color-black)]/5 md:block dark:[--pattern-fg:var(--color-white)]/10 w-8/12  mx-auto">
+            <div class="md:col-span-1 h-full border-x border-x-(--pattern-fg) bg-[image:repeating-linear-gradient(315deg,_var(--pattern-fg)_0,_var(--pattern-fg)_1px,_transparent_0,_transparent_50%)] bg-[size:10px_10px] bg-fixed [--pattern-fg:var(--color-black)]/5 md:block dark:[--pattern-fg:var(--color-white)]/10 w-4/12  mx-auto">
                 <ul class="w-full realtive mt-12 fle flex-col">
                 </ul>
             </div>
 
             <ul class="md:col-span-6 md:col-start-8 flex flex-col gap-24 md:mt-32 md:mb-12">
             
-                <li class="fadeInUp visible grid-cols-12 relative grid snap-always">
-                    <span class="w-full top-0 right-0 col-span-1 text-sm writing-rl justify-center items-center flex">01-10-24 | 01-04-25</span>
-                <article class="card col-span-11">
+                <li class="fadeInUp visible relative grid grid-cols-12 snap-always">
+                    <span class="w-full top-0 right-0 col-span-1 text-sm writing-rl justify-center items-center flex col-start-3">01-10-24 | 01-04-25</span>
+                    <article class="card diagonal col-span-9 ">
+    
+                        <header>
+                            <h3 class="text-4xl font-title font-bold leading-6 mb-1">idital</h3>
+                        
+                            <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Idital" href="https://www.idital.com/" class="link">
+                                <?= Functions::svg(); ?>
+                            </a>
+                        </header>
 
-  
-                    <header>
-                        <h3 class="text-4xl font-title font-bold leading-6 mb-1">idital</h3>
-                       
-                        <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Idital" href="https://www.idital.com/" class="link">
-                            <?= Functions::svg(); ?>
-                        </a>
-                    </header>
-
-                        <p class="text-base">
-                            Desarrollo de webs y aplicaciones a medida para clientes de la empresa. Programación con <b>Laravel</b>, <b>Wordpress</b> y <b>Vue.js</b>. Desarrollo de <b>APIS REST</b> y <b>APIS GraphQL</b>. Integración con <b>APIS de terceros</b>.
-                        </p>
+                            <p class="text-base">
+                                Desarrollo de webs y aplicaciones a medida para clientes de la empresa. Programación con <b>Laravel</b>, <b>Wordpress</b> y <b>Vue.js</b>. Desarrollo de <b>APIS REST</b> y <b>APIS GraphQL</b>. Integración con <b>APIS de terceros</b>.
+                            </p>
                     </article>
                 </li>
 
