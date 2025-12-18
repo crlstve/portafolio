@@ -23,8 +23,9 @@
 }
 
     html {
-        @apply text-slate-600 dark:text-white dark:bg-slate-950;
+        @apply text-slate-600 dark:text-white dark:bg-slate-900;
     }
+
 
 h1,h1 > span,h2,h3,h4,h5,h6,a,button {
   font-family: orbitron, sans-serif;
@@ -35,7 +36,7 @@ p,span,label,li,td,th {
 }
 
     .btn_nav{
-        @apply text-slate-600 text-center self-center font-semibold dark:text-white text-base md:text-sm relative md:border-l md:border-t border-white hover:border-slate-300 hover:dark:border-slate-950 dark:border-slate-600 backdrop-blur hover:backdrop-blur-none flex justify-center px-4 py-1 dark:hover:text-emerald-300 hover:text-lime-500 mb-4 md:mb-0;
+        @apply text-slate-600 text-center self-center font-semibold dark:text-white text-base md:text-sm relative md:border-l md:border-t border-white hover:border-slate-300 hover:dark:border-slate-950 dark:border-slate-600 backdrop-blur hover:backdrop-blur-none flex justify-center px-4 py-1 dark:hover:text-emerald-300 hover:text-lime-500 mb-4 md:mb-0 rounded-full;
     }
     /*Form*/
         .btnError{ 
