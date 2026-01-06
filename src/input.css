@@ -6,6 +6,11 @@
     --breakpoint-lg: 61.5rem;
     --breakpoint-xl: 70rem;
     --breakpoint-2xl: 80rem;
+    --color-dark: rgba(18 18 18 / var(--tw-bg-opacity, 1));
+    --color-dark-border: oklch(0.34 0 0);
+    --color-primary: rgb(132 204 22 / var(--tw-text-opacity, 1));
+    --color-secondary: #3b82f6;
+
 }
 @font-face {
   font-family: orbitron;
@@ -23,7 +28,7 @@
 }
 
     html {
-        @apply text-slate-600 dark:text-white dark:bg-slate-900;
+        @apply text-slate-600 dark:text-white dark:bg-dark;
     }
 
 
@@ -36,17 +41,17 @@ p,span,label,li,td,th {
 }
 
     .btn_nav{
-        @apply text-slate-600 text-center self-center font-semibold dark:text-white text-base md:text-sm relative md:border-l md:border-t border-white hover:border-slate-300 hover:dark:border-slate-950 dark:border-slate-600 backdrop-blur hover:backdrop-blur-none flex justify-center px-4 py-1 dark:hover:text-emerald-300 hover:text-lime-500 mb-4 md:mb-0 rounded-full;
+        @apply text-slate-600 text-center self-center font-semibold dark:text-white text-base md:text-sm relative md:border border-white hover:border-dark-border hover:dark:border-slate-950 dark:border-dark-border backdrop-blur hover:backdrop-blur-none flex justify-center px-4 py-1 dark:hover:text-primary hover:text-primary mb-4 md:mb-0;
     }
     /*Form*/
         .btnError{ 
-            @apply bg-slate-600 dark:bg-slate-600 duration-500; 
+            @apply bg-slate-600 dark:bg-dark-border duration-500; 
         }
         .btnSuccess{ 
-            @apply dark:bg-emerald-300 bg-lime-500 dark:text-slate-600 text-white duration-500 cursor-pointer; 
+            @apply dark:bg-emerald-300 bg-primary dark:text-slate-600 text-white duration-500 cursor-pointer; 
         }
         input,textarea {
-            @apply bg-white dark:bg-slate-600 p-2 dark:text-white lg:w-80;
+            @apply bg-white dark:bg-dark-border p-2 dark:text-white lg:w-80;
         }
         .error {
             @apply outline outline-2 outline-rose-500;
@@ -58,7 +63,7 @@ p,span,label,li,td,th {
             @apply w-fit h-fit opacity-60 hover:opacity-100 duration-500 absolute top-7 right-7 hover:rotate-45;
         }
         .card{
-        @apply relative w-full flex flex-col h-fit gap-3 p-6 border-l border-t  border-slate-500 backdrop-blur-sm bg-white dark:bg-slate-900 rounded-sm;
+            @apply relative w-full flex flex-col h-fit gap-3 p-6 border border-dark-border backdrop-blur-sm;
         }
             .writing-lr {
                   writing-mode: vertical-lr;
@@ -104,13 +109,15 @@ p,span,label,li,td,th {
 /* ANIMACIONES GENERALES */
 .fadeInUp {
     opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    /*transform: translateY(20px);*/
+    filter:blur(1.5rem);
+    transition: opacity 0.5s ease-out, filter 0.2s ease-out;
 }
 
 .fadeInUp.visible {
     opacity: 1;
-    transform: translateY(0);
+    filter:blur(0)
+    /*transform: translateY(0);*/
 }
 
 /* EFECTO DE ESCRITURA */
@@ -122,7 +129,15 @@ p,span,label,li,td,th {
     animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
 }
 
-/* TRANSICIONES DE IMÁGENES */
+/* TRANSICIONES DE IMÁGENES 
+#photo-container:after {
+    @apply absolute content-[""] top-0 left-0 w-[52%] h-[133%] border-r border-dark-border transition-shadow duration-500 -z-10 -translate-y-10;
+}
+#photo-container:before{
+    @apply absolute content-[""] top-0 left-0 w-[133%] h-[52%] border-b border-dark-border transition-shadow duration-500 -translate-x-10;
+}*/
+
+
 #carles-image-light,
 #carles-image-dark {
     transition: opacity 500ms ease;
