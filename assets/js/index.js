@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var windowHeight = window.innerHeight;
         elements.forEach(function (element) {
             var position = element.getBoundingClientRect().top;
-            if (position < windowHeight * 0.7) {
+            if (position < windowHeight * 0.75) {
                 element.classList.add('visible');
             }
         });

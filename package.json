@@ -4,9 +4,9 @@
   "description": "Recursos y assets para el portafolio de C.A. Esteve",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test",
-    "dev": "npm run development",
-    "prod": "npm run production",
+    "test": "npm test",
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./assets/css/theme.css --watch",
+    "prod": "npx @tailwindcss/cli -i ./src/input.css -o ./assets/css/theme.css --minify",
     "development": "mix",
     "watch": "mix watch",
     "watch-poll": "mix watch -- --watch-options-poll=1000",
@@ -27,10 +27,11 @@
   "dependencies": {
     "@splidejs/splide": "^4.1.4",
     "@splidejs/splide-extension-auto-scroll": "^0.5.3",
+    "@tailwindcss/cli": "^4.1.17",
     "body-parser": "^1.20.3",
     "postcss": "^8.4.41",
     "postcss-nested": "^6.2.0",
-    "tailwindcss": "^3.4.10",
+    "tailwindcss": "^3.4.18",
     "three": "^0.167.1"
   }
 }

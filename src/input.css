@@ -1,0 +1,189 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+@theme {
+    --breakpoint-sm: 37.5rem;
+    --breakpoint-md: 45.5rem;
+    --breakpoint-lg: 61.5rem;
+    --breakpoint-xl: 70rem;
+    --breakpoint-2xl: 80rem;
+    --color-dark: rgba(18 18 18 / var(--tw-bg-opacity, 1));
+    --color-dark-border: oklch(0.34 0 0);
+    --color-primary: rgb(132 204 22 / var(--tw-text-opacity, 1));
+    --color-secondary: #3b82f6;
+
+}
+@font-face {
+  font-family: orbitron;
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url("../fonts/Orbitron-medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: code;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/SourceCodePro.woff2") format("woff2");
+}
+
+    html {
+        @apply text-slate-600 dark:text-white dark:bg-dark;
+    }
+
+
+h1,h1 > span,h2,h3,h4,h5,h6,a,button {
+  font-family: orbitron, sans-serif;
+}
+
+p,span,label,li,td,th {
+  font-family: code, monospace;
+}
+
+    .btn_nav{
+        @apply text-slate-600 text-center self-center font-semibold dark:text-white text-base md:text-sm relative md:border border-white hover:border-dark-border hover:dark:border-slate-950 dark:border-dark-border backdrop-blur hover:backdrop-blur-none flex justify-center px-4 py-1 dark:hover:text-primary hover:text-primary mb-4 md:mb-0;
+    }
+    /*Form*/
+        .btnError{ 
+            @apply bg-slate-600 dark:bg-dark-border duration-500; 
+        }
+        .btnSuccess{ 
+            @apply dark:bg-emerald-300 bg-primary dark:text-slate-600 text-white duration-500 cursor-pointer; 
+        }
+        input,textarea {
+            @apply bg-white dark:bg-dark-border p-2 dark:text-white lg:w-80;
+        }
+        .error {
+            @apply outline outline-2 outline-rose-500;
+        }
+        .success {
+            @apply outline outline-2 outline-emerald-300;
+        }
+        .link{
+            @apply w-fit h-fit opacity-60 hover:opacity-100 duration-500 absolute top-7 right-7 hover:rotate-45;
+        }
+        .card{
+            @apply relative w-full flex flex-col h-fit gap-3 p-6 border border-dark-border backdrop-blur-sm;
+        }
+            .writing-lr {
+                  writing-mode: vertical-lr;
+            }
+            .writing-rl {
+                  writing-mode: sideways-lr;
+            }
+        
+        /* Línea diagonal desde el article hasta el centro de la pantalla */
+        .diagonal::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            right: 0;
+            transform:translateX(100%);
+            width: 100%;
+            height: 1px;
+            background: linear-gradient(
+                to right,
+                rgb(100 116 139 / 0.5),
+                transparent
+            );
+            transform-origin: left center;
+            transform: rotate(-15deg);
+            pointer-events: none;
+            z-index: -1;
+        }
+        
+        @media (prefers-color-scheme: dark) {
+            .diagonal::after {
+                background: linear-gradient(
+                    to right,
+                    rgb(148 163 184 / 0.3),
+                    transparent
+                );
+            }
+        }
+    
+
+/*******************************************************************************
+ *  CARGA STYLE
+ ******************************************************************************/
+/* ANIMACIONES GENERALES */
+.fadeInUp {
+    opacity: 0;
+    /*transform: translateY(20px);*/
+    filter:blur(1.5rem);
+    transition: opacity 0.5s ease-out, filter 0.2s ease-out;
+}
+
+.fadeInUp.visible {
+    opacity: 1;
+    filter:blur(0)
+    /*transform: translateY(0);*/
+}
+
+/* EFECTO DE ESCRITURA */
+.typewriter p {
+    overflow: hidden;
+    border-right: 0.15em solid orange;
+    white-space: nowrap;
+    letter-spacing: 0.075em;
+    animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+
+/* TRANSICIONES DE IMÁGENES 
+#photo-container:after {
+    @apply absolute content-[""] top-0 left-0 w-[52%] h-[133%] border-r border-dark-border transition-shadow duration-500 -z-10 -translate-y-10;
+}
+#photo-container:before{
+    @apply absolute content-[""] top-0 left-0 w-[133%] h-[52%] border-b border-dark-border transition-shadow duration-500 -translate-x-10;
+}*/
+
+
+#carles-image-light,
+#carles-image-dark {
+    transition: opacity 500ms ease;
+}
+
+#carles-image-dark {
+    opacity: 0;
+}
+.tooltip {
+    animation: tooltipAnimation 0.3s ease-out forwards;
+}
+
+/* ANIMACIÓN DE TOOLTIP */
+@keyframes tooltipAnimation {
+    from {
+        opacity: 0;
+        transform: translateY(1.5rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ANIMACIÓN DE EFECTO DE ESCRITURA */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+/* EFECTO DEL CURSOR EN EL TYPEWRITER */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: orange;
+    }
+}
+   

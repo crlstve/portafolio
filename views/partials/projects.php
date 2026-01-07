@@ -1,9 +1,9 @@
     <section id="proyectos" class="container mx-auto mb-6 lg:py-12 flex flex-col">
-            <h2 data-text="experiencia" class="w-fit mx-auto font-title p-6 text-3xl md:text-4xl text-center font-bold dark:text-emerald-300 text-violet-500 leading-4 mb-6">proyectos</h2>
+            <h2 data-text="experiencia" class="w-fit mx-auto font-title p-6 text-3xl md:text-4xl text-center font-bold leading-4 mb-6">proyectos</h2>
             <ul class="flex flex-col justify-center gap-4 md:gap-8 snap-y snap-mandatory">
                 <li class="card after:top-0 before:top-0 snap-always md:mt-6 fadeInUp visible mx-auto">
                     <header>
-                        <h3 class="text-4xl font-title font-bold dark:text-emerald-300 text-violet-500 leading-4 mb-1">adopta un comercio</h3>
+                        <h3 class="text-4xl font-title font-bold leading-4 mb-1">adopta un comercio</h3>
                         <time class="text-sm" datetime="08/11/24">08-11-24</time>
                         <a rel="nofollow noopener noreferrer" target="_blank" aria-label="visita adopta un comercio" href="https://adoptauncomercio.com/" class="link">
                             <?= Functions::svg(); ?>
