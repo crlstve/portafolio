@@ -20,8 +20,8 @@
                     </li>
                 </ul>
         </div>
-        <div id="photo-container" class="w-fit h-fit aspect-square flex relative mx-auto lg:mx-0 backdrop-blur-sm border dark:border-dark-border rounded-full duration-500 p-10 relative">
-            <img id="crls-img" loading="lazy" title="carles esteve" src="./assets/images/carles-transparent.webp" alt="carles esteve" width="250" height="250" class="h-42 w-42 p-3 border dark:border-dark-border rounded-full aspect-square self-end transition-opacity duration-500 filter drop-shadow shadow-neutral-300">
+        <div id="photo-container" class="w-fit h-fit aspect-square flex relative mx-auto lg:mx-0 backdrop-blur-sm border dark:border-dark-border rounded-full duration-500 p-10 spin">
+            <img id="crls-img" loading="lazy" title="carles esteve" src="./assets/images/carles-transparent.webp" alt="carles esteve" width="250" height="250" class="h-42 w-42 p-3 border dark:border-dark-border rounded-full aspect-square self-end transition-opacity duration-500 filter drop-shadow shadow-neutral-300 spin-reverse">
             <span class="absolute w-6 h-1 border-b border-slate-600 dark:border-dark-border right-2 top-[50%]"></span>
             <span class="absolute w-6 h-1 border-b border-slate-600 dark:border-dark-border left-2 top-[50%]"></span>
             <!-- SVG para texto curvo -->
