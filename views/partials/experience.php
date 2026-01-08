@@ -4,21 +4,23 @@
 
         <div class="grid grid-cols-1 md:grid-cols-13 snap-y snap-mandatory ">
 
-            <ul class="md:col-span-6 flex flex-col gap-24 md:my-12">
+            <ul class="md:col-span-6 flex flex-col gap-24 md:my-12 bg-transparent">
 
-                <li class="snap-always fadeInUp visible relative grid grid-cols-12">
-                    <article class="card col-span-9 backdrop-blur-sm">
+                <li class="snap-always fadeInUp visible relative grid grid-cols-12 bg-transparent">
+                    <article class="card col-span-9 z-10 backdrop-blur-sm relative">
                         <header>
                             <h3 class="text-2xl font-title font-bold leading-6 mb-1">cámara valencia</h3>
+
+                        </header>
                             <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Cámara Valencia" href="https://www.camaravalencia.com/" class="link">
                                 <?= Functions::svg(); ?>
                             </a>
-                        </header>
-                    
                         <p class="text-sm">
                             Actualización y mantenimiento de la web corporativa de la empresa. Desarrollo de nuevas funcionalidades y mejoras en la experiencia de usuario. Programación con <b>Wordpress</b> y <b>Laravel</b>. Desarrollo de <b>APIS REST</b>.
                         </p>
                     </article>
+                    <span class="border-dark-border border-t-1 w-full h-1 col-span-3 -ml-1 mt-4">
+                    </span>
                     <span class="w-fit h-fit py-2 px-6 top-0 col-span-3 text-sm text-center flex justify-center items-center border border-slate-600 dark:border-dark-border absolute right-0 -mr-24 backdrop-blur-sm">
                         04/25<br>actual
                     </span> 
@@ -26,7 +28,7 @@
 
                 <li class="snap-always fadeInUp relative grid grid-cols-12 -mt-16">
 
-                    <article class="card col-span-9 backdrop-blur-sm">
+                    <article class="card col-span-9 z-10 backdrop-blur-sm">
                         <header>
                         <h3 class="text-2xl font-title font-bold leading-6 mb-1">founderz</h3>
                         <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Founderz" href="https://founderz.com/" class="link">
@@ -37,6 +39,8 @@
                             Desarrollo web con <b>Wordpress</b> y <b>Laravel</b>. Liderar la modernización y rebranding completo de la web, programación de <b>bloques de Gutenberg</b>, <b>templates</b> y <b>plugins</b> para Wordpress. Desarrollo de <b>APIS REST</b>.
                         </p>
                     </article>
+                    <span class="border-dark-border border-t-1 w-full h-1 col-span-3 mt-4">
+                    </span>
                     <span class="w-fit h-fit py-2 px-6 top-0 col-span-3 text-sm text-center flex justify-center items-center border border-slate-600 dark:border-dark-border absolute right-0 -mr-24 backdrop-blur-sm">04-24<br>09-24</span>
                 </li>
 
@@ -83,7 +87,7 @@
                     <span class="w-fit h-fit py-2 px-6 top-0 col-span-3 text-sm text-center flex justify-center items-center border border-slate-600 dark:border-dark-border absolute left-0 -ml-22 backdrop-blur-sm">
                         04/25<br>10/24
                     </span> 
-                    <article class="card col-span-9 col-start-4 backdrop-blur-sm">
+                    <article class="card col-span-9 col-start-4 z-10 backdrop-blur-sm">
                         <header>
                             <h3 class="text-2xl font-title font-bold leading-6 mb-1">idital</h3>
                             <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Idital" href="https://www.idital.com/" class="link">

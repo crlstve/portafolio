@@ -13,7 +13,6 @@
     --color-violet-500: oklch(60.6% 0.25 292.717);
     --color-rose-500: oklch(64.5% 0.246 16.439);
     --color-slate-300: oklch(86.9% 0.022 252.894);
-    --color-slate-500: oklch(55.4% 0.046 257.417);
     --color-slate-600: oklch(44.6% 0.043 257.281);
     --color-slate-950: oklch(12.9% 0.042 264.695);
     --color-neutral-300: oklch(87% 0 0);
@@ -259,6 +258,9 @@
   .col-span-3 {
     grid-column: span 3 / span 3;
   }
+  .col-span-4 {
+    grid-column: span 4 / span 4;
+  }
   .col-span-9 {
     grid-column: span 9 / span 9;
   }
@@ -292,11 +294,17 @@
   .-mt-8 {
     margin-top: calc(var(--spacing) * -8);
   }
-  .-mt-12 {
-    margin-top: calc(var(--spacing) * -12);
-  }
   .-mt-16 {
     margin-top: calc(var(--spacing) * -16);
+  }
+  .mt-1 {
+    margin-top: calc(var(--spacing) * 1);
+  }
+  .mt-3 {
+    margin-top: calc(var(--spacing) * 3);
+  }
+  .mt-4 {
+    margin-top: calc(var(--spacing) * 4);
   }
   .mt-12 {
     margin-top: calc(var(--spacing) * 12);
@@ -304,11 +312,17 @@
   .-mr-24 {
     margin-right: calc(var(--spacing) * -24);
   }
+  .mr-1 {
+    margin-right: calc(var(--spacing) * 1);
+  }
   .mb-1 {
     margin-bottom: calc(var(--spacing) * 1);
   }
   .mb-6 {
     margin-bottom: calc(var(--spacing) * 6);
+  }
+  .-ml-1 {
+    margin-left: calc(var(--spacing) * -1);
   }
   .-ml-22 {
     margin-left: calc(var(--spacing) * -22);
@@ -495,13 +509,27 @@
     border-top-style: var(--tw-border-style);
     border-top-width: 1px;
   }
+  .border-t-1 {
+    border-top-style: var(--tw-border-style);
+    border-top-width: 1px;
+  }
   .border-b {
+    border-bottom-style: var(--tw-border-style);
+    border-bottom-width: 1px;
+  }
+  .border-b-1 {
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 1px;
   }
   .border-l {
     border-left-style: var(--tw-border-style);
     border-left-width: 1px;
+  }
+  .border-dark {
+    border-color: var(--color-dark);
+  }
+  .border-dark-border {
+    border-color: var(--color-dark-border);
   }
   .border-slate-600 {
     border-color: var(--color-slate-600);
@@ -541,9 +569,6 @@
   }
   .fill-slate-600 {
     fill: var(--color-slate-600);
-  }
-  .stroke-slate-500 {
-    stroke: var(--color-slate-500);
   }
   .p-1 {
     padding: calc(var(--spacing) * 1);
@@ -1276,23 +1301,21 @@ input,textarea {
 }
 .link {
   position: absolute;
-  top: calc(var(--spacing) * 7);
-  right: calc(var(--spacing) * 7);
+  top: calc(var(--spacing) * 0);
+  right: calc(var(--spacing) * 0);
   height: fit-content;
   width: fit-content;
-  opacity: 60%;
+  padding: calc(var(--spacing) * 1);
+  &:where(.dark, .dark *) {
+    background-color: var(--color-primary);
+  }
+}
+.link svg {
   --tw-duration: 500ms;
   transition-duration: 500ms;
-  &:hover {
-    @media (hover: hover) {
-      rotate: 45deg;
-    }
-  }
-  &:hover {
-    @media (hover: hover) {
-      opacity: 100%;
-    }
-  }
+}
+.link:hover svg {
+  rotate: calc(45deg * -1);
 }
 .card {
   position: relative;
@@ -1384,6 +1407,12 @@ input,textarea {
   50% {
     border-color: orange;
   }
+}
+.spin-reverse {
+  animation: spin 24s linear infinite reverse;
+}
+.spin {
+  animation: spin 24s linear infinite;
 }
 @property --tw-translate-x {
   syntax: "*";
@@ -1624,6 +1653,11 @@ input,textarea {
   syntax: "*";
   inherits: false;
   initial-value: 1;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
 }
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {

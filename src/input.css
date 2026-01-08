@@ -60,8 +60,15 @@ p,span,label,li,td,th {
             @apply outline outline-2 outline-emerald-300;
         }
         .link{
-            @apply w-fit h-fit opacity-60 hover:opacity-100 duration-500 absolute top-7 right-7 hover:rotate-45;
+            @apply w-fit h-fit absolute top-0 right-0 p-1 dark:bg-primary;
         }
+        .link svg{
+           @apply duration-500;
+        }
+        .link:hover svg{
+            @apply -rotate-45;
+        }
+
         .card{
             @apply relative w-full flex flex-col h-fit gap-3 p-6 border border-dark-border backdrop-blur-sm;
         }
@@ -186,4 +193,10 @@ p,span,label,li,td,th {
         border-color: orange;
     }
 }
-   
+/* Contrarrotación para elementos dentro de contenedores con animate-spin */
+.spin-reverse {
+    animation: spin 24s linear infinite reverse;
+}
+.spin{
+    animation: spin 24s linear infinite;
+}
