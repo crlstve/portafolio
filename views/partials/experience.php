@@ -39,39 +39,43 @@
                             Desarrollo web con <b>Wordpress</b> y <b>Laravel</b>. Liderar la modernización y rebranding completo de la web, programación de <b>bloques de Gutenberg</b>, <b>templates</b> y <b>plugins</b> para Wordpress. Desarrollo de <b>APIS REST</b>.
                         </p>
                     </article>
-                    <span class="border-dark-border border-t-1 w-full h-1 col-span-3 mt-4">
+                    <span class="border-dark-border border-t-1 w-full h-1 col-span-3 mt-4 -ml-1">
                     </span>
-                    <span class="w-fit h-fit py-2 px-6 top-0 col-span-3 text-sm text-center flex justify-center items-center border border-slate-600 dark:border-dark-border absolute right-0 -mr-24 backdrop-blur-sm">04-24<br>09-24</span>
+                    <span class="w-fit h-fit py-2 px-6 top-0 col-span-3 text-sm text-center flex justify-center items-center border border-slate-600 dark:border-dark-border absolute right-0 -mr-22 backdrop-blur-sm">04/24<br>09/24</span>
                 </li>
 
-                <li class="card fadeInUp">
-                    <header>
-                        <h3 class="text-2xl font-title font-bold leading-6 mb-1">arte regal</h3>
-                        <span class="text-sm" datetime="04/10/20">04-10-2020 | 10-06-2022</span>
-                        <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Arte Regal Import" href="https://www.arteregal.com/" class="link">
-                            <?= Functions::svg(); ?>
-                        </a>
-                    </header>
-                    <article>
+                <li class="snap-always fadeInUp relative grid grid-cols-12 -mt-16">
+                    <article class="card col-span-9 z-10 backdrop-blur-sm">                    
+                        <header>
+                            <h3 class="text-2xl font-title font-bold leading-6 mb-1">arte regal</h3>
+                            <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Arte Regal Import" href="https://www.arteregal.com/" class="link">
+                                <?= Functions::svg(); ?>
+                            </a>
+                        </header>
                         <p class="text-base">
                             Mantenimiento y actualización de la ecommerce de la empresa hecha con <b>Codeigniter</b>. Desarrollo de otras webs y ecommerce hechas con <b>Wordpress</b>. Desarrollo de <b>APIS</b>, <b>bloques</b>, <b>temas</b> y <b>plugins</b> para <b>Wordpress</b>.
                         </p>
                     </article>
+                    <span class="border-dark-border border-t-1 w-full h-1 col-span-3 mt-4 -ml-1">
+                    </span>
+                    <span class="w-fit h-fit py-2 px-6 top-0 col-span-3 text-sm text-center flex justify-center items-center border border-slate-600 dark:border-dark-border absolute right-0 -mr-22 backdrop-blur-sm">10/20<br>06/22</span>
                 </li>
 
-                <li class="card fadeInUp">
-                    <header>
-                        <h3 class="text-2xl font-title font-bold leading-6 mb-1">tv begin</h3>
-                        <span class="text-sm" datetime="22/04/24">04-09-2017 | 04-05-2019</span>
-                        <a rel="nofollow noopener noreferrer" target="" aria-label="Visita la web de Tv Begin" href="https://tvbgn.com/" class="link">
-                            <?= Functions::svg(); ?>
-                        </a>
-                    </header>
-                    <article>
+                <li class="snap-always fadeInUp relative grid grid-cols-12 -mt-16">  
+                    <article class="card col-span-9 z-10 backdrop-blur-sm">                    
+                        <header>
+                            <h3 class="text-2xl font-title font-bold leading-6 mb-1">tv begin</h3>
+                            <a rel="nofollow noopener noreferrer" target="" aria-label="Visita la web de Tv Begin" href="https://tvbgn.com/" class="link">
+                                <?= Functions::svg(); ?>
+                            </a>
+                        </header>
                         <p class="text-base">
                             Creación y mantenmiento de webs para distintos clientes hechas con Wordpress. Creación de <b>APIS</b>, <b>bloques</b>, <b>plugins</b>, <b>temas</b> y <b>módulos</b> para resolver las necesidades de las emrpesas.
                         </p>
                     </article>
+                    <span class="border-dark-border border-t-1 w-full h-1 col-span-3 mt-4 -ml-1">
+                    </span>
+                    <span class="w-fit h-fit py-2 px-6 top-0 col-span-3 text-sm text-center flex justify-center items-center border border-slate-600 dark:border-dark-border absolute right-0 -mr-22 backdrop-blur-sm">09/17<br>05/19</span>
                 </li>
 
             </ul>
