@@ -12,7 +12,7 @@
                             <h3 class="text-2xl font-title font-bold leading-6 mb-1">cámara valencia</h3>
 
                         </header>
-                            <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Cámara Valencia" href="https://www.camaravalencia.com/" class="link">
+                            <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Cámara Valencia" href="https://www.camaravalencia.com/" class="link-right">
                                 <?= Functions::svg(); ?>
                             </a>
                         <p class="text-sm">
@@ -22,7 +22,7 @@
                     <span class="border-dark-border border-t-1 w-full h-1 col-span-3 -ml-1 mt-4">
                     </span>
                     <span class="w-fit h-fit py-2 px-6 top-0 col-span-3 text-sm text-center flex justify-center items-center border border-slate-600 dark:border-dark-border absolute right-0 -mr-24 backdrop-blur-sm">
-                        04/25<br>actual
+                        actual<br>04/25
                     </span> 
                 </li>
 
@@ -31,7 +31,7 @@
                     <article class="card col-span-9 z-10 backdrop-blur-sm">
                         <header>
                         <h3 class="text-2xl font-title font-bold leading-6 mb-1">founderz</h3>
-                        <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Founderz" href="https://founderz.com/" class="link">
+                        <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Founderz" href="https://founderz.com/" class="link-right">
                             <?= Functions::svg(); ?>
                         </a>
                         </header>
@@ -39,39 +39,43 @@
                             Desarrollo web con <b>Wordpress</b> y <b>Laravel</b>. Liderar la modernización y rebranding completo de la web, programación de <b>bloques de Gutenberg</b>, <b>templates</b> y <b>plugins</b> para Wordpress. Desarrollo de <b>APIS REST</b>.
                         </p>
                     </article>
-                    <span class="border-dark-border border-t-1 w-full h-1 col-span-3 mt-4">
+                    <span class="border-dark-border border-t-1 w-full h-1 col-span-3 mt-4 -ml-1">
                     </span>
-                    <span class="w-fit h-fit py-2 px-6 top-0 col-span-3 text-sm text-center flex justify-center items-center border border-slate-600 dark:border-dark-border absolute right-0 -mr-24 backdrop-blur-sm">04-24<br>09-24</span>
+                    <span class="w-fit h-fit py-2 px-6 top-0 col-span-3 text-sm text-center flex justify-center items-center border border-slate-600 dark:border-dark-border absolute right-0 -mr-22 backdrop-blur-sm">09/24<br>04/24</span>
                 </li>
 
-                <li class="card fadeInUp">
-                    <header>
-                        <h3 class="text-2xl font-title font-bold leading-6 mb-1">arte regal</h3>
-                        <span class="text-sm" datetime="04/10/20">04-10-2020 | 10-06-2022</span>
-                        <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Arte Regal Import" href="https://www.arteregal.com/" class="link">
-                            <?= Functions::svg(); ?>
-                        </a>
-                    </header>
-                    <article>
+                <li class="snap-always fadeInUp relative grid grid-cols-12 -mt-16">
+                    <article class="card col-span-9 z-10 backdrop-blur-sm">                    
+                        <header>
+                            <h3 class="text-2xl font-title font-bold leading-6 mb-1">arte regal</h3>
+                            <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Arte Regal Import" href="https://www.arteregal.com/" class="link-right">
+                                <?= Functions::svg(); ?>
+                            </a>
+                        </header>
                         <p class="text-base">
                             Mantenimiento y actualización de la ecommerce de la empresa hecha con <b>Codeigniter</b>. Desarrollo de otras webs y ecommerce hechas con <b>Wordpress</b>. Desarrollo de <b>APIS</b>, <b>bloques</b>, <b>temas</b> y <b>plugins</b> para <b>Wordpress</b>.
                         </p>
                     </article>
+                    <span class="border-dark-border border-t-1 w-full h-1 col-span-3 mt-4 -ml-1">
+                    </span>
+                    <span class="w-fit h-fit py-2 px-6 top-0 col-span-3 text-sm text-center flex justify-center items-center border border-slate-600 dark:border-dark-border absolute right-0 -mr-22 backdrop-blur-sm">06/22<br>10/20</span>
                 </li>
 
-                <li class="card fadeInUp">
-                    <header>
-                        <h3 class="text-2xl font-title font-bold leading-6 mb-1">tv begin</h3>
-                        <span class="text-sm" datetime="22/04/24">04-09-2017 | 04-05-2019</span>
-                        <a rel="nofollow noopener noreferrer" target="" aria-label="Visita la web de Tv Begin" href="https://tvbgn.com/" class="link">
-                            <?= Functions::svg(); ?>
-                        </a>
-                    </header>
-                    <article>
+                <li class="snap-always fadeInUp relative grid grid-cols-12 -mt-16">  
+                    <article class="card col-span-9 z-10 backdrop-blur-sm">                    
+                        <header>
+                            <h3 class="text-2xl font-title font-bold leading-6 mb-1">tv begin</h3>
+                            <a rel="nofollow noopener noreferrer" target="" aria-label="Visita la web de Tv Begin" href="https://tvbgn.com/" class="link-right">
+                                <?= Functions::svg(); ?>
+                            </a>
+                        </header>
                         <p class="text-base">
                             Creación y mantenmiento de webs para distintos clientes hechas con Wordpress. Creación de <b>APIS</b>, <b>bloques</b>, <b>plugins</b>, <b>temas</b> y <b>módulos</b> para resolver las necesidades de las emrpesas.
                         </p>
                     </article>
+                    <span class="border-dark-border border-t-1 w-full h-1 col-span-3 mt-4 -ml-1">
+                    </span>
+                    <span class="w-fit h-fit py-2 px-6 top-0 col-span-3 text-sm text-center flex justify-center items-center border border-slate-600 dark:border-dark-border absolute right-0 -mr-22 backdrop-blur-sm">05/19<br>09/17</span>
                 </li>
 
             </ul>
@@ -81,16 +85,16 @@
                 </ul>
             </div>
 
-            <ul class="md:col-span-6 md:col-start-8 flex flex-col gap-24 md:mt-32 md:mb-12">
+            <ul class="md:col-span-6 md:col-start-8 flex flex-col gap-24 md:mt-38 md:mb-12">
             
                 <li class="fadeInUp visible relative grid grid-cols-12 snap-always">                  
-                    <span class="w-fit h-fit py-2 px-6 top-0 col-span-3 text-sm text-center flex justify-center items-center border border-slate-600 dark:border-dark-border absolute left-0 -ml-22 backdrop-blur-sm">
-                        04/25<br>10/24
+                    <span class="w-fit h-fit py-2 px-6 top-0 col-span-3 text-sm text-center flex justify-center items-center border border-slate-600 dark:border-dark-border absolute left-0 -ml-22 backdrop-blur-sm">04/25<br>10/24</span>
+                    <span class="border-dark-border border-t-1 w-full h-1 col-span-3 ml-1 mt-4">
                     </span> 
                     <article class="card col-span-9 col-start-4 z-10 backdrop-blur-sm">
                         <header>
-                            <h3 class="text-2xl font-title font-bold leading-6 mb-1">idital</h3>
-                            <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Idital" href="https://www.idital.com/" class="link">
+                            <h3 class="text-right text-2xl font-title font-bold leading-6 mb-1">idital</h3>
+                            <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Idital" href="https://www.idital.com/" class="link-left">
                                 <?= Functions::svg(); ?>
                             </a>
                         </header>
@@ -100,12 +104,13 @@
                     </article>
                 </li>
 
-                <li class="card fadeInUp">
-                    <article>
+                <li class="fadeInUp relative grid grid-cols-12 snap-always md:-mt-16">
+                    <span class="w-fit h-fit py-2 px-6 top-0 col-span-3 text-sm text-center flex justify-center items-center border border-slate-600 dark:border-dark-border absolute left-0 -ml-22 backdrop-blur-sm">04/24<br>06/22</span>                     <span class="border-dark-border border-t-1 w-full h-1 col-span-3 ml-1 mt-4">
+                    </span> 
+                    <article class="card col-span-9 col-start-4 z-10 backdrop-blur-sm">
                         <header>
-                            <h3 class="text-2xl font-title font-bold leading-6 mb-1">sesame hr</h3>
-                            <span class="text-sm" datetime="11/06/22">11-06-2022 | 22-04-2024</span>
-                            <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Sesame HR" href="https://www.sesamehr.es/" class="link">
+                            <h3 class="text-right text-2xl font-title font-bold leading-6 mb-1">sesame hr</h3>
+                            <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Sesame HR" href="https://www.sesamehr.es/" class="link-left">
                                 <?= Functions::svg(); ?>
                             </a>
                         </header>
@@ -115,29 +120,32 @@
                     </article>
                 </li>
 
-                <li class="card snap-always fadeInUp">
+                <li class="fadeInUp relative grid grid-cols-12 snap-always md:-mt-16">
+                    <span class="w-fit h-fit py-2 px-6 top-0 col-span-3 text-sm text-center flex justify-center items-center border border-slate-600 dark:border-dark-border absolute left-0 -ml-22 backdrop-blur-sm">06/20<br>05/19</span>                     <span class="border-dark-border border-t-1 w-full h-1 col-span-3 ml-1 mt-4">
+                    </span> 
+                    <article class="card col-span-9 col-start-4 z-10 backdrop-blur-sm">
                     <header>
-                        <h3 class="text-2xl font-title font-bold leading-6 mb-1">availand</h3>
-                        <span class="text-sm" datetime="22/04/24">04-05-2019 | 03-06-2020</span>
-                        <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Availand" href="https://availand.com/" class="link">
+                        <h3 class="text-right text-2xl font-title font-bold leading-6 mb-1">availand</h3>
+                        <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Availand" href="https://availand.com/" class="link-left">
                             <?= Functions::svg(); ?>
                         </a>
                     </header>
-                    <article>
+    
                         <p class="text-base">
                             Mantenimiento y actualización de la ecommerce de la empresa hecha con <b>wordpress</b> y <b>woocommerce</b>. Desarrollo de <b>APIS</b>, <b>bloques</b>, <b>temas</b> de <b>Gutenberg</b> y <b>plugins</b>.
                         </p>
                     </article>
                 </li>
 
-                <li class="card snap-always fadeInUp">
-                    <header>
-                        <h3 class="text-2xl font-title font-bold leading-6 mb-1">galaxa cosmetics</h3>
-                        <span class="text-sm" datetime="22/04/24">13-04-2016 | 10-06-2017</span>
-                        <a rel="nofollow noopener noreferrer" target="" aria-label="Visita la web de Galaxa Cosmetics" href="https://productos-peluqueria-online.es/" class="link"> <?= Functions::svg(); ?>
-                        </a>
-                    </header>
-                    <article>
+                <li class="fadeInUp relative grid grid-cols-12 snap-always md:-mt-16">
+                    <span class="w-fit h-fit py-2 px-6 top-0 col-span-3 text-sm text-center flex justify-center items-center border border-slate-600 dark:border-dark-border absolute left-0 -ml-22 backdrop-blur-sm">06/17<br>04/16</span>                     <span class="border-dark-border border-t-1 w-full h-1 col-span-3 ml-1 mt-4">
+                    </span> 
+                    <article class="card col-span-9 col-start-4 z-10 backdrop-blur-sm">
+                        <header>
+                            <h3 class="text-right text-2xl font-title font-bold leading-6 mb-1">galaxa cosmetics</h3>
+                            <a rel="nofollow noopener noreferrer" target="" aria-label="Visita la web de Galaxa Cosmetics" href="https://productos-peluqueria-online.es/" class="link-left"> <?= Functions::svg(); ?>
+                            </a>
+                        </header>
                         <p class="text-base">
                             Desarrollo de la ecommerce de la empresa hecha con <b>wordpress</b> y <b>woocommerce</b>. Desarollo de <b>plugins</b>, <b>APIS</b>, <b>temas</b> y <b>módulos</b> para las necesidades de la empresa
                         </p>

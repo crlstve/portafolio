@@ -59,16 +59,29 @@ p,span,label,li,td,th {
         .success {
             @apply outline outline-2 outline-emerald-300;
         }
-        .link{
-            @apply w-fit h-fit absolute top-0 right-0 p-1 dark:bg-primary;
+        .link-left, .link-right{
+            @apply w-fit h-fit absolute top-0 p-1 dark:bg-primary;
         }
-        .link svg{
-           @apply duration-500;
+        .link-left{
+            @apply left-0;
         }
-        .link:hover svg{
-            @apply -rotate-45;
+        .link-right{
+            @apply right-0;
         }
 
+        .link-right svg,
+        .link-left svg{
+           @apply duration-500;
+        }
+        .link-right:hover svg{
+            @apply -rotate-45;
+        }
+        .link-left svg{
+            @apply -rotate-180;
+        }
+        .link-left:hover svg{
+            @apply -rotate-140;
+        }
         .card{
             @apply relative w-full flex flex-col h-fit gap-3 p-6 border border-dark-border backdrop-blur-sm;
         }
