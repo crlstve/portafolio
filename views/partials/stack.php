@@ -1,7 +1,7 @@
-    <section id="stack" class="container mx-auto my-12 lg:my-24 flex flex-col">
-        <h2 class="font-title text-3xl md:text-4xl text-center font-bold leading-4 p-6 mb-6">stack</h2>
-        <div class="splide relative" aria-label="Proyectos Slider">
-            <div class="splide__track backdrop-blur-sm rounded-full shadow-md shadow-slate-950/20 border-l border-t border-white dark:border-slate-600 dark:bg-[rgba(0,0,0,0.1)] bg-[rgba(255,255,255,0.1)] py-3">
+    <div id="stack" class="col-span-12 md:col-span-6 lg:col-span-12 xl:col-span-6 flex flex-col mb-12 md:mb-0">
+        <h2 class="font-title text-3xl md:text-2xl text-center font-bold leading-4 p-6 mb-6">stack</h2>
+        <div class="splide relative flex h-full " aria-label="Proyectos Slider">
+            <div class="splide__track backdrop-blur-sm border dark:border-dark-border h-fit self-center pt-4 pb-3">
                 <ul class="splide__list">
                     <li class="splide__slide flex justify-center item-center group">
                         <img src="./assets/images/logos/html.svg" loading="lazy" title="html" alt="html para el esqueleto de la web" class="aspect-square self-center drop-shadow-md brightness-0 dark:invert opacity-40 hover:brightness-100 dark:hover:invert-0 hover:opacity-100 duration-500 mx-auto cursor-pointer" width="48px" height="48px">
@@ -38,8 +38,7 @@
                 </ul>
             </div>
         </div>
-
         <script>
-          document.addEventListener('DOMContentLoaded', function() { new Splide('.splide',{ gap: 40, padding: { left: 24, right: 24 }, type   : 'loop', drag   : 'free', focus  : 'center', perPage: 7, autoScroll: { speed: 2, }, arrows: false, pagination: false, rewind: false, breakpoints: { 640: { perPage: 3, }, 768: { perPage: 4, }, }, }).mount(window.splide.Extensions); });
+          document.addEventListener('DOMContentLoaded', function() { new Splide('.splide',{ gap: 40, padding: { left: 24, right: 24 }, type   : 'loop', drag   : 'free', focus  : 'center', perPage: 4, autoScroll: { speed: 2, }, arrows: false, pagination: false, rewind: false, breakpoints: { 640: { perPage: 3, }, 768: { perPage: 4, }, }, }).mount(window.splide.Extensions); });
         </script>
-    </section>
+    </div>
