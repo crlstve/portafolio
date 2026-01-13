@@ -6,6 +6,7 @@
     --breakpoint-lg: 61.5rem;
     --breakpoint-xl: 70rem;
     --breakpoint-2xl: 80rem;
+    --color-light: rgba(255 255 255 / var(--tw-bg-opacity, 1));
     --color-dark: rgba(18 18 18 / var(--tw-bg-opacity, 1));
     --color-dark-border: oklch(0.34 0 0);
     --color-primary: rgb(132 204 22 / var(--tw-text-opacity, 1));
@@ -28,7 +29,7 @@
 }
 
     html {
-        @apply text-slate-600 dark:text-white dark:bg-dark;
+        @apply text-gray-600 dark:text-white bg-light dark:bg-dark;
     }
 
 
@@ -41,7 +42,7 @@ p,span,label,li,td,th {
 }
 
     .btn_nav{
-        @apply text-slate-600 text-center self-center font-semibold dark:text-white text-base md:text-sm relative md:border border-white hover:border-dark-border hover:dark:border-slate-950 dark:border-dark-border backdrop-blur hover:backdrop-blur-none flex justify-center px-4 py-1 dark:hover:text-primary hover:text-primary mb-4 md:mb-0;
+        @apply text-gray-600 text-center self-center font-semibold dark:text-white text-base md:text-sm relative md:border border-slate-200 hover:border-dark-border hover:dark:border-slate-950 dark:border-dark-border backdrop-blur hover:backdrop-blur-none flex justify-center px-4 py-1 dark:hover:text-primary hover:text-primary mb-4 md:mb-0;
     }
     /*Form*/
         .btnError{ 
@@ -60,7 +61,7 @@ p,span,label,li,td,th {
             @apply outline outline-2 outline-emerald-300;
         }
         .link-left, .link-right{
-            @apply w-fit h-fit absolute top-0 p-1 dark:bg-primary;
+            @apply w-fit h-fit absolute top-0 p-1 bg-slate-200 dark:bg-primary;
         }
         .link-left{
             @apply left-0;
@@ -83,7 +84,7 @@ p,span,label,li,td,th {
             @apply -rotate-140;
         }
         .card{
-            @apply relative w-full flex flex-col h-fit gap-3 p-6 border border-dark-border backdrop-blur-sm;
+            @apply relative w-full flex flex-col h-fit gap-3 p-6 border border-slate-200 dark:border-dark-border backdrop-blur-sm;
         }
             .writing-lr {
                   writing-mode: vertical-lr;
