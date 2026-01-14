@@ -1,6 +1,6 @@
-    <section id="inicio" class="container mx-auto my-12 lg:mt-24 lg:mb-12 flex flex-col-reverse lg:flex-row gap-10 lg:gap-28 justify-center">
+    <section id="inicio" class="container mx-auto mb-12 lg:mt-24 mx-6 flex flex-col-reverse lg:flex-row gap-10 lg:gap-28 justify-center">
         <div class="hero-content w-fit flex flex-col gap-3 self-center relative backdrop-blur-sm">
-            <header class="w-fit mx-auto pt-8 px-8 pb-12 md:border border-slate-200 dark:border-dark-border">
+            <header class="w-fit mx-auto pt-8 px-8 pb-12 border border-slate-200 dark:border-dark-border">
                 <h1 class="text-xl font-semibold text-primary leading-5 flex flex-col">carles esteve albiach<span data-text="full stack web developer" class="text-3xl md:text-4xl font-title text-slate-600 dark:text-white">full stack web developer<span>
                 </h1>
                 <div class="typewriter w-fit">
