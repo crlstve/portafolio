@@ -1,6 +1,6 @@
     <div id="stack" class="col-span-12 md:col-span-6 flex flex-col mb-12 md:mb-0">
         <h2 class="font-title text-3xl md:text-2xl text-center font-bold leading-4 p-6 mb-6">stack</h2>
-        <div class="flex-1 flex items-center min-h-0 w-full">
+        <div class="flex-1 flex items-center min-h-0 w-full px-2 xl:px-0">
             <div class="splide relative h-fit w-full" aria-label="Proyectos Slider">
                 <div class="splide__track backdrop-blur-sm border border-slate-200 dark:border-dark-border h-fit self-center pt-4 pb-3">
                     <ul class="splide__list">
