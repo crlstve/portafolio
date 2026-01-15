@@ -3,10 +3,10 @@
         <h2 data-text="experiencia" class="w-fit mx-auto font-title p-6 text-3xl xl:text-2xl text-center font-bold leading-6 mb-6">experiencia</h2>
 
         <div class=" snap-y snap-mandatory ">
-            <ul class="timeline grid grid-cols-1 xl:grid-cols-12 gap-24 xl:my-12 bg-transparent relative">
+            <ul class="timeline grid grid-cols-1 xl:grid-cols-12 gap-6 xl:gap-24 xl:my-12 bg-transparent relative">
                 <!-- Cámara Valencia -->
-                <li class="snap-always xl:col-span-6 fadeInUp visible relative grid grid-cols-12 bg-transparent">
-                    <article class="card col-span-9 z-10 backdrop-blur-sm relative">
+                <li class="p-2 xl:p-0 snap-always xl:col-span-6 fadeInUp visible relative grid grid-cols-12 bg-transparent">
+                    <article class="card col-span-12 xl:col-span-9 z-10 backdrop-blur-sm relative">
                         <header>
                             <h3 class="text-2xl font-title font-bold leading-6 mb-1">cámara valencia</h3>
                         </header>
@@ -19,16 +19,16 @@
                     </article>
                     <span class="border-slate-200 dark:border-dark-border border-t-1 w-full h-1 col-span-1 hidden xl:block xl:col-span-3  mt-4">
                     </span>
-                    <span class="w-fit h-fit py-2 px-6 top-0 col-span-3 text-sm text-center flex justify-center items-center border border-slate-200 dark:border-dark-border absolute right-0 xl:-mr-25 backdrop-blur-sm">
+                    <span class="w-fit h-fit py-2 px-6 top-0 xl:col-span-3 col-span-12  text-sm text-center flex justify-center items-center border border-slate-200 dark:border-dark-border xl:absolute right-0 xl:-mr-25 backdrop-blur-sm">
                         actual<br>04/25
                     </span> 
                 </li>
                 <!-- Idital -->
-                <li class="fadeInUp visible relative grid grid-cols-12 snap-always xl:col-span-6 xl:mt-28">                  
-                    <span class="w-fit h-fit py-2 px-6 top-0 col-span-3 text-sm text-center flex justify-center items-center border border-slate-200 dark:border-dark-border absolute left-0 xl:-ml-23 backdrop-blur-sm">04/25<br>10/24</span>
+                <li class="p-2 xl:p-0 fadeInUp visible relative flex flex-col-reverse xl:grid grid-cols-12 snap-always xl:col-span-6 xl:mt-28">                  
+                    <span class="w-fit h-fit py-2 px-6 top-0 xl:col-span-3 col-span-12  text-sm text-center flex justify-center items-center border border-slate-200 dark:border-dark-border xl:absolute left-0 xl:-ml-23 backdrop-blur-sm">04/25<br>10/24</span>
                     <span class="border-slate-200 dark:border-dark-border border-t-1 w-full h-1 col-span-1 hidden xl:block xl:col-span-3 mt-4">
                     </span> 
-                    <article class="card col-span-9 col-start-4 z-10 backdrop-blur-sm">
+                    <article class="card col-span-12 xl:col-span-9 xl:col-start-4 z-10 backdrop-blur-sm">
                         <header>
                             <h3 class="text-right text-2xl font-title font-bold leading-6 mb-1">idital</h3>
                             <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Idital" href="https://www.idital.com/" class="link-left">
@@ -41,9 +41,9 @@
                     </article>
                 </li>
                 <!-- Founderz -->
-                <li class="snap-always xl:col-span-6 fadeInUp relative grid grid-cols-12 xl:-mt-53">
+                <li class="p-2 xl:p-0 snap-always xl:col-span-6 fadeInUp relative grid grid-cols-12 xl:-mt-53">
 
-                    <article class="card col-span-9 z-10 backdrop-blur-sm">
+                    <article class="card col-span-12 xl:col-span-9 z-10 backdrop-blur-sm">
                         <header>
                         <h3 class="text-2xl font-title font-bold leading-6 mb-1">founderz</h3>
                         <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Founderz" href="https://founderz.com/" class="link-right">
@@ -56,13 +56,13 @@
                     </article>
                     <span class="border-slate-200 dark:border-dark-border border-t-1 w-full h-1 col-span-1 hidden xl:block xl:col-span-3 mt-4 ">
                     </span>
-                    <span class="w-fit h-fit py-2 px-6 top-0 col-span-3 text-sm text-center flex justify-center items-center border border-slate-200 dark:border-dark-border absolute right-0 xl:-mr-23 backdrop-blur-sm">09/24<br>04/24</span>
+                    <span class="w-fit h-fit py-2 px-6 top-0 xl:col-span-3 col-span-12  text-sm text-center flex justify-center items-center border border-slate-200 dark:border-dark-border xl:absolute right-0 xl:-mr-23 backdrop-blur-sm">09/24<br>04/24</span>
                 </li>
                 <!-- Sesame HR -->
-                <li class="fadeInUp relative grid grid-cols-12 snap-always xl:col-span-6 xl:-mt-20">
-                    <span class="w-fit h-fit py-2 px-6 top-0 col-span-3 text-sm text-center flex justify-center items-center border border-slate-200 dark:border-dark-border absolute left-0 xl:-ml-23 backdrop-blur-sm">04/24<br>06/22</span>                     <span class="border-slate-200 dark:border-dark-border border-t-1 w-full h-1 col-span-1 hidden xl:block xl:col-span-3 mt-4">
+                <li class="p-2 xl:p-0 fadeInUp relative flex flex-col-reverse xl:grid grid-cols-12 snap-always xl:col-span-6 xl:-mt-20">
+                    <span class="w-fit h-fit py-2 px-6 top-0 xl:col-span-3 col-span-12  text-sm text-center flex justify-center items-center border border-slate-200 dark:border-dark-border xl:absolute left-0 xl:-ml-23 backdrop-blur-sm">04/24<br>06/22</span>                     <span class="border-slate-200 dark:border-dark-border border-t-1 w-full h-1 col-span-1 hidden xl:block xl:col-span-3 mt-4">
                     </span> 
-                    <article class="card col-span-9 col-start-4 z-10 backdrop-blur-sm">
+                    <article class="card col-span-12 xl:col-span-9 xl:col-start-4 z-10 backdrop-blur-sm">
                         <header>
                             <h3 class="text-right text-2xl font-title font-bold leading-6 mb-1">sesame hr</h3>
                             <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Sesame HR" href="https://www.sesamehr.es/" class="link-left">
@@ -75,8 +75,8 @@
                     </article>
                 </li>
                 <!-- Arte Regal -->
-                <li class="snap-always xl:col-span-6 fadeInUp relative grid grid-cols-12 xl:-mt-64">
-                    <article class="card col-span-9 z-10 backdrop-blur-sm">                    
+                <li class="p-2 xl:p-0 snap-always xl:col-span-6 fadeInUp relative grid grid-cols-12 xl:-mt-64">
+                    <article class="card col-span-12 xl:col-span-9 z-10 backdrop-blur-sm">                    
                         <header>
                             <h3 class="text-2xl font-title font-bold leading-6 mb-1">arte regal</h3>
                             <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Arte Regal Import" href="https://www.arteregal.com/" class="link-right">
@@ -89,13 +89,13 @@
                     </article>
                     <span class="border-slate-200 dark:border-dark-border border-t-1 w-full h-1 col-span-1 hidden xl:block xl:col-span-3 mt-4">
                     </span>
-                    <span class="w-fit h-fit py-2 px-6 top-0 col-span-3 text-sm text-center flex justify-center items-center border border-slate-200 dark:border-dark-border absolute right-0 xl:-mr-23 backdrop-blur-sm">06/22<br>10/20</span>
+                    <span class="w-fit h-fit py-2 px-6 top-0 xl:col-span-3 col-span-12  text-sm text-center flex justify-center items-center border border-slate-200 dark:border-dark-border xl:absolute right-0 xl:-mr-23 backdrop-blur-sm">06/22<br>10/20</span>
                 </li>
                 <!-- Availand -->
-                <li class="fadeInUp relative grid grid-cols-12 snap-always xl:col-span-6 xl:-mt-20">
-                    <span class="w-fit h-fit py-2 px-6 top-0 col-span-3 text-sm text-center flex justify-center items-center border border-slate-200 dark:border-dark-border absolute left-0 xl:-ml-23 backdrop-blur-sm">06/20<br>05/19</span>                     <span class="border-slate-200 dark:border-dark-border border-t-1 w-full h-1 col-span-1 hidden xl:block xl:col-span-3 mt-4">
+                <li class="p-2 xl:p-0 fadeInUp relative flex flex-col-reverse xl:grid grid-cols-12 snap-always xl:col-span-6 xl:-mt-20">
+                    <span class="w-fit h-fit py-2 px-6 top-0 xl:col-span-3 col-span-12  text-sm text-center flex justify-center items-center border border-slate-200 dark:border-dark-border xl:absolute left-0 xl:-ml-23 backdrop-blur-sm">06/20<br>05/19</span>                     <span class="border-slate-200 dark:border-dark-border border-t-1 w-full h-1 col-span-1 hidden xl:block xl:col-span-3 mt-4">
                     </span> 
-                    <article class="card col-span-9 col-start-4 z-10 backdrop-blur-sm">
+                    <article class="card col-span-12 xl:col-span-9 xl:col-start-4 z-10 backdrop-blur-sm">
                     <header>
                         <h3 class="text-right text-2xl font-title font-bold leading-6 mb-1">availand</h3>
                         <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Availand" href="https://availand.com/" class="link-left">
@@ -109,8 +109,8 @@
                     </article>
                 </li>
                 <!-- Tv Begin -->
-                <li class="snap-always xl:col-span-6 fadeInUp relative grid grid-cols-12 xl:-mt-52">  
-                    <article class="card col-span-9 z-10 backdrop-blur-sm">                    
+                <li class="p-2 xl:p-0 snap-always xl:col-span-6 fadeInUp relative grid grid-cols-12 xl:-mt-52">  
+                    <article class="card col-span-12 xl:col-span-9 z-10 backdrop-blur-sm">                    
                         <header>
                             <h3 class="text-2xl font-title font-bold leading-6 mb-1">tv begin</h3>
                             <a rel="nofollow noopener noreferrer" target="" aria-label="Visita la web de Tv Begin" href="https://tvbgn.com/" class="link-right">
@@ -123,13 +123,13 @@
                     </article>
                     <span class="border-slate-200 dark:border-dark-border border-t-1 w-full h-1 col-span-1 hidden xl:block xl:col-span-3 mt-4">
                     </span>
-                    <span class="w-fit h-fit py-2 px-6 top-0 col-span-3 text-sm text-center flex justify-center items-center border border-slate-200 dark:border-dark-border absolute right-0 xl:-mr-23 backdrop-blur-sm">05/19<br>09/17</span>
+                    <span class="w-fit h-fit py-2 px-6 top-0 xl:col-span-3 col-span-12  text-sm text-center flex justify-center items-center border border-slate-200 dark:border-dark-border xl:absolute right-0 xl:-mr-23 backdrop-blur-sm">05/19<br>09/17</span>
                 </li>
                 <!-- Galaxa Cosmetics -->
-                <li class="fadeInUp relative grid grid-cols-12 snap-always xl:col-span-6 xl:-mt-20">
-                    <span class="w-fit h-fit py-2 px-6 top-0 col-span-3 text-sm text-center flex justify-center items-center border border-slate-200 dark:border-dark-border absolute left-0 xl:-ml-23 backdrop-blur-sm">06/17<br>04/16</span>
+                <li class="p-2 xl:p-0 fadeInUp relative flex flex-col-reverse xl:grid grid-cols-12 snap-always xl:col-span-6 xl:-mt-20">
+                    <span class="w-fit h-fit py-2 px-6 top-0 xl:col-span-3 col-span-12  text-sm text-center flex justify-center items-center border border-slate-200 dark:border-dark-border xl:absolute left-0 xl:-ml-23 backdrop-blur-sm">06/17<br>04/16</span>
                     <span class="border-slate-200 dark:border-dark-border border-t-1 w-full h-1 col-span-1 hidden xl:block xl:col-span-3 mt-4"></span> 
-                    <article class="card col-span-9 col-start-4 z-10 backdrop-blur-sm">
+                    <article class="card col-span-12 xl:col-span-9 xl:col-start-4 z-10 backdrop-blur-sm">
                         <header>
                             <h3 class="text-right text-2xl font-title font-bold leading-6 mb-1">galaxa cosmetics</h3>
                             <a rel="nofollow noopener noreferrer" target="" aria-label="Visita la web de Galaxa Cosmetics" href="https://productos-peluqueria-online.es/" class="link-left"> <?= Functions::svg(); ?>
@@ -143,8 +143,8 @@
             </ul>           
         </div>
 
-            <div class="w-full h-full absolute flex justify-center items-center -z-10">
-                <div class="xl:col-span-1 border-x border-x-(--pattern-fg) bg-[image:repeating-linear-gradient(315deg,_var(--pattern-fg)_0,_var(--pattern-fg)_1px,_transparent_0,_transparent_50%)] bg-[size:10px_10px] bg-fixed [--pattern-fg:var(--color-black)]/5 xl:block dark:[--pattern-fg:var(--color-white)]/10 h-10/12 py-12 w-10 my-24 mx-auto absolute">
+            <div class="w-full h-full hidden xl:flex xl:absolute justify-center items-center -z-10">
+                <div class="xl:col-span-1 border-x border-x-(--pattern-fg) bg-[image:repeating-linear-gradient(315deg,_var(--pattern-fg)_0,_var(--pattern-fg)_1px,_transparent_0,_transparent_50%)] bg-[size:10px_10px] bg-fixed [--pattern-fg:var(--color-black)]/5 xl:block dark:[--pattern-fg:var(--color-white)]/10 h-10/12 py-12 w-10 my-24 mx-auto xl:absolute">
                     <div class="w-full realtive mt-12 fle flex-col">
                     </div>
                 </div>
