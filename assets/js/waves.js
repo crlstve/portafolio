@@ -739,10 +739,22 @@ function init() {
     particles = [];
 
     var PI2 = Math.PI * 2;
+    
     var material = new THREE.ParticleCanvasMaterial({
 
         color: 0xe1e1e1,
         program: function (context) {
+            
+            // Detectar si estamos en modo oscuro o claro en cada render
+            var htmlElement = document.querySelector('html');
+            var isDarkMode = htmlElement && htmlElement.classList.contains('dark');
+            
+            // Establecer color según el modo
+            if (isDarkMode) {
+                context.fillStyle = 'rgb(225, 225, 225)'; // Color claro para modo oscuro
+            } else {
+                context.fillStyle = 'rgb(128, 128, 128)'; // Color oscuro para modo claro
+            }
 
             context.beginPath();
             context.arc(0, 0, .6, 0, PI2, true);
