@@ -16,7 +16,7 @@
     <meta property="og:description" content="Portafolio de Carles Esteve, desarrollador web full stack. Especializado en la creación de sitios web y aplicaciones web con wordpress." />
     <meta property="og:url" content="https://carlesteve.dev/" />
     <meta property="og:site_name" content="carles esteve" />
-    <meta property="article:modified_time" content="2024-07-23T11:29:13+00:00" />
+    <meta property="article:modified_time" content="2026-01-10T11:29:13+00:00" />
     <meta property="og:image" content="https://carlesteve.dev/assets/images/og-cesteve.jpg" />
     <meta property="og:image:width" content="617" />
     <meta property="og:image:height" content="400" />
