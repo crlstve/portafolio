@@ -84,7 +84,7 @@ p,span,label,li,td,th {
             @apply -rotate-140;
         }
         .card{
-            @apply relative w-full flex flex-col h-fit gap-3 p-6 border border-slate-200 dark:border-dark-border backdrop-blur-sm;
+            @apply relative flex flex-col h-fit gap-3 p-6 border border-slate-200 dark:border-dark-border backdrop-blur-sm;
         }
             .writing-lr {
                   writing-mode: vertical-lr;
