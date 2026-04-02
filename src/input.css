@@ -11,6 +11,7 @@
     --color-dark-border: oklch(0.34 0 0);
     --color-primary: rgb(154 255 0 / var(--tw-text-opacity, 1));
     --color-secondary: #3b82f6;
+    --color-red: rgb(255 91 91 / var(--tw-text-opacity, 1));
 
 }
 @font-face {
@@ -42,26 +43,26 @@ p,span,label,li,td,th {
 }
 
     .btn_nav{
-        @apply text-gray-600 text-center self-center font-semibold dark:text-white text-base md:text-sm relative md:border border-slate-200 hover:border-dark-border hover:dark:border-slate-950 dark:border-dark-border backdrop-blur hover:backdrop-blur-none flex justify-center px-4 py-1 dark:hover:text-primary hover:text-primary mb-4 md:mb-0;
+        @apply text-gray-600 text-center self-center font-semibold dark:text-white text-base md:text-sm relative md:border border-slate-200 hover:border-dark-border hover:dark:border-slate-950 dark:border-dark-border backdrop-blur hover:backdrop-blur-none flex justify-center px-4 py-1 dark:hover:text-primary hover:text-red mb-4 md:mb-0;
     }
     /*Form*/
         .btnError{ 
-            @apply bg-slate-600 dark:bg-dark-border duration-500; 
+            @apply bg-dark-border text-white duration-500 text-xs; 
         }
         .btnSuccess{ 
-            @apply dark:bg-emerald-300 bg-primary dark:text-slate-600 text-white duration-500 cursor-pointer; 
+            @apply  bg-primary text-dark-border duration-500 cursor-pointer text-xs; 
         }
         input,textarea {
-            @apply bg-white dark:bg-dark-border p-2 dark:text-white lg:w-80;
+            @apply bg-white dark:bg-dark-border p-2 dark:text-white lg:w-80 text-xs;
         }
         .error {
             @apply outline outline-2 outline-rose-500;
         }
         .success {
-            @apply outline outline-2 outline-emerald-300;
+            @apply outline outline-2 outline-primary;
         }
         .link-left, .link-right{
-            @apply w-fit h-fit absolute top-0 p-1 bg-slate-200 dark:bg-primary;
+            @apply w-fit h-fit absolute top-0 p-1 bg-red dark:bg-primary;
         }
         .link-left{
             @apply left-0;
