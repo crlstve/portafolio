@@ -13,19 +13,19 @@
                             <a rel="nofollow noopener noreferrer" target="_blank" aria-label="Visita la web de Cámara Valencia" href="https://www.camaravalencia.com/" class="link-right">
                                 <?= Functions::svg(); ?>
                             </a>
-                        <p class="text-sm">
+                        <p class="text-sm leading-normal">
                             Actualización y mantenimiento de la web corporativa de la empresa. Desarrollo de nuevas funcionalidades y mejoras en la experiencia de usuario. Programación con <b>Wordpress</b> y <b>Laravel</b>. Desarrollo de <b>APIS REST</b>.
                         </p>
                     </article>
                     <span class="border-slate-200 dark:border-dark-border border-t-1 w-full h-1 col-span-1 hidden xl:block xl:col-span-3  mt-4">
                     </span>
-                    <span class="w-fit h-fit py-2 px-6 top-0 xl:col-span-3 col-span-12  text-sm text-center flex justify-center items-center border border-slate-200 dark:border-dark-border xl:absolute right-0 xl:-mr-25 backdrop-blur-sm">
+                    <span class="w-fit h-fit py-2 px-6 top-0 xl:col-span-3 col-span-12  text-sm leading-normal text-center flex justify-center items-center border border-slate-200 dark:border-dark-border xl:absolute right-0 xl:-mr-25 backdrop-blur-sm">
                         actual<br>04/25
                     </span> 
                 </li>
                 <!-- Idital -->
                 <li class="p-2 xl:p-0 fadeInUp visible relative flex flex-col-reverse xl:grid grid-cols-12 snap-always xl:col-span-6 xl:mt-28">                  
-                    <span class="w-fit h-fit py-2 px-6 top-0 xl:col-span-3 col-span-12  text-sm text-center flex justify-center items-center border border-slate-200 dark:border-dark-border xl:absolute left-0 xl:-ml-23 backdrop-blur-sm">04/25<br>10/24</span>
+                    <span class="w-fit h-fit py-2 px-6 top-0 xl:col-span-3 col-span-12  text-sm leading-normal text-center flex justify-center items-center border border-slate-200 dark:border-dark-border xl:absolute left-0 xl:-ml-23 backdrop-blur-sm">04/25<br>10/24</span>
                     <span class="border-slate-200 dark:border-dark-border border-t-1 w-full h-1 col-span-1 hidden xl:block xl:col-span-3 mt-4">
                     </span> 
                     <article class="card col-span-12 xl:col-span-9 xl:col-start-4 z-10 backdrop-blur-sm">
@@ -35,13 +35,13 @@
                                 <?= Functions::svg(); ?>
                             </a>
                         </header>
-                        <p class="text-base">
+                        <p class="text-sm leading-normal">
                             Desarrollo de webs y aplicaciones a medida para clientes de la empresa. Programación con <b>Laravel</b><b>Wordpress</b> y <b>Vue.js</b>. Desarrollo de <b>APIS REST</b> y <b>APIS GraphQL</b>. Integración con <b>APIS de terceros</b>.
                         </p>
                     </article>
                 </li>
                 <!-- Founderz -->
-                <li class="p-2 xl:p-0 snap-always xl:col-span-6 fadeInUp relative grid grid-cols-12 xl:-mt-53">
+                <li class="p-2 xl:p-0 snap-always xl:col-span-6 fadeInUp relative grid grid-cols-12 xl:-mt-[192px]">
 
                     <article class="card col-span-12 xl:col-span-9 z-10 backdrop-blur-sm">
                         <header>
@@ -50,17 +50,17 @@
                             <?= Functions::svg(); ?>
                         </a>
                         </header>
-                        <p class="text-base">
+                        <p class="text-sm leading-normal">
                             Desarrollo web con <b>Wordpress</b> y <b>Laravel</b>. Liderar la modernización y rebranding completo de la web, programación de <b>bloques de Gutenberg</b>, <b>templates</b> y <b>plugins</b> para Wordpress. Desarrollo de <b>APIS REST</b>.
                         </p>
                     </article>
                     <span class="border-slate-200 dark:border-dark-border border-t-1 w-full h-1 col-span-1 hidden xl:block xl:col-span-3 mt-4 ">
                     </span>
-                    <span class="w-fit h-fit py-2 px-6 top-0 xl:col-span-3 col-span-12  text-sm text-center flex justify-center items-center border border-slate-200 dark:border-dark-border xl:absolute right-0 xl:-mr-23 backdrop-blur-sm">09/24<br>04/24</span>
+                    <span class="w-fit h-fit py-2 px-6 top-0 xl:col-span-3 col-span-12  text-sm leading-normal text-center flex justify-center items-center border border-slate-200 dark:border-dark-border xl:absolute right-0 xl:-mr-23 backdrop-blur-sm">09/24<br>04/24</span>
                 </li>
                 <!-- Sesame HR -->
                 <li class="p-2 xl:p-0 fadeInUp relative flex flex-col-reverse xl:grid grid-cols-12 snap-always xl:col-span-6 xl:-mt-20">
-                    <span class="w-fit h-fit py-2 px-6 top-0 xl:col-span-3 col-span-12  text-sm text-center flex justify-center items-center border border-slate-200 dark:border-dark-border xl:absolute left-0 xl:-ml-23 backdrop-blur-sm">04/24<br>06/22</span>                     <span class="border-slate-200 dark:border-dark-border border-t-1 w-full h-1 col-span-1 hidden xl:block xl:col-span-3 mt-4">
+                    <span class="w-fit h-fit py-2 px-6 top-0 xl:col-span-3 col-span-12  text-sm leading-normal text-center flex justify-center items-center border border-slate-200 dark:border-dark-border xl:absolute left-0 xl:-ml-23 backdrop-blur-sm">04/24<br>06/22</span>                     <span class="border-slate-200 dark:border-dark-border border-t-1 w-full h-1 col-span-1 hidden xl:block xl:col-span-3 mt-4">
                     </span> 
                     <article class="card col-span-12 xl:col-span-9 xl:col-start-4 z-10 backdrop-blur-sm">
                         <header>
@@ -69,13 +69,13 @@
                                 <?= Functions::svg(); ?>
                             </a>
                         </header>
-                        <p class="text-base">
+                        <p class="text-sm leading-normal">
                             Creación y mantenimiento de las distintas webs de la empresa. Desarrollo de la actualización y optimización de la web a nivel SEO y CRO de estas. Programación de <b>plugins</b>, <b>temas</b>, <b>bloques</b> y <b>APIS</b> para Wordpress. Desarrollo de landing pages para Hubspot con <b>Hubl</b>.
                         </p>
                     </article>
                 </li>
                 <!-- Arte Regal -->
-                <li class="p-2 xl:p-0 snap-always xl:col-span-6 fadeInUp relative grid grid-cols-12 xl:-mt-64">
+                <li class="p-2 xl:p-0 snap-always xl:col-span-6 fadeInUp relative grid grid-cols-12 xl:-mt-[232px]">
                     <article class="card col-span-12 xl:col-span-9 z-10 backdrop-blur-sm">                    
                         <header>
                             <h3 class="text-2xl font-title font-bold leading-6 mb-1">arte regal</h3>
@@ -83,17 +83,17 @@
                                 <?= Functions::svg(); ?>
                             </a>
                         </header>
-                        <p class="text-base">
+                        <p class="text-sm leading-normal">
                             Mantenimiento y actualización de la ecommerce de la empresa hecha con <b>Codeigniter</b>. Desarrollo de otras webs y ecommerce hechas con <b>Wordpress</b>. Desarrollo de <b>APIS</b>, <b>bloques</b>, <b>temas</b> y <b>plugins</b> para <b>Wordpress</b>.
                         </p>
                     </article>
                     <span class="border-slate-200 dark:border-dark-border border-t-1 w-full h-1 col-span-1 hidden xl:block xl:col-span-3 mt-4">
                     </span>
-                    <span class="w-fit h-fit py-2 px-6 top-0 xl:col-span-3 col-span-12  text-sm text-center flex justify-center items-center border border-slate-200 dark:border-dark-border xl:absolute right-0 xl:-mr-23 backdrop-blur-sm">06/22<br>10/20</span>
+                    <span class="w-fit h-fit py-2 px-6 top-0 xl:col-span-3 col-span-12  text-sm leading-normal text-center flex justify-center items-center border border-slate-200 dark:border-dark-border xl:absolute right-0 xl:-mr-23 backdrop-blur-sm">06/22<br>10/20</span>
                 </li>
                 <!-- Availand -->
                 <li class="p-2 xl:p-0 fadeInUp relative flex flex-col-reverse xl:grid grid-cols-12 snap-always xl:col-span-6 xl:-mt-20">
-                    <span class="w-fit h-fit py-2 px-6 top-0 xl:col-span-3 col-span-12  text-sm text-center flex justify-center items-center border border-slate-200 dark:border-dark-border xl:absolute left-0 xl:-ml-23 backdrop-blur-sm">06/20<br>05/19</span>                     <span class="border-slate-200 dark:border-dark-border border-t-1 w-full h-1 col-span-1 hidden xl:block xl:col-span-3 mt-4">
+                    <span class="w-fit h-fit py-2 px-6 top-0 xl:col-span-3 col-span-12  text-sm leading-normal text-center flex justify-center items-center border border-slate-200 dark:border-dark-border xl:absolute left-0 xl:-ml-23 backdrop-blur-sm">06/20<br>05/19</span>                     <span class="border-slate-200 dark:border-dark-border border-t-1 w-full h-1 col-span-1 hidden xl:block xl:col-span-3 mt-4">
                     </span> 
                     <article class="card col-span-12 xl:col-span-9 xl:col-start-4 z-10 backdrop-blur-sm">
                     <header>
@@ -103,13 +103,13 @@
                         </a>
                     </header>
     
-                        <p class="text-base">
+                        <p class="text-sm leading-normal">
                             Mantenimiento y actualización de la ecommerce de la empresa hecha con <b>wordpress</b> y <b>woocommerce</b>. Desarrollo de <b>APIS</b>, <b>bloques</b>, <b>temas</b> de <b>Gutenberg</b> y <b>plugins</b>.
                         </p>
                     </article>
                 </li>
                 <!-- Tv Begin -->
-                <li class="p-2 xl:p-0 snap-always xl:col-span-6 fadeInUp relative grid grid-cols-12 xl:-mt-52">  
+                <li class="p-2 xl:p-0 snap-always xl:col-span-6 fadeInUp relative grid grid-cols-12 xl:-mt-[209px]">  
                     <article class="card col-span-12 xl:col-span-9 z-10 backdrop-blur-sm">                    
                         <header>
                             <h3 class="text-2xl font-title font-bold leading-6 mb-1">tv begin</h3>
@@ -117,17 +117,17 @@
                                 <?= Functions::svg(); ?>
                             </a>
                         </header>
-                        <p class="text-base">
+                        <p class="text-sm leading-normal">
                             Creación y mantenmiento de webs para distintos clientes hechas con Wordpress. Creación de <b>APIS</b>, <b>bloques</b>, <b>plugins</b>, <b>temas</b> y <b>módulos</b> para resolver las necesidades de las emrpesas.
                         </p>
                     </article>
                     <span class="border-slate-200 dark:border-dark-border border-t-1 w-full h-1 col-span-1 hidden xl:block xl:col-span-3 mt-4">
                     </span>
-                    <span class="w-fit h-fit py-2 px-6 top-0 xl:col-span-3 col-span-12  text-sm text-center flex justify-center items-center border border-slate-200 dark:border-dark-border xl:absolute right-0 xl:-mr-23 backdrop-blur-sm">05/19<br>09/17</span>
+                    <span class="w-fit h-fit py-2 px-6 top-0 xl:col-span-3 col-span-12  text-sm leading-normal text-center flex justify-center items-center border border-slate-200 dark:border-dark-border xl:absolute right-0 xl:-mr-23 backdrop-blur-sm">05/19<br>09/17</span>
                 </li>
                 <!-- Galaxa Cosmetics -->
                 <li class="p-2 xl:p-0 fadeInUp relative flex flex-col-reverse xl:grid grid-cols-12 snap-always xl:col-span-6 xl:-mt-20">
-                    <span class="w-fit h-fit py-2 px-6 top-0 xl:col-span-3 col-span-12  text-sm text-center flex justify-center items-center border border-slate-200 dark:border-dark-border xl:absolute left-0 xl:-ml-23 backdrop-blur-sm">06/17<br>04/16</span>
+                    <span class="w-fit h-fit py-2 px-6 top-0 xl:col-span-3 col-span-12  text-sm leading-normal text-center flex justify-center items-center border border-slate-200 dark:border-dark-border xl:absolute left-0 xl:-ml-23 backdrop-blur-sm">06/17<br>04/16</span>
                     <span class="border-slate-200 dark:border-dark-border border-t-1 w-full h-1 col-span-1 hidden xl:block xl:col-span-3 mt-4"></span> 
                     <article class="card col-span-12 xl:col-span-9 xl:col-start-4 z-10 backdrop-blur-sm">
                         <header>
@@ -135,7 +135,7 @@
                             <a rel="nofollow noopener noreferrer" target="" aria-label="Visita la web de Galaxa Cosmetics" href="https://productos-peluqueria-online.es/" class="link-left"> <?= Functions::svg(); ?>
                             </a>
                         </header>
-                        <p class="text-base">
+                        <p class="text-sm leading-normal">
                             Desarrollo de la ecommerce de la empresa hecha con <b>wordpress</b> y <b>woocommerce</b>. Desarollo de <b>plugins</b>, <b>APIS</b>, <b>temas</b> y <b>módulos</b> para las necesidades de la empresa
                         </p>
                     </article>
