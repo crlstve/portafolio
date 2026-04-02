@@ -100,10 +100,10 @@ document.addEventListener('DOMContentLoaded', function () {
             return;
         }
         
-        if (!checkRecaptcha()) {
-            document.getElementById('recaptcha-error').classList.remove('hidden');
-            return;
-        }
+        // if (!checkRecaptcha()) {
+        //     document.getElementById('recaptcha-error').classList.remove('hidden');
+        //     return;
+        // }
         
         const result = document.getElementById('success');
         const form = document.querySelector('form');
@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', function () {
             phone: form.querySelector('[name="phone"]').value,                
             subject: form.querySelector('[name="subject"]').value,
             message: form.querySelector('[name="message"]').value,
-            'g-recaptcha-response': grecaptcha.getResponse()
+            'g-recaptcha-response': ''
         };
         
         // Crear un objeto XMLHttpRequest
