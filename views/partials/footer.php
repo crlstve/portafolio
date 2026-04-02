@@ -3,5 +3,8 @@
         <span class="dark:text-white text-xs font-bold"><?= 'c.esteve  ' . date("Y"); ?></span>
     </div>
 </footer>
+    <script defer type="module" src="./assets/js/waves.js"></script>
+    <script defer type="module" src="./assets/js/splide.min.js"></script>
+    <script defer type="module" src="./assets/js/splide-extension-auto-scroll.min.js"></script>
 </body>
 </html>
