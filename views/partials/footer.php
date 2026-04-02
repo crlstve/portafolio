@@ -1,5 +1,5 @@
 <footer>
-    <div class="container py-6 flex justify-end">
+    <div class="container py-6 flex justify-end mx-auto">
         <span class="dark:text-white text-xs font-bold"><?= 'c.esteve  ' . date("Y"); ?></span>
     </div>
 </footer>
