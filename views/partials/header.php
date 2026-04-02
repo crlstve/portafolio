@@ -33,15 +33,8 @@
     <script defer type="module" src="./assets/js/waves.js"></script>
     <script defer type="module" src="./assets/js/splide.min.js"></script>
     <script defer type="module" src="./assets/js/splide-extension-auto-scroll.min.js"></script>
-    <script src="https://www.google.com/recaptcha/enterprise.js?render=6LchZOYrAAAAANd45lDNB77QKVI5WaMgcd0HvS0o"></script>
-    <script>
-        function onClick(e) {
-            e.preventDefault();
-            grecaptcha.enterprise.ready(async () => {
-            const token = await grecaptcha.enterprise.execute('6LchZOYrAAAAANd45lDNB77QKVI5WaMgcd0HvS0o', {action: 'SUBMIT'});
-            });
-        }
-    </script>
+    
+
 </head>
 <body id="fireworks" class="min-h-dvh scroll-smooth duration-500 crt">
 <!-- Google Tag Manager (noscript) -->
@@ -49,8 +42,8 @@
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->    
     <header class="sticky top-0 z-10 crt">
-        <div class="w-full py-4 xl:px-2 container">
-            <nav class="flex flex-row justify-end md:justify-center relative px-2 xl:px-0">
+        <div class="w-full py-4 container mx-auto max-w-6xl">
+            <nav class="flex flex-row justify-end md:justify-start relative px-2 xl:px-0">
                     <svg data-contoller="menu" class="z-10 cursor-pointer md:hidden w-10 h-10 aspect-square  sound rounded-lg p-2 backdrop-blur-sm border border-slate-200 dark:border-dark-border dark:bg-dark bg-[rgba(255,255,255,0.1)] flex justify-center" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="23" height="23" viewBox="0,0,260,260">
                     <g class="dark:fill-white fill-slate-600" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M3,9c-0.36064,-0.0051 -0.69608,0.18438 -0.87789,0.49587c-0.18181,0.3115 -0.18181,0.69676 0,1.00825c0.18181,0.3115 0.51725,0.50097 0.87789,0.49587h44c0.36064,0.0051 0.69608,-0.18438 0.87789,-0.49587c0.18181,-0.3115 0.18181,-0.69676 0,-1.00825c-0.18181,-0.3115 -0.51725,-0.50097 -0.87789,-0.49587zM3,24c-0.36064,-0.0051 -0.69608,0.18438 -0.87789,0.49587c-0.18181,0.3115 -0.18181,0.69676 0,1.00825c0.18181,0.3115 0.51725,0.50097 0.87789,0.49587h44c0.36064,0.0051 0.69608,-0.18438 0.87789,-0.49587c0.18181,-0.3115 0.18181,-0.69676 0,-1.00825c-0.18181,-0.3115 -0.51725,-0.50097 -0.87789,-0.49587zM3,39c-0.36064,-0.0051 -0.69608,0.18438 -0.87789,0.49587c-0.18181,0.3115 -0.18181,0.69676 0,1.00825c0.18181,0.3115 0.51725,0.50097 0.87789,0.49587h44c0.36064,0.0051 0.69608,-0.18438 0.87789,-0.49587c0.18181,-0.3115 0.18181,-0.69676 0,-1.00825c-0.18181,-0.3115 -0.51725,-0.50097 -0.87789,-0.49587z"></path></g></g>
                     </svg>
@@ -61,8 +54,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <li><button id="contact" aria="menu item" aria-label="Contacto" class="btn_nav cursor-pointer sound w-full md:w-fit">contacto</button></a>
                     <li class="flex justify-end md:justify-center">
                         <button id="btn_mode" aria="menu item" aria-label="Modo oscuro" class="sound group p-1 aspect-square bg-transparent relative border border-slate-200 hover:border-slate-300 hover:dark:border-slate-950 dark:border-dark-border backdrop-blur hover:backdrop-blur-none overflow-hidden cursor-pointer" onclick="toggleDarkMode();">
-                            <svg class="group-hover:stroke-violet-500 group-hover:dark:stroke-lime-500 dark:translate-y-0 group-hover:dark:-translate-y-8 duration-500 -translate-y-8 group-hover:-translate-y-0 group-hover:dark" id="moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-moon"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454l0 .008" /></svg>
-                            <svg class="fill-slate-600 group-hover:fill-violet-500 dark:fill-white group-hover:dark:fill-lime-500
+                            <svg class="group-hover:stroke-red group-hover:dark:stroke-lime-500 dark:translate-y-0 group-hover:dark:-translate-y-8 duration-500 -translate-y-8 group-hover:-translate-y-0 group-hover:dark" id="moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-moon"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454l0 .008" /></svg>
+                            <svg class="fill-slate-600 group-hover:fill-red dark:fill-white group-hover:dark:fill-lime-500
                             dark:translate-y-3 group-hover:dark:-translate-y-5 -translate-y-5 group-hover:translate-y-3 duration-500" enable-background="new 0 0 512 512" height="20px" id="sun" version="1.1" viewBox="0 0 512 512" width="20px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" stroke="currentColor" stroke-width="0.6">
                                 <g><path d="M256,144c-61.75,0-112,50.25-112,112s50.25,112,112,112s112-50.25,112-112S317.75,144,256,144z M256,336    c-44.188,0-80-35.812-80-80c0-44.188,35.812-80,80-80c44.188,0,80,35.812,80,80C336,300.188,300.188,336,256,336z M256,112    c8.833,0,16-7.167,16-16V64c0-8.833-7.167-16-16-16s-16,7.167-16,16v32C240,104.833,247.167,112,256,112z M256,400    c-8.833,0-16,7.167-16,16v32c0,8.833,7.167,16,16,16s16-7.167,16-16v-32C272,407.167,264.833,400,256,400z M380.438,154.167    l22.625-22.625c6.25-6.25,6.25-16.375,0-22.625s-16.375-6.25-22.625,0l-22.625,22.625c-6.25,6.25-6.25,16.375,0,22.625    S374.188,160.417,380.438,154.167z M131.562,357.834l-22.625,22.625c-6.25,6.249-6.25,16.374,0,22.624s16.375,6.25,22.625,0    l22.625-22.624c6.25-6.271,6.25-16.376,0-22.625C147.938,351.583,137.812,351.562,131.562,357.834z M112,256    c0-8.833-7.167-16-16-16H64c-8.833,0-16,7.167-16,16s7.167,16,16,16h32C104.833,272,112,264.833,112,256z M448,240h-32    c-8.833,0-16,7.167-16,16s7.167,16,16,16h32c8.833,0,16-7.167,16-16S456.833,240,448,240z M131.541,154.167    c6.251,6.25,16.376,6.25,22.625,0c6.251-6.25,6.251-16.375,0-22.625l-22.625-22.625c-6.25-6.25-16.374-6.25-22.625,0    c-6.25,6.25-6.25,16.375,0,22.625L131.541,154.167z M380.459,357.812c-6.271-6.25-16.376-6.25-22.625,0    c-6.251,6.25-6.271,16.375,0,22.625l22.625,22.625c6.249,6.25,16.374,6.25,22.624,0s6.25-16.375,0-22.625L380.459,357.812z" /></g>
                             </svg>
