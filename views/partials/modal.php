@@ -12,7 +12,7 @@
                 require_once(__DIR__ . '/../../controllers/recaptcha_helper.php');
                 $siteKey = getRecaptchaSiteKey();
             ?>
-            <div class="g-recaptcha mx-auto" 
+            <div class="g-recaptcha mx-auto hidden"
                  data-sitekey="<?php echo htmlspecialchars($siteKey); ?>"
                  data-callback="recaptchaCallback"
                  data-expired-callback="recaptchaExpiredCallback"></div>
